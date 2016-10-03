@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	
+	<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	
+	<title>Szablon strony</title>
+
+	</head>
+	
+		<body>
+		
+			<div id="container">
+				
+				<header id="header">
+					<h1 id="title">TYTUŁ STRONY<br/ ><span>Opis strony Opis strony</span></h1>
+				</header>
+			<div id="nawigacja">
+			<section class="section section--menu" id="Sebastian">
+				<span class="link-copy"></span>
+				<nav class="menu menu--sebastian">
+					<ul class="menu__list">
+						<li class="menu__item menu__item--current"><a href="#" class="menu__link">Home</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Shop</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">News</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+						
+					</ul>
+				</nav>
+			</section>
+			</div>
+			
+				
+				<section id="content">
+					
+					<article>
+						<h2>LOREM IPSUM</h2>
+						<p><b>LOREM IPSUM</b>
+						
+					</article>
+					
+				</section>
+				
+				<aside id="sidebar">
+					<h3>Pasek boczny</h3>
+				</aside>
+				
+				<footer id="footer" class="cls">
+					Stopka strony
+				</footer>
+				
+				
+			</div>
+		<!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script>
+		(function() {
+			[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+				var menuItems = menu.querySelectorAll('.menu__link'),
+					setCurrent = function(ev) {
+						ev.preventDefault();
+
+						var item = ev.target.parentNode; // li
+
+						// return if already current
+						if (classie.has(item, 'menu__item--current')) {
+							return false;
+						}
+						// remove current
+						classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+						// set current
+						classie.add(item, 'menu__item--current');
+					};
+
+				[].slice.call(menuItems).forEach(function(el) {
+					el.addEventListener('click', setCurrent);
+				});
+			});
+
+			[].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+				link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+				new Clipboard(link);
+				link.addEventListener('click', function() {
+					classie.add(link, 'link-copy--animate');
+					setTimeout(function() {
+						classie.remove(link, 'link-copy--animate');
+					}, 300);
+				});
+			});
+		})(window);
+		</script>
+		
+		
+		
+		</body>
+
+</html>

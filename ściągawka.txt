@@ -1,0 +1,12 @@
+Git - podstawowe komendy
+
+git init - utworzenie repozytorium lokalnego
+git remote add nazwa URL.git - inicjowanie zdalnego repozytorium
+git add . - dodanie wszystkich plików do przechowalni
+git status - pokazuje pliki śledzone i nieśledzone
+git commit -m "nazwa commita" - w nazwie commita, np. wprowadzone zmiany
+git push -u nazwa master - wypchnięcie danych na serwer
+git fetch nazwa lub git pull nazwa - pobiera zmiany ze zdalnego repozytorium
+git clone URL.git - klonowanie repozytorium na dysk lokalny (lokalne repozytorium)
+git rm nazwa_pliku.rozszerzenie - usuwanie plików
+git rm -r nazwa_folderu - usuwanie folderu

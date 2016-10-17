@@ -987,7 +987,7 @@ padding-right       :20px;
  .our-team .icon-holder ul li{
 
     display             : inline-block;
-    margin              : 0 10px;
+    margin              : 0 auto;
 }
 
 .our-team .icon-holder ul li:first-child{

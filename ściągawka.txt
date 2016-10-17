@@ -10,3 +10,4 @@ git fetch nazwa lub git pull nazwa - pobiera zmiany ze zdalnego repozytorium
 git clone URL.git - klonowanie repozytorium na dysk lokalny (lokalne repozytorium)
 git rm nazwa_pliku.rozszerzenie - usuwanie plików
 git rm -r nazwa_folderu - usuwanie folderu
+git pull nazwa master - pobranie danych z innego repozytorium z gałęzi master

@@ -11,5 +11,6 @@ git clone URL.git - klonowanie repozytorium na dysk lokalny (lokalne repozytoriu
 git rm nazwa_pliku.rozszerzenie - usuwanie plików
 git rm -r nazwa_folderu - usuwanie folderu
 git pull nazwa master - pobranie danych z innego repozytorium z gałęzi master
-git reset hard hash-commita - wracanie do commita (nr hash)
-git push --force - wypchnięcie/wymuszenie do zdalnego repo, np po przywracaniu do poprzedniego commita 
+git reset --hard hash-commita - wracanie do commita (nr hash)
+git push --force - wypchnięcie/wymuszenie git branch do zdalnego repo, np po przywracaniu do poprzedniego commita 
+git branch -avv    pokazuje zmiany commitów na zdalnym repozytorium

@@ -321,14 +321,10 @@ a {
 .section-padding{
     padding     : 100px 0;
 }
-<<<<<<< HEAD
-
-=======
 /*section padding do stopki z informacjami o emar*/
 .section-padding1{
     padding     : 20px 0;
 }
->>>>>>> 6c223be3f0f1b93a3f2b4e2621e604fa1353c915
 .section-title{
     position    : relative;
 }
@@ -1715,11 +1711,7 @@ footer .footer-heading{
 
 
 
-<<<<<<< HEAD
-*===========================================================
-=======
 /*===========================================================
->>>>>>> 6c223be3f0f1b93a3f2b4e2621e604fa1353c915
    -         FOOTER BOTTOM            -
 =============================================================*/
 
@@ -1845,11 +1837,7 @@ transition          : all ease 200ms;
 ================================================================*/
 
 .blog-header{
-<<<<<<< HEAD
-    background          : #ffffff url("../img/blog-background.jpg") no-repeat center center;
-=======
     background          : #ffffff url("../img/ule1.jpg") no-repeat center center;
->>>>>>> 6c223be3f0f1b93a3f2b4e2621e604fa1353c915
     background-size     : cover;
     position: relative;
 }
@@ -2237,14 +2225,6 @@ transition          : all ease 200ms;
     background  : rgba(272,45,40,0.9);
     color       : #ffffff;  
 }
-<<<<<<< HEAD
-
-@media (max-width: 543px){
-	.loader{
-		display:none;
-	}
-
-=======
 /* mapka */
 .map{
 	height:350px;
@@ -2254,4 +2234,3 @@ transition          : all ease 200ms;
 	.loader{
 		display:none;
 	}
->>>>>>> 6c223be3f0f1b93a3f2b4e2621e604fa1353c915

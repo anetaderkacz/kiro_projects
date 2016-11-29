@@ -1,0 +1,44 @@
+A {
+    FONT-FAMILY:Verdana, Arial, Helvetica;
+    FONT-STYLE:normal;
+    FONT-WEIGHT:normal;
+    TEXT-DECORATION:none;
+    color:#000080;
+}
+A:hover {
+    CURSOR:hand;
+    FONT-FAMILY:Verdana, Arial, Helvetica;
+    FONT-STYLE:normal;
+    FONT-WEIGHT:normal;
+    TEXT-DECORATION:underline;
+    color:#000080;
+}
+
+.tekst {
+    FONT-FAMILY:Verdana, Arial, Helvetica;
+    FONT-STYLE:normal;
+    FONT-WEIGHT:normal;
+    FONT-SIZE:12;
+}
+
+.tytul {
+    FONT-FAMILY:Verdana, Arial, Helvetica;
+    FONT-STYLE:normal;
+    FONT-WEIGHT:normal;
+    FONT-SIZE:25;
+}
+
+.kategorie {
+    FONT-FAMILY:Verdana, Arial, Helvetica;
+    FONT-STYLE:normal;
+    FONT-WEIGHT:normal;
+    FONT-SIZE:14;
+    TEXT-ALIGN:center;
+}
+
+INPUT, SELECT {
+border-color:#000000;
+border-size:1;
+font-family:Verdana, Arial, Helvetica;
+font-size:10;
+}

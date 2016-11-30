@@ -1921,7 +1921,7 @@ Media queries
 /*flagi*/
 
 
-#lang_sel_list {
+lang_sel_list {
     height: 32px;
     position: relative;
     z-index: 99;

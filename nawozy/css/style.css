@@ -1919,7 +1919,11 @@ Media queries
 }
 
 /*flagi*/
-.flaga {
-	width:10%; 
-	height:10%;
+
+
+#lang_sel_list {
+    height: 32px;
+    position: relative;
+    z-index: 99;
+    font-family: verdana, arial, sans-serif;
 }

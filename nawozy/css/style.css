@@ -1917,3 +1917,9 @@ Media queries
 		margin-bottom: 30px;
 	}
 }
+
+/*flagi*/
+.flaga {
+	width:10%; 
+	height:10%;
+}

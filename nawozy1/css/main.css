@@ -44,7 +44,7 @@ h4{
 }
 
 a {
-  color: #c52d2f;
+  color: #0ab41e;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -52,7 +52,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #d43133;
+  color: #0ab41e;
 }
 
 hr {
@@ -63,7 +63,7 @@ hr {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #0ab41e;
   color: #fff;
   border-radius: 4px;
   border:none;
@@ -73,7 +73,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-  background: #c52d2f;
+  background: #0ab41e;
   outline: none;
   box-shadow: none;
 } 
@@ -224,7 +224,7 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-  background: #c52d2f;
+  background: #0ab41e;
   color: #fff;
 }
 
@@ -289,7 +289,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
+	background-color: #0ab41e;
   color: #fff;
 }
 
@@ -309,7 +309,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
+  background-color: #0ab41e;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #c52d2f;
+  background-color: #0ab41e;
   color: #fff;
 }
 
@@ -386,7 +386,7 @@ input.search-form:hover {
 
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #0ab41e;
   color: #fff;
   border-radius: 4px;
   margin-top: 25px;
@@ -434,7 +434,7 @@ input.search-form:hover {
 #main-slider .next {
   position: absolute;
   top: 50%;
-  background-color: #c52d2f;
+  background-color: #0ab41e;
   color: #fff;
   display: inline-block;
   margin-top: -25px;
@@ -483,9 +483,9 @@ input.search-form:hover {
 #main-slider .carousel-indicators .active{
   width: 20px;
   height: 20px;
-  background-color: #c52d2f;
+  background-color: #0ab41e;
    margin: 0 15px 0 0;
-   border: 1px solid #c52d2f;
+   border: 1px solid #0ab41e;
    position: relative;
 }
 
@@ -495,8 +495,8 @@ input.search-form:hover {
   width: 24px;
   height: 24px;
   border-radius: 100%;
-  background: #c52d2f;
-  border: 1px solid #c52d2f;
+  background: #0ab41e;
+  border: 1px solid #0ab41e;
   left: -3px;
   top: -3px;
 }
@@ -564,7 +564,7 @@ input.search-form:hover {
   line-height: 110px;
   text-align:center;
   background: #ffffff;
-  color: #c52d2f;
+  color: #0ab41e;
   border: 3px solid #ffffff;
   box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
@@ -577,11 +577,11 @@ input.search-form:hover {
 }
 
 .feature-wrap i:hover {
-  background: #c52d2f;
+  background: #0ab41e;
   color: #fff;
-  box-shadow: inset 0 0 0 5px #c52d2f;
-  -webkit-box-shadow: inset 0 0 0 5px #c52d2f;
-  border: 3px solid #c52d2f;
+  box-shadow: inset 0 0 0 5px #0ab41e;
+  -webkit-box-shadow: inset 0 0 0 5px #0ab41e;
+  border: 3px solid #0ab41e;
 }
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
@@ -1446,7 +1446,7 @@ ul.social_icons li  a i{
 }
 
 .request h4 a{
-  background:#c52d2f;
+  background:#0ab41e;
   color: #fff;
   font-size: 14px;
   font-weight: normal;
@@ -1455,7 +1455,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:after {
-  border-color: #c52d2f transparent transparent;
+  border-color: #0ab41e transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1467,7 +1467,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:before {
-  border-color: #c52d2f transparent transparent;
+  border-color: #0ab41e transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -2196,8 +2196,8 @@ ul.pagination > li > a i{
 
 ul.pagination > li.active > a, 
 ul.pagination > li:hover > a {
-  background-color: #c52d2f !important;
-  border-color: #c52d2f !important;
+  background-color: #0ab41e !important;
+  border-color: #0ab41e !important;
   color: #fff;
 }
 
@@ -2400,7 +2400,7 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments a:before {
-  border-color: #c52d2f transparent transparent;
+  border-color: #0ab41e transparent transparent;
   border-style: solid;
   border-width: 16px;
   bottom: -11px;
@@ -2464,7 +2464,7 @@ shortcodes page css
 ************************/
 #bottom {
   background: #f5f5f5;
-  border-bottom: 5px solid #c52d2f;
+  border-bottom: 5px solid #0ab41e;
   font-size: 14px;
 }
 
@@ -2492,7 +2492,7 @@ shortcodes page css
 }
 
 #bottom ul li a:hover {
-  color: #c52d2f;
+  color: #0ab41e;
 }
 
 #bottom .widget {
@@ -2511,7 +2511,7 @@ shortcodes page css
 }
 
 #footer a:hover {
-  color: #c52d2f;
+  color: #0ab41e;
 }
 
 #footer ul {

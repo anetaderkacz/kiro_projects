@@ -626,7 +626,7 @@ input.search-form:hover {
   height: 100%;
   opacity: 0;
   border-radius: 0;
-  background: #c52d2f;
+  background: #0ab41e;
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -838,12 +838,12 @@ a.accordion-toggle  i{
 }
 
 .panel-heading.active a.accordion-toggle i{
-  background: #c52d2f;
+  background: #0ab41e;
   color: #fff;
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i{
-  background: #c52d2f;
+  background: #0ab41e;
   color: #fff;
 }
 
@@ -1520,7 +1520,7 @@ ul.social_icons li  a i{
 
 .footer {
   background: none repeat scroll 0 0 #2E2E2E;
-  border-top: 5px solid #C52D2F;
+  border-top: 5px solid #0ab41e;
   height: 84px;
   margin-top: 110px;
 }

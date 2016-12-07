@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
-
+/*
+worek
+*/
+.worek{
+	width:350px;
+	height:450%;
+}
 
 /*************************
 *******Typography******
@@ -949,18 +955,29 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background: url(../images/gleba.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
 #partner {
-  color: #fff;
+  color: #4e4e4e;
   text-align: center;
 }
-
+#partner p{
+	font-weight:400;
+}
+#partner h1{
+	color:#4e4e4e;
+}
+#partner h2{
+	font-weight:800;
+}
+#partner h3{
+	font-weight:600;
+}
 #partner h2, 
 #partner h3 {
-  color: #fff;
+  color: #4e4e4e;
 }
 
 .partners ul {

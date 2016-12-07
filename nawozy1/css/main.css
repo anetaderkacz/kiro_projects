@@ -979,6 +979,31 @@ a.accordion-toggle  i{
 #partner h3 {
   color: #4e4e4e;
 }
+#partner1 {
+  background: url(../images/tlo2.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+#partner1 {
+  color: #fff;
+  text-align: center;
+}
+#partner1 p{
+	font-weight:400;
+}
+#partner1 h1{
+	color:#fff;
+}
+#partner1 h2{
+	font-weight:800;
+}
+#partner1 h3{
+	font-weight:600;
+}
+#partner1 h2, 
+#partner1 h3 {
+  color: #fff;
+}
 
 .partners ul {
   list-style: none;

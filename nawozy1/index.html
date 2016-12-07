@@ -18,6 +18,21 @@
     <link href="./assets/docs.css" rel="stylesheet">
 	<link href="./css/flag-icon.css" rel="stylesheet">
 	
+	<!-- cookie-->
+
+<script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+<script>
+CookieAlert.init({
+	style: 'dark',
+	position: 'bottom',
+	opacity: '0.7',
+	displayTime: 0,
+	cookiePolicy: 'http://cookiealert.sruu.pl/o-ciasteczkach',
+	text: 'Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
+});
+</script>
+<!-- cookie-->
+	
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -54,16 +69,22 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-        <nav class="navbar navbar-inverse" role="banner">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
             <div class="container">
-                <div class="navbar-header">
+                <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+					
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#"><span class="flag-icon flag-icon-pl"></span></a>
+                    <a href="#"><span class="flag-icon flag-icon-gb"></span></a>
+					<a href="#"><span class="flag-icon flag-icon-de"></span></a>
+					
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
@@ -317,64 +338,7 @@
 
             <div class="row">
                 <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-users"></i>
-                            <h2>Profesjonaliści</h2>
-                            <h3>Nawóz stworzony we współpracy z rolnikami</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-arrow-up"></i>
-                            <h2>Szybkość działania</h2>
-                            <h3>Nawóz MaxCalc&reg; działa od razu po zastosowaniu</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-tree"></i>
-                            <h2>Długie działanie</h2>
-                            <h3>Utrzymuje właściwy odczyn gleby przez kilka sezonów</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-leaf"></i>
-                            <h2>Związki organiczne</h2>
-                            <h3>Związki, jakie wprowadza nawóz wpływają na poprawę struktury gleby</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-pied-piper"></i>
-                            <h2>Procesy próchniczotwórcze</h2>
-                            <h3>Nawóz MaxCalc&reg; reguluje procesy próchniczotwórcze</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-sun-o"></i>
-                            <h2>Dostarcza potrzebnych pierwiastków</h2>
-                            <h3>Zapewnia dostęp dla roślin do ważnych składników</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-paw"></i>
-                            <h2>Skutecznie i długotrwale odstrasza dziki</h2>
-                            <h3>Zapobiega szkodom spowodowanym przez dziki</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    
-                    
+                   
                 </div><!--/.services-->
             </div><!--/.row-->    
         </div><!--/.container-->

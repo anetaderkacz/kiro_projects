@@ -7,6 +7,9 @@ worek
 	height:450%;
 }
 
+
+
+
 /*************************
 *******Typography******
 **************************/
@@ -272,7 +275,7 @@ input.search-form:hover {
   border-radius: 0;
   margin-bottom: 0;
   background: #151515;
-  padding: 0px 0;
+  padding: 10px 0;
   padding-bottom: 0;
 }
 

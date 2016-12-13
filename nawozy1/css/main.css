@@ -7,7 +7,18 @@ worek
 	height:450%;
 }
 
+/*dziki*/
+.dziki{
+	width:310px;
+	height:450%;
+	float:right;
+}
+.dziki_tek{
+	float:left;
+	font-size:18px;
+	font-weight:400;
 
+}
 
 
 /*************************

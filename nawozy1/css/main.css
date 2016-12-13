@@ -2506,6 +2506,7 @@ shortcodes page css
   padding-bottom: 30px;
   color: #fff;
   background: #2e2e2e;
+  border-top: 5px solid #0ab41e;
 }
 
 #footer a {

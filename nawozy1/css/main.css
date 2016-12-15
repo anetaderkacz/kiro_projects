@@ -19,7 +19,14 @@ worek
 	font-weight:400;
 
 }
+.dziki_tek1{
+	float:left;
+	font-size:18px;
+	font-weight:600;
+	text-align:left;
+	list-style:none;
 
+}
 
 /*************************
 *******Typography******

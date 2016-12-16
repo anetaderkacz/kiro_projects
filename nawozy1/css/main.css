@@ -12,11 +12,21 @@ worek
 	width:310px;
 	height:450%;
 	float:right;
+	
 }
+.dziki h2 {
+	color:#000;
+	
+}
+.lead{
+	color:#000;
+}
+
 .dziki_tek{
 	float:left;
 	font-size:18px;
 	font-weight:400;
+	color:#000;
 
 }
 .dziki_tek1{
@@ -542,6 +552,7 @@ input.search-form:hover {
 
 .features{
   padding: 0;
+  color:#000;
 }
 
 .feature-wrap {
@@ -551,6 +562,7 @@ input.search-form:hover {
 
 .feature-wrap h2{
   margin-top: 10px;
+  color:#000;
 }
 
 .feature-wrap .pull-left {

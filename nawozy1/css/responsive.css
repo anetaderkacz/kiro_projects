@@ -297,6 +297,15 @@
 
 /* XS Portrait */
 @media (max-width: 480px) {
-
+.gmap{
+	width:300px;
+	height:300px;
+}
+.gmap-area .gmap iframe {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+}
 
 

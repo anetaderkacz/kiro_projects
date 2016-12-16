@@ -950,14 +950,14 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  color: #4e4e4e;
+  color: #000;
   text-align: center;
 }
 #partner p{
 	font-weight:400;
 }
 #partner h1{
-	color:#4e4e4e;
+	color:#000;
 }
 #partner h2{
 	font-weight:800;
@@ -967,7 +967,7 @@ a.accordion-toggle  i{
 }
 #partner h2, 
 #partner h3 {
-  color: #4e4e4e;
+  color: #000;
 }
 #partner1 {
   background: url(../images/tlo2.jpg) 50% 50% no-repeat;
@@ -975,24 +975,25 @@ a.accordion-toggle  i{
 }
 
 #partner1 {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 #partner1 p{
-	font-weight:400;
+	font-weight:200;
 }
 #partner1 h1{
-	color:#fff;
+	color:#000;
 }
 #partner1 h2{
-	font-weight:800;
+	font-weight:600;
+	font-size:40px;
 }
 #partner1 h3{
-	font-weight:600;
+	font-weight:200;
 }
 #partner1 h2, 
 #partner1 h3 {
-  color: #fff;
+  color: #000;
 }
 
 .partners ul {
@@ -1907,15 +1908,15 @@ ul.social_icons li  a i{
 
 .gmap-area .gmap iframe {
   border-radius: 50%;
-  height: 280px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
 }
 
 .gmap{
     border: 10px solid #f6f5f0;
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     box-shadow: 0px 0px 3px 3px #e7e4dc;
     overflow: hidden;
     position: relative;
@@ -1928,9 +1929,12 @@ ul.social_icons li  a i{
 
 .gmap-area .map-content address h5{
   font-weight: 700;
-  /* font-size: 16px; */
+  font-size: 26px; 
 }
-
+.gmap-area .map-content address p{
+  font-weight: 700;
+  font-size: 20px; 
+}
 #contact-page{
   padding-top: 0;
 }

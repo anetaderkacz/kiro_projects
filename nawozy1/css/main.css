@@ -43,6 +43,52 @@ worek
 	font-size:30px;
 	font-weight:bold;
 }
+/* slider powiększenie napisów */
+.animation.animated-item-13{
+	font-size:50px;
+	font-weight:600;
+	text-align:center;
+	color:#f58221;
+
+}
+.animation.animated-item-23{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	color:#f58221;
+}
+/*slajd 2*/
+.animation.animated-item-12{
+	font-size:50px;
+	font-weight:600;
+	text-align:center;
+	color:#e30c0c;
+
+}
+.animation.animated-item-22{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	color:#e30c0c;
+}
+.slider-img_dzik{
+	margin-top:200px;
+}
+
+/*slajd1*/
+.animation.animated-item-11{
+	font-size:50px;
+	font-weight:600;
+	text-align:center;
+	color:#00adee;
+
+}
+.animation.animated-item-21{
+	font-size:65px;
+	font-weight:bold;
+	text-align:center;
+	color:#00adee;
+}
 
 
 
@@ -409,16 +455,16 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 150px;
+  margin-top: 25px;
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin-top: 25px;
 }
-
+/*
 #main-slider .carousel h2 {
-  color: #fff;
-}
+  color: #00adee;
+}*/
 
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
@@ -445,7 +491,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 600px;
   -webkit-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
 }

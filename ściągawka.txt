@@ -13,7 +13,11 @@ git rm -r nazwa_folderu - usuwanie folderu
 git pull nazwa master - pobranie danych z innego repozytorium z gałęzi master
 git reset hard hash-commita - wracanie do commita (nr hash)
 git push --force - wypchnięcie/wymuszenie do zdalnego repo, np po przywracaniu do poprzedniego commita 
+<<<<<<< HEAD
 
 <---Specjalnie dla Kotusia -->
 git pull anetka master - pobranie danych z mojego zdalnego repozytorium
 git push -u origin master - wypchnięcie danych na repozytorium kotusia
+=======
+git branch -avv    pokazuje zmiany committó na zdalnym repozytorium
+>>>>>>> anetka

@@ -45,17 +45,17 @@ worek
 }
 /* slider powiększenie napisów */
 .animation.animated-item-13{
-	font-size:50px;
+	font-size:60px;
 	font-weight:600;
 	text-align:center;
-	color:#f58221;
+	color:#fff;
 
 }
 .animation.animated-item-23{
-	font-size:65px;
+	font-size:75px;
 	font-weight:bold;
 	text-align:center;
-	color:#f58221;
+	color:#fff;
 }
 /*slajd 2*/
 .animation.animated-item-12{
@@ -80,14 +80,14 @@ worek
 	font-size:50px;
 	font-weight:600;
 	text-align:center;
-	color:#00adee;
+	color:#2528ab;
 
 }
 .animation.animated-item-21{
 	font-size:65px;
 	font-weight:bold;
 	text-align:center;
-	color:#00adee;
+	color:#2528ab;
 }
 
 

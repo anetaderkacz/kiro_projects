@@ -1,6 +1,7 @@
 /* lg */ 
 @media (min-width: 1200px) {
  /* Make Navigation Toggle on Desktop Hover */
+ 
   .dropdown:hover .dropdown-menu {
       display: block;
       -webkit-animation: fadeInUp 400ms;
@@ -18,7 +19,7 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+ 
  /* Make Navigation Toggle on Desktop Hover */
   .dropdown:hover .dropdown-menu {
       display: block;
@@ -101,6 +102,10 @@
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Make Navigation Toggle on Desktop Hover */
+  .worek{
+	width:350px;
+	height:400px;
+} 
   .dropdown:hover .dropdown-menu {
       display: block;
       -webkit-animation: fadeInUp 400ms;
@@ -306,6 +311,11 @@
   height: 300px;
   width: 300px;
 }
+.worek{
+	width:300px;
+	height:400px;
+}
+	
 }
 
 

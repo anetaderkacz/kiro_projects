@@ -98,7 +98,7 @@ echo '
 <tr>
 <td valign="top">Prefix:</td>
 <td> 
-<input type=text name="pre" value="ant_" size="50"><img style="margin:0px 5px 0 5px;" src="admin/style/images/faq16.png" title="Przedrostek tabel. Przy instalacji w jednej bazie kilku skryptów należy podać inny prefix.">
+<input type=text name="pre" value="ogl_" size="50"><img style="margin:0px 5px 0 5px;" src="admin/style/images/faq16.png" title="Przedrostek tabel. Przy instalacji w jednej bazie kilku skryptów należy podać inny prefix.">
 </td> 
 </tr>
 <tr>
@@ -187,39 +187,231 @@ echo'<td align="left">';
 
 require_once("db_connect.php");
 
-$pyt = "CREATE TABLE `".$pre."dane` (
-  `dane_id` int(11) NOT NULL auto_increment,
-
-  `dane_data` datetime NOT NULL default '0000-00-00 00:00:00',
-  `dane_AO1` int(11) NOT NULL default '0',
-  `dane_AO` int(11) NOT NULL default '0',
+$pyt = "CREATE TABLE `".$pre."artykul` (
+  `art_id` int(11) NOT NULL auto_increment,
+  `art_tytul` text NOT NULL,
+  `art_tresc` text NOT NULL,
+  `art_data` datetime NOT NULL default '0000-00-00 00:00:00',
+  `art_cat` int(11) NOT NULL default '0',
+  `art_view` int(11) NOT NULL default '0',
   `art_ile` int(11) NOT NULL default '0',
-
-  `dane_ilek` int(11) NOT NULL default '0',
-  `dane_glosy` int(11) NOT NULL default '0',
-  `dane_userid` int(11) NOT NULL default '0',
-  `dane_user` text NOT NULL,
-  `dane_cena` text NOT NULL,
-  `dane_demo` text NOT NULL,
-  `dane_img` text NOT NULL,
-  `dane_akt` int(11) NOT NULL default '0',
-
-  PRIMARY KEY  (`dane_id`)
+  `art_ileg` int(11) NOT NULL default '0',
+  `art_ocena` float NOT NULL default '0',
+  `art_wys` int(11) NOT NULL default '0',
+  `art_ilek` int(11) NOT NULL default '0',
+  `art_glosy` int(11) NOT NULL default '0',
+  `art_userid` int(11) NOT NULL default '0',
+  `art_user` text NOT NULL,
+  `art_cena` text NOT NULL,
+  `art_demo` text NOT NULL,
+  `art_img` text NOT NULL,
+  `art_akt` int(11) NOT NULL default '0',
+  `art_dni` int(11) NOT NULL default '0',
+  `art_end` int(11) NOT NULL default '0',
+  `art_woj` int(11) NOT NULL default '0',
+  `art_miasto` text NOT NULL,
+  `art_tel` text NOT NULL,
+  `art_email` text NOT NULL,
+  `art_oplacone` int(11) NOT NULL default '0',
+  `art_promowane` text NOT NULL,
+  `art_koszt` text NOT NULL,
+  `art_x` text NOT NULL,
+  `art_y` text NOT NULL,
+  `art_zoom` text NOT NULL,
+  `art_dniid` text NOT NULL,
+  `art_tim` text NOT NULL,
+  `art_del` text NOT NULL,
+  `art_dod` text NOT NULL,
+  `art_prop` text NOT NULL,
+  PRIMARY KEY  (`art_id`)
 )";
 $odp = db_query($pyt);
 
 if($odp) 
 {
-echo'<b>Tabela dane</b> - <font color="lime"><b>OK</b></font><br>';
+echo'<b>Tabela artykul</b> - <font color="lime"><b>OK</b></font><br>';
 $instalok++;
 }
 else
 {
-echo'<b>Tabela dane</b> - <font color="red"><b>Error</b></font><br>';
+echo'<b>Tabela artykul</b> - <font color="red"><b>Error</b></font><br>';
 }
 
 
+$pyt = "CREATE TABLE IF NOT EXISTS `".$pre."dni` (
+  `dni_id` int(11) NOT NULL AUTO_INCREMENT,
+  `dni_dni` int(11) NOT NULL,
+  `dni_cena` text NOT NULL,
+  `dni_kod` text NOT NULL,
+  `dni_numer` text NOT NULL,
+  `dni_tresc` text NOT NULL,
+  `dni_czas` text NOT NULL,
+  `dni_cenasms` text NOT NULL,
+  PRIMARY KEY (`dni_id`)
+)";
+$odp = db_query($pyt);
 
+if($odp) 
+{
+echo'<b>Tabela dni</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela dni</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+
+$pyt = "CREATE TABLE `".$pre."cat` (
+  `cat_id` int(11) NOT NULL auto_increment,
+  `cat_nazwa` text NOT NULL,
+  `cat_ile` int(11) NOT NULL default '0',
+  `cat_pod` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`cat_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela cat</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela cat</b> - <font color="red"><b>Error</b></font><br>';
+}
+	
+
+$pyt = "CREATE TABLE `".$pre."faq` (
+  `faq_id` int(11) NOT NULL auto_increment,
+  `faq_nazwa` text NOT NULL,
+  `faq_tresc` text NOT NULL,
+  PRIMARY KEY  (`faq_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela faq</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela faq</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+$pyt = "CREATE TABLE `".$pre."img` (
+  `img_id` int(11) NOT NULL auto_increment,
+  `img_cat` int(11) NOT NULL default '0',
+  `img_fm` text NOT NULL,
+  `img_fd` text NOT NULL,
+  `img_data` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`img_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela img</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela img</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+$pyt = "CREATE TABLE `".$pre."komentarze` (
+  `kom_id` int(11) NOT NULL auto_increment,
+  `kom_idk` int(11) NOT NULL default '0',
+  `kom_nick` text NOT NULL,
+  `kom_data` datetime NOT NULL default '0000-00-00 00:00:00',
+  `kom_tresc` text NOT NULL,
+  `kom_typ` text NOT NULL,
+  `kom_idu` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`kom_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela komentarze</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela komentarze</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+$pyt = "CREATE TABLE `".$pre."menu` (
+  `menu_id` int(11) NOT NULL auto_increment,
+  `menu_nazwa` text NOT NULL,
+  `menu_nr` int(11) NOT NULL default '0',
+  `menu_s` int(11) NOT NULL default '0',
+  `menu_tresc` text NOT NULL,
+  `menu_wys` int(11) NOT NULL default '0',
+  `menu_t` text NOT NULL,
+  PRIMARY KEY  (`menu_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela menu</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela menu</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+$pyt = "CREATE TABLE `".$pre."news` (
+  `news_id` int(11) NOT NULL auto_increment,
+  `news_tytul` text NOT NULL,
+  `news_tresc` text NOT NULL,
+  `news_data` datetime NOT NULL default '0000-00-00 00:00:00',
+  `news_view` int(11) NOT NULL default '0',
+  `news_ile` int(11) NOT NULL default '0',
+  `news_ileg` int(11) NOT NULL default '0',
+  `news_ocena` float NOT NULL default '0',
+  `news_wys` int(11) NOT NULL default '0',
+  `news_ilek` int(11) NOT NULL default '0',
+  `news_glosy` int(11) NOT NULL default '0',
+  `news_userid` int(11) NOT NULL default '0',
+  `news_user` text NOT NULL,
+  PRIMARY KEY  (`news_id`)
+) ";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela news</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela news</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+
+$pyt = "CREATE TABLE `".$pre."strony` (
+  `strony_id` int(11) NOT NULL auto_increment,
+  `strony_nazwa` text  NOT NULL,
+  `strony_tresc` text  NOT NULL,
+  `strony_wys` int(11) NOT NULL default '0',
+  `strony_view` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`strony_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela strony</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela strony</b> - <font color="red"><b>Error</b></font><br>';
+}
 
 
 $pyt = "CREATE TABLE `".$pre."ustawienia` (
@@ -317,7 +509,28 @@ else
 echo'<b>Tabela ustawiania</b> - <font color="red"><b>Error</b></font><br>';
 }
 
+$pyt = "CREATE TABLE `".$pre."pw` (
+  `pw_id` int(11) NOT NULL auto_increment,
+  `pw_tytul` text NOT NULL,
+  `pw_data` datetime NOT NULL default '0000-00-00 00:00:00',
+  `pw_tresc` text NOT NULL,
+  `pw_do` int(11) NOT NULL default '0',
+  `pw_od` int(11) NOT NULL default '0',
+  `pw_czyt` int(11) NOT NULL default '0',
+  `pw_typ` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`pw_id`)
+)";
+$odp = db_query($pyt);
 
+if($odp) 
+{
+echo'<b>Tabela pw</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela pw</b> - <font color="red"><b>Error</b></font><br>';
+}
 
 $pyt = "CREATE TABLE `".$pre."user` (
   `user_id` int(11) NOT NULL auto_increment,
@@ -325,8 +538,23 @@ $pyt = "CREATE TABLE `".$pre."user` (
   `user_haslo` text NOT NULL,
   `user_email` text NOT NULL,
   `user_data_r` datetime NOT NULL default '0000-00-00 00:00:00',
-
-
+  `user_d` int(11) NOT NULL default '0',
+  `user_m` int(11) NOT NULL default '0',
+  `user_y` int(11) NOT NULL default '0',
+  `user_plec` int(11) NOT NULL default '0',
+  `user_akt` int(11) NOT NULL default '0',
+  `user_t` int(11) NOT NULL default '1',
+  `user_kod` text NOT NULL,
+  `user_omnie` text NOT NULL,
+  `user_gg` int(11) NOT NULL default '0',
+  `user_www` text NOT NULL,
+  `user_fotka` text NOT NULL,
+  `user_ue` int(11) NOT NULL default '1',
+  `user_data_o` datetime NOT NULL default '0000-00-00 00:00:00',
+  `user_allegro` text NOT NULL,
+  `user_ebay` text NOT NULL,
+  `user_swistak` text NOT NULL,
+  `user_knh` text NOT NULL,
   PRIMARY KEY  (`user_id`)
 )";
 $odp = db_query($pyt);
@@ -341,7 +569,60 @@ else
 echo'<b>Tabela user</b> - <font color="red"><b>Error</b></font><br>';
 }
 
+$pyt = "CREATE TABLE `".$pre."fotki` (
+  `f_id` int(11) NOT NULL auto_increment,
+  `f_m` text NOT NULL,
+  `f_d` text NOT NULL,
+  `f_a` int(11) NOT NULL,
+  PRIMARY KEY  (`f_id`)
+) ";
+$odp = db_query($pyt);
 
+if($odp) 
+{
+echo'<b>Tabela fotki</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela fotki</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+$pyt = "CREATE TABLE `".$pre."useronline` (
+  `id` int(10) NOT NULL auto_increment,
+  `ip` varchar(15) NOT NULL default '',
+  `timestamp` varchar(15) NOT NULL default '',
+  `user_id` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela useronline</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela useronline</b> - <font color="red"><b>Error</b></font><br>';
+}
+$pyt = "CREATE TABLE `".$pre."woj` (
+  `w_id` int(11) NOT NULL auto_increment,
+  `w_nazwa` text NOT NULL,
+  `w_ile` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`w_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela woj</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela woj</b> - <font color="red"><b>Error</b></font><br>';
+}
 
 $pyt ="INSERT INTO `".$pre."ustawienia` VALUES (1, 'Ogloszenia', 'email@email.pl', '".$adres."', 0, 1, 1, 1, 2, 3, 'blu', '0', '51', '255', '', '19', '1', '100', '100', '800', '100', '#0000FF', 1, 1, 1, 1, 0, 1, '', 1, 1, 1, 1, '0', 1, 1, '', 1, '2', 1, '3', 1, '4', 1, '5', '123','','','10',0,0,0,0,1,'','0','','','',0,'','1','1','10','0','0','pl',0,0,0,0,'','','','','','','','','');";
 $odp = db_query($pyt);
@@ -356,7 +637,7 @@ else
 echo'<b>Zapis do tabeli ustawienia</b> - <font color="red"><b>Error</b></font><br>';
 }
 
-$pyt ="INSERT INTO `".$pre."user` VALUES (1, '".$login."', '".md5($haslo)."', 'andrzej@kiro.pl', NOW());";
+$pyt ="INSERT INTO `".$pre."user` VALUES (1, '".$login."', '".md5($haslo)."', 'adm@adm.pl', NOW(), 0, 0, 0, 0, 1, 3, '', '', 34234, '', '', 0, NOW(), '', '', '','');";
 $odp = db_query($pyt);
 
 if($odp) 
@@ -371,9 +652,75 @@ echo'<b>Dodanie admina</b> - <font color="red"><b>Error</b></font><br>';
 
 
 
+$pyt ="INSERT INTO `".$pre."menu` VALUES (2, 'Kategorie', 1, 1, '', 1, 'kategorie');";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Dodanie menu - kategorie</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Dodanie menu - kategorie</b> - <font color="lime"><b>OK</b></font><br>';
+}
 
 
+$pyt ="INSERT INTO `".$pre."menu` VALUES (4, 'Statystyki', 3, 1, '', 1, 'statystyki');";
+$odp = db_query($pyt);
 
+if($odp) 
+{
+echo'<b>Dodanie menu - statystyki</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Dodanie menu - statystyki</b> - <font color="lime"><b>OK</b></font><br>';
+}
+
+
+$pyt ="INSERT INTO `".$pre."menu` VALUES (5, 'Województwa', 2, 1, '', 1, 'wojewodztwa_mapa');";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Dodanie menu - woj</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Dodanie menu - woj</b> - <font color="lime"><b>OK</b></font><br>';
+}
+$pyt ="
+INSERT INTO `".$pre."woj` (`w_id`, `w_nazwa`, `w_ile`) VALUES 
+(1, 'Dolnośląskie', 0),
+(2, 'Kujawsko-pomorskie', 0),
+(3, 'Lubelskie', 0),
+(4, 'Lubuskie', 0),
+(5, 'Łódzkie', 0),
+(6, 'Małopolskie', 0),
+(7, 'Mazowieckie', 0),
+(8, 'Opolskie', 0),
+(9, 'Podkarpackie', 0),
+(10, 'Podlaskie', 0),
+(11, 'Pomorskie', 0),
+(12, 'Śląskie', 0),
+(13, 'Świętokrzyskie', 0),
+(14, 'Warmińsko-mazurskie', 0),
+(15, 'Wielkopolskie', 0),
+(16, 'Zachodniopomorskie', 0);";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Dodanie - woj</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Dodanie - woj</b> - <font color="lime"><b>OK</b></font><br>';
+}
 //new0021
 
 db_query("ALTER TABLE ".$pre."artykul ADD art_ip text;");
@@ -394,6 +741,47 @@ db_query("ALTER TABLE ".$pre."ustawienia ADD ust_fb_id text NOT NULL;");
 
 db_query("ALTER TABLE ".$pre."ustawienia ADD ust_fb_on text NOT NULL;");
 
+$pyt = "CREATE TABLE `".$pre."zgloszenia` (
+  `z_id` int(11) NOT NULL auto_increment,
+  `z_data` text NOT NULL,
+  `z_user` text NOT NULL,
+  `z_tresc` text NOT NULL,
+  `z_ogl` text NOT NULL,
+  `z_ip` text NOT NULL,
+  PRIMARY KEY  (`z_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela zgloszenia</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela zgloszenia</b> - <font color="red"><b>Error</b></font><br>';
+}
+
+$pyt = "CREATE TABLE `".$pre."ulubione` (
+  `u_id` int(11) NOT NULL auto_increment,
+  `u_data` text NOT NULL,
+  `u_user` text NOT NULL,
+  `u_key` text NOT NULL,
+  `u_ogl` text NOT NULL,
+  `u_del` text NOT NULL,
+  PRIMARY KEY  (`u_id`)
+)";
+$odp = db_query($pyt);
+
+if($odp) 
+{
+echo'<b>Tabela zgloszenia</b> - <font color="lime"><b>OK</b></font><br>';
+$instalok++;
+}
+else
+{
+echo'<b>Tabela zgloszenia</b> - <font color="red"><b>Error</b></font><br>';
+}
 
 //new0021
 

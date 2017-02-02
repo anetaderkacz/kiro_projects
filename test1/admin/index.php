@@ -12,12 +12,7 @@ if($_GET['page']=="ustawienia" or $_GET['page']=="")
 include("module/ustawienia.php");
 //-----------------------------
 }
-else if($_GET['page']=="news")
-{
-//-----------------------------
-include("module/news.php");
-//-----------------------------
-}
+
 else if($_GET['page']=="zgloszenia")
 {
 //-----------------------------

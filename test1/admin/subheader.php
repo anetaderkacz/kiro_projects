@@ -181,16 +181,19 @@ echo'
 <div class="content">&nbsp;';
 
 if($_GET['page']=="" or $_GET['page']=="ustawienia"){echo'<b style="color:white;">Ustawienia</b>';}
-if($_GET['page']=="news"){echo'<b style="color:white;">News</b>';}
+
 if($_GET['page']=="menu"){echo'<b style="color:white;">Menu</b>';}
 if($_GET['page']=="FAQ"){echo'<b style="color:white;">FAQ</b>';}
-if($_GET['page']=="zgloszenia"){echo'<b style="color:white;">Zgłoszenia</b>';}
+
 if($_GET['page']=="artykuly"){echo'<b style="color:white;">Ogłoszenia</b>';}
 if($_GET['page']=="user"){echo'<b style="color:white;">Użytkownicy</b>';}
 if($_GET['page']=="shoutbox"){echo'<b style="color:white;">Shoutbox</b>';}
 if($_GET['page']=="strony"){echo'<b style="color:white;">Strony</b>';}
 if($_GET['page']=="galerie"){echo'<b style="color:white;">Galerie</b>';}
-if($_GET['page']=="komentarze"){echo'<b style="color:white;">Komentarze';if($_GET['typ']=="n"){echo': News';}if($_GET['typ']=="a"){echo': Artyku?y';}if($_GET['typ']=="g"){echo': Galerie';}echo'</b>';}
+if($_GET['page']=="komentarze"){echo'<b style="color:white;">Komentarze';
+
+                                if($_GET['typ']=="a"){echo': Artyku?y';}
+                                if($_GET['typ']=="g"){echo': Galerie';}echo'</b>';}
 
 
 

@@ -7,15 +7,15 @@ echo'
 <tr>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=podstawowe"><b>Podstawowe</b></a> </td>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=artykuly"><b>Ogłoszenia</b></a> </td>
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=galerie"><b>Zdjęcia</b></a> </td>
+
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=rejestracja"><b>Rejestracja</b></a> </td> 
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=news"><b>News</b></a> </td>
+
 </tr><tr>
 
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=reklama"><b>Reklama</b></a> </td>
+
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=kontakt"><b>Kontakt</b></a> </td>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=regulamin"><b>Regulamin</b></a>  </td>
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=woj"><b>Wojewodztwa</b></a></td>
+
 <td></td>
 </tr>
 </table>
@@ -622,9 +622,11 @@ R:<input type="text" name="rt" style="width:30px" value="'.$ust['tekst_r'].'">G:
 </table>
 <input type="submit" value="Zapisz"></form>';
 ?>
-
-<script type="text/javascript">var cp2 = new ColorPicker(); cp2.writeDiv();</script>
-<?php
+    <script type="text/javascript">
+        var cp2 = new ColorPicker();
+        cp2.writeDiv();
+    </script>
+    <?php
 }
 
 

@@ -1,0 +1,8 @@
+Szczegóły
+
+Baza danych została utworzona. Użyj poniższych ustawień:
+
+Baza danych:	mergi_antybankrut
+Host:	localhost
+Nazwa użytkownika:	mergi_admin
+Hasło:	Srebrny@13

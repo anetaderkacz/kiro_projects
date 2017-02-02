@@ -98,7 +98,7 @@ echo '
 <tr>
 <td valign="top">Prefix:</td>
 <td> 
-<input type=text name="pre" value="ogl_" size="50"><img style="margin:0px 5px 0 5px;" src="admin/style/images/faq16.png" title="Przedrostek tabel. Przy instalacji w jednej bazie kilku skryptów należy podać inny prefix.">
+<input type=text name="pre" value="ban_" size="50"><img style="margin:0px 5px 0 5px;" src="admin/style/images/faq16.png" title="Przedrostek tabel. Przy instalacji w jednej bazie kilku skryptów należy podać inny prefix.">
 </td> 
 </tr>
 <tr>

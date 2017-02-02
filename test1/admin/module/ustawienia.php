@@ -23,6 +23,38 @@ echo'
 ';
 
 
+if($_GET['action']=="reklama" )
+{
+
+
+echo'
+<br>
+<a name="glowne"></a>
+<b>Reklama:</b><br>
+<form action="up_reklama.php" method="POST">
+
+<table>
+<tr>
+<td valign="top">Reklama Góra:</td></tr><tr>
+<td><textarea name="r_j" style="width:600px;height:150px;">'.$ust['r_j'].'</textarea></td>
+</tr>
+<tr>
+<td valign="top">Reklama strona ogłoszenia:</td></tr><tr>
+<td><textarea name="r_d" style="width:600px;height:150px;">'.$ust['r_d'].'</textarea></td>
+</tr>
+<tr>
+<td valign="top">Reklama stopka:</td></tr><tr>
+<td><textarea name="r_t" style="width:600px;height:150px;">'.$ust['r_t'].'</textarea></td>
+</tr>
+</table>
+
+<input type="submit" name="Zapisz" value="Zapisz">
+</form>
+';
+
+
+
+}
 
 
 if($_GET['action']=="woj" )
@@ -62,7 +94,21 @@ echo'<br><br>
 <td width="5%" background="style/images/belka.gif" height="24" align="center"><b>Usuń</b></td>
 </tr>';
 
+$i=1;
+$Query='SELECT * FROM '.$pre.'woj  ORDER by w_id DESC '; 
+$result = db_query($Query) or die(db_error());
+while($row=db_fetch($result))
+{
+echo'<tr>
+<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$i.'</td>
+<td width="90%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['w_nazwa'].'</td>
+<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center"><a href="index.php?page=ustawienia&action=woj&v=delete&id='.$row['w_id'].'" onclick="return(potwierdz())"><img src="style/images/delete.png" title="Usuń"></a></td>
+</tr>';
+$i++;
+}
+echo'</table>';
 
+}
 if($_GET['action']=="podstawowe" or $_GET['action']=="")
 {
 echo'<br><form action="ust_up_p.php" method="POST">

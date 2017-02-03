@@ -316,7 +316,7 @@ if($_GET['d']=="")
 echo'<form action="ust_up_a.php" method="POST">
 
 <a name="artykuly"></a>
-<br><b>Ogłoszenia:</b><br>
+<br><b>Ust. WAG dla modeli:</b><br>
 ';
 if($_GET['e']==3)
 {
@@ -324,121 +324,8 @@ echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
 }
 echo'
 <table>
-<tr>
-<td valign="top">Dodawanie:</td>
-<td valign="top">
-<select name="add_on">
-<option value="0" '; if($ust['add_on']==0){echo' selected="selected"';} echo'>Wyłączone</option>
-<option value="1" '; if($ust['add_on']==1){echo' selected="selected"';} echo'>Dla zalogowanych</option>
-<option value="2" '; if($ust['add_on']==2){echo' selected="selected"';} echo'>Dla zalogowanych oraz nie zalogowanych</option>
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Ocenianie:</td>
-<td valign="top">
-<select name="aocena">
-<option value="0" '; if($ust['aocena']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['aocena']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['aocena']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Komentowanie:</td>
-<td valign="top">
-<select name="akomentowanie">
-<option value="0" '; if($ust['akomentowanie']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['akomentowanie']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['akomentowanie']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</tr>
-<tr>
-<td valign="top">Ogłoszeń na stronę:</td>
-<td valign="top">
-<select name="ile_str">';
 
-for($i=1;$i<=100;$i++)
-{
-   echo'<option value="'.$i.'" '; if($ust['ile_str']==$i){echo' selected="selected"';} echo'>'.$i.'</option>';
-}
-echo'
-</select>
-</tr>
-<tr>
-<td valign="top">Ile zdjęć:</td>
-<td valign="top">
-<select name="ileimg">';
 
-for($i=0;$i<=100;$i++)
-{
-   echo'<option value="'.$i.'" '; if($ust['ileimg']==$i){echo' selected="selected"';} echo'>'.$i.'</option>';
-}
-echo'
-</select>
-</tr>
-<tr>
-<td valign="top">Ulubione:</td><td valign="top"><input type="radio" name="ulubione" value="1"'; if($ust['ulubione']==1){echo' checked';} echo'>Tak <input type="radio" name="ulubione" value="0"'; if($ust['ulubione']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Zglaszanie:</td><td valign="top"><input type="radio" name="zglaszanie" value="1"'; if($ust['zglaszanie']==1){echo' checked';} echo'>Tak <input type="radio" name="zglaszanie" value="0"'; if($ust['zglaszanie']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Typ promowanych:</td><td valign="top"><input type="radio" name="pro_typ" value="1"'; if($ust['pro_typ']==1){echo' checked';} echo'>Nowy <input type="radio" name="pro_typ" value="0"'; if($ust['pro_typ']==0){echo' checked';} echo'>Zwykły</td>
-</tr>
-<tr>
-<td valign="top">Wyszukiwarka górna:</td><td valign="top"><input type="radio" name="s_on" value="1"'; if($ust['s_on']==1){echo' checked';} echo'>Tak <input type="radio" name="s_on" value="0"'; if($ust['s_on']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Najnowsze nad stopką:</td><td valign="top"><input type="radio" name="g_on" value="1"'; if($ust['g_on']==1){echo' checked';} echo'>Tak <input type="radio" name="g_on" value="0"'; if($ust['g_on']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Token:</td><td valign="top"><input type="radio" name="at" value="1"'; if($ust['token_art']==1){echo' checked';} echo'>Tak <input type="radio" name="at" value="0"'; if($ust['token_art']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Moderacja ogłoszeń:</td><td valign="top"><input type="radio" name="mod" value="0"'; if($ust['omod']==0){echo' checked';} echo'>Tak <input type="radio" name="mod" value="1"'; if($ust['omod']==1){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Facebook like:</td><td valign="top"><input type="radio" name="fb_like" value="0"'; if($ust['fb_like']==0){echo' checked';} echo'>Nie <input type="radio" name="fb_like" value="1"'; if($ust['fb_like']==1){echo' checked';} echo'>Tak</td>
-</tr>
-<tr>
-<td valign="top">Google +1:</td><td valign="top"><input type="radio" name="gp_like" value="0"'; if($ust['gp_like']==0){echo' checked';} echo'>Nie <input type="radio" name="gp_like" value="1"'; if($ust['gp_like']==1){echo' checked';} echo'>Tak</td>
-</tr>
-<tr>
-<td valign="top">Twitter:</td><td valign="top"><input type="radio" name="nk_like" value="0"'; if($ust['nk_like']==0){echo' checked';} echo'>Nie <input type="radio" name="nk_like" value="1"'; if($ust['nk_like']==1){echo' checked';} echo'>Tak</td>
-</tr>
-<tr>
-<td valign="top">Wykop:</td><td valign="top"><input type="radio" name="wykop" value="0"'; if($ust['wykop']==0){echo' checked';} echo'>Nie <input type="radio" name="wykop" value="1"'; if($ust['wykop']==1){echo' checked';} echo'>Tak</td>
-</tr>
-<tr>
-<td valign="top">Drukowanie:</td><td valign="top"><input type="radio" name="print" value="0"'; if($ust['print']==0){echo' checked';} echo'>Nie <input type="radio" name="print" value="1"'; if($ust['print']==1){echo' checked';} echo'>Tak</td>
-</tr>
-<tr>
-<td valign="top">Promowane ogłoszenia:</td><td valign="top"><input type="radio" name="proon" value="1"'; if($ust['proon']==1){echo' checked';} echo'>Tak <input type="radio" name="proon" value="0"'; if($ust['proon']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Cena za<br>promowane ogłoszenie:</td><td valign="top"><input type="text" name="procena" value="'.$ust['procena'].'" style="width:50px;">zł</td>
-</tr>
-<tr>
-<td valign="top">Płatność przelew:</td>
-<td valign="top">
-<select name="pay_typ" onchange="this.form.submit()">
-'.$pay_set['pay_typ'].'
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Płatność sms:</td>
-<td valign="top">
-<select name="pay_typ_sms" onchange="this.form.submit()">
-'.$pay_set['pay_typ_sms'].'
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">'.$pay_set['lang_pin'].':</td><td><input type="text" name="dotpay_pin" value="'.$ust['dotpay_pin'].'" style="width:200px;"> <br>
-</td>
-</tr>
 <tr>
 <td valign="top">'.$pay_set['lang_dotpay'].':</td><td><input type="text" name="dotpay" value="'.$ust['dotpay'].'" style="width:200px;"> <br>
 </td>
@@ -723,6 +610,9 @@ $nazwy_zmiennych_c = array();
 
 
 //kompilacja pliku z kodem w c do postaci pliku wykonywalnego (uwaga PHP musi miec wylaczony tryb safe mode) 
+     echo'
+<br><b>Stan kompilacji plików:</b><br>
+<br/>';
 
 $kompilacja = system('g++ -o upload/kodl.out upload/kodl.c' , $bledy_kompilacji);
 
@@ -767,62 +657,16 @@ if ( $bledy_kompilacji == 0 ) {
     
     
     
-    
-    
-if($_GET['v']=="dodane")
-{
 
-echo'<div id="ukryj" ><div id="green" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#e9ffd3;"><center><b>Dodane.</b></center></div></div><br>';
-}
-if($_GET['v']=="delete")
-{
-$del="DELETE FROM ".$pre."dni WHERE dni_id='".db_real_escape_string($_GET['id'])."'";
-db_query($del);
-echo'<div id="ukryj" ><div id="red" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#fde1e1;"><center><b>Usunięte.</b></center></div></div><br>';
-}
 
-echo'<br><br>
-<table width="70%" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc;">
-<tr>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b></b></td>
-<td width="10%" background="style/images/belka.gif" height="24" align="center"><b>Dni</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena SMS</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Numer</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Kod</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Tresc SMS</b></td>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b>Usuń</b></td>
-</tr>';
 
-$i=1;
-$Query='SELECT * FROM '.$pre.'dni  ORDER by dni_id DESC '; 
-$result = db_query($Query) or die(db_error());
-while($row=db_fetch($result))
-{
-echo'<tr>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$i.'</td>
-<td width="10%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_dni'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cena'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cenasms'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_numer'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_kod'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_tresc'].'</td>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center"><a href="index.php?page=ustawienia&action=artykuly&v=delete&id='.$row['dni_id'].'" onclick="return(potwierdz())"><img src="style/images/delete.png" title="Usuń"></a></td>
-</tr>';
-$i++;
-}
-echo'</table>
-<br><br>
-<a href="index.php?page=ustawienia&action=artykuly&d=del"><b  style="color:red;">Usuń stare ogłoszenia</b></a>
-
-';
 
 }
 if($_GET['d']=="del")
 {
 echo'
 <a name="artykuly"></a>
-<br><b>Ogłoszenia:</b><br>
+<br><b>Modele SI:</b><br>
 <br>
 
 <center><a href="index.php?page=ustawienia&action=artykuly&d=del&go=go"><b>Rozpocznij usuwanie</b></a><br><br>

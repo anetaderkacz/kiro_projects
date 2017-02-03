@@ -1,4 +1,5 @@
 <?php
+//komentarz
 if($indexphp!="ok"){exit();}
 include("../include/pay_set.php");
 echo'

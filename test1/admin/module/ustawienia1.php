@@ -1,6 +1,6 @@
 <?php
 if($indexphp!="ok"){exit();}
-include("../include/pay_set.php");
+
 echo'
 <center>
 <table width="1000">
@@ -57,55 +57,7 @@ echo'
 }
 
 
-if($_GET['action']=="woj" )
-{
 
-
-echo'
-<br>
-<a name="glowne"></a>
-<b>Wojewodztwa:</b><br>';
-
-
-
-echo'
-<form action="dodaj_woj.php" method="POST">
-Nazwa: <input type="text" name="nazwa"><input type="submit" name="ddd" value="Dodaj"></form>
-
-
-';
-if($_GET['v']=="dodane")
-{
-
-echo'<div id="ukryj" ><div id="green" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#e9ffd3;"><center><b>Dodane.</b></center></div></div><br>';
-}
-if($_GET['v']=="delete")
-{
-$del="DELETE FROM ".$pre."woj WHERE w_id='".db_real_escape_string($_GET['id'])."'";
-db_query($del);
-echo'<div id="ukryj" ><div id="red" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#fde1e1;"><center><b>Usunięte.</b></center></div></div><br>';
-}
-
-echo'<br><br>
-<table width="40%" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc;">
-<tr>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b></b></td>
-<td width="90%" background="style/images/belka.gif" height="24" align="center"><b>Nazwa</b></td>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b>Usuń</b></td>
-</tr>';
-
-$i=1;
-$Query='SELECT * FROM '.$pre.'woj  ORDER by w_id DESC '; 
-$result = db_query($Query) or die(db_error());
-while($row=db_fetch($result))
-{
-echo'<tr>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$i.'</td>
-<td width="90%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['w_nazwa'].'</td>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center"><a href="index.php?page=ustawienia&action=woj&v=delete&id='.$row['w_id'].'" onclick="return(potwierdz())"><img src="style/images/delete.png" title="Usuń"></a></td>
-</tr>';
-$i++;
-}
 echo'</table>';
 
 }
@@ -244,13 +196,8 @@ Aby aktywować logowanie poprzez facebook, musisz utworzyć nową aplikacje face
 </td>
 </tr>
 </table>
-<input type="submit" value="Zapisz"></form>
-';
-    
+<input type="submit" value="Zapisz"></form>';
 }
- 
-
-
 if($_GET['action']=="news")
 {
 
@@ -316,7 +263,7 @@ if($_GET['d']=="")
 echo'<form action="ust_up_a.php" method="POST">
 
 <a name="artykuly"></a>
-<br><b>Ogłoszenia:</b><br>
+<br><b>Ustawienia MODELI SI:</b><br>
 ';
 if($_GET['e']==3)
 {
@@ -324,35 +271,7 @@ echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
 }
 echo'
 <table>
-<tr>
-<td valign="top">Dodawanie:</td>
-<td valign="top">
-<select name="add_on">
-<option value="0" '; if($ust['add_on']==0){echo' selected="selected"';} echo'>Wyłączone</option>
-<option value="1" '; if($ust['add_on']==1){echo' selected="selected"';} echo'>Dla zalogowanych</option>
-<option value="2" '; if($ust['add_on']==2){echo' selected="selected"';} echo'>Dla zalogowanych oraz nie zalogowanych</option>
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Ocenianie:</td>
-<td valign="top">
-<select name="aocena">
-<option value="0" '; if($ust['aocena']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['aocena']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['aocena']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Komentowanie:</td>
-<td valign="top">
-<select name="akomentowanie">
-<option value="0" '; if($ust['akomentowanie']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['akomentowanie']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['akomentowanie']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</tr>
+
 <tr>
 <td valign="top">Ogłoszeń na stronę:</td>
 <td valign="top">
@@ -456,15 +375,8 @@ echo'
 <input type="submit" value="Zapisz"></form>
 <br><br>
 
-';
-    
-    
-    
-    
-    
-    
-    
-       echo'
+
+
 <br><b>Wgraj nowe modele SI:</b><br>
 <br/>
     <form action="config.php" method="post" enctype="multipart/form-data">
@@ -486,8 +398,12 @@ echo'
         <label for="plik_rbf">Plik RBF:</label>
         <input type="file" name="plik_rbf" id="plik_rbf">
         <input type="submit" name="submit" value="Prześlij"> </form>
+
+
+
 ';
-  //php do obslugi plikow i kompilacji*************start**************
+    
+    //php do obslugi plikow i kompilacji*************start**************
     //Obebranie pliku z kodem z formularza i zapisanie w folderze upload na serwerze. 
 //Uwaga: folder musi mieć prawo do zapisu!
 
@@ -756,100 +672,11 @@ if ( $bledy_kompilacji == 0 ) {
     // php obsluga plikow i kompilacjii ************koniec**********
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-if($_GET['v']=="dodane")
-{
 
-echo'<div id="ukryj" ><div id="green" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#e9ffd3;"><center><b>Dodane.</b></center></div></div><br>';
-}
-if($_GET['v']=="delete")
-{
-$del="DELETE FROM ".$pre."dni WHERE dni_id='".db_real_escape_string($_GET['id'])."'";
-db_query($del);
-echo'<div id="ukryj" ><div id="red" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#fde1e1;"><center><b>Usunięte.</b></center></div></div><br>';
-}
-
-echo'<br><br>
-<table width="70%" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc;">
-<tr>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b></b></td>
-<td width="10%" background="style/images/belka.gif" height="24" align="center"><b>Dni</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena SMS</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Numer</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Kod</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Tresc SMS</b></td>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b>Usuń</b></td>
-</tr>';
-
-$i=1;
-$Query='SELECT * FROM '.$pre.'dni  ORDER by dni_id DESC '; 
-$result = db_query($Query) or die(db_error());
-while($row=db_fetch($result))
-{
-echo'<tr>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$i.'</td>
-<td width="10%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_dni'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cena'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cenasms'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_numer'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_kod'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_tresc'].'</td>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center"><a href="index.php?page=ustawienia&action=artykuly&v=delete&id='.$row['dni_id'].'" onclick="return(potwierdz())"><img src="style/images/delete.png" title="Usuń"></a></td>
-</tr>';
-$i++;
-}
-echo'</table>
-<br><br>
-<a href="index.php?page=ustawienia&action=artykuly&d=del"><b  style="color:red;">Usuń stare ogłoszenia</b></a>
-
-';
-
-}
-if($_GET['d']=="del")
-{
-echo'
-<a name="artykuly"></a>
-<br><b>Ogłoszenia:</b><br>
-<br>
-
-<center><a href="index.php?page=ustawienia&action=artykuly&d=del&go=go"><b>Rozpocznij usuwanie</b></a><br><br>
-';
-
-    
-    
-    
-    
-if($_GET['go']=="go"){include("../del_old.php");}
-
-echo'</center>';
-}
-}
-if($_GET['action']=="galerie")
-{
-echo'
-<form action="ust_up_g.php" method="POST" name="aform">
 
 <a name="galeria"></a>
 <br><b>Galerie:</b><br>
 ';
-    
-    
- 
-    
-    
 if($_GET['e']==4)
 {
 echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';

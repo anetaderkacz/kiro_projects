@@ -6,7 +6,7 @@ echo'
 <table width="1000">
 <tr>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=podstawowe"><b>Podstawowe</b></a> </td>
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=artykuly"><b>Ogłoszenia</b></a> </td>
+<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=modele"><b>Modele</b></a> </td>
 
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=rejestracja"><b>Rejestracja</b></a> </td> 
 
@@ -302,7 +302,7 @@ echo'
 </table>
 <input type="submit" value="Zapisz"></form>';
 }
-if($_GET['action']=="artykuly")
+if($_GET['action']=="modele")
 {
 
 if($_GET['d']=="")
@@ -310,8 +310,8 @@ if($_GET['d']=="")
 
 echo'<form action="ust_up_a.php" method="POST">
 
-<a name="artykuly"></a>
-<br><b>Ogłoszenia:</b><br>
+<a name="modele"></a>
+<br><b>Modele:</b><br>
 ';
 if($_GET['e']==3)
 {
@@ -625,88 +625,82 @@ R:<input type="text" name="rt" style="width:30px" value="'.$ust['tekst_r'].'">G:
     <script type="text/javascript">
         var cp2 = new ColorPicker();
         cp2.writeDiv();
-    </script>
-    <?php
-}
-
-
-if($_GET['action']=="kontakt")
-{
-echo'<br><form action="ust_up_k.php" method="POST">
-
-<center>
-
-</center>
-<a name="kontakt"></a>
-<b>Kontakt:</b><br>
-';
-if($_GET['e']==5)
-{
-echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
-}
-echo'
-<table>
-<tr>
-<td>Login:</td><td><input type="text" name="email_login" value="'.$ust['email_login'].'" style="width:200px;"></td>
-</tr>
-<tr>
-<td>Hasło:</td><td><input type="password" name="email_pas" value="'.$ust['email_pas'].'" style="width:200px;"></td>
-</tr>
-<tr>
-<td>Host:</td><td><input type="text" name="email_host" value="'.$ust['email_host'].'" style="width:200px;"></td>
-</tr>
-<tr>
-<td>Port:</td><td><input type="text" name="email_port" value="'.$ust['email_port'].'" style="width:35px;"></td>
-</tr>
-<tr>
-<td>Szyfrowanie:</td><td>
-<select name="email_uw">
-<option value="ssl"';if($ust['email_uw']=="sll"){echo' selected="selected"';}echo'>sll</option>
-<option value="tls"';if($ust['email_uw']=="tls"){echo' selected="selected"';}echo'>tls</option>
-<option value=""';if($ust['email_uw']==""){echo' selected="selected"';}echo'>Brak</option>
-</select>
-</td>
-</tr>
-
-
-<tr>
-<td>E-Mail:</td><td><input type="text" name="email" value="'.$ust['email'].'" style="width:200px;"></td>
-</tr>
-<tr>
-<td valign="top">Formularz kontaktowy:</td><td valign="top"><input type="radio" name="fk" value="1"'; if($ust['fk']==1){echo' checked';} echo'>Tak <input type="radio" name="fk" value="0"'; if($ust['fk']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Treść:</td>
-<td><textarea name="kontaktt" style="width:500px;height:150px;">'.$ust['kontaktt'].'</textarea></td>
-</tr>
-</table>
-<input type="submit" value="Zapisz"></form>';
-
-}
-
-
-if($_GET['action']=="regulamin")
-{
-echo'<br><form action="ust_up_reg.php" method="POST">
-
-<center>
-
-</center>
-<a name="regulamin"></a>
-<b>Regulamin:</b><br>
-';
-if($_GET['e']==5)
-{
-echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
-}
-echo'
-<table>
-<tr>
-<td valign="top">Treść:</td>
-<td><textarea name="regulamin" style="width:500px;height:150px;" id="elm1">'.$ust['regulamin'].'</textarea></td>
-</tr>
-</table>
-<input type="submit" value="Zapisz"></form>';
-
-}
-?>
+    </script> } if($_GET['action']=="kontakt") { echo'
+    <br>
+    <form action="ust_up_k.php" method="POST">
+        <center> </center>
+        <a name="kontakt"></a> <b>Kontakt:</b>
+        <br> '; if($_GET['e']==5) { echo'
+        <div id="ukryj" style="color:green"><b>Zapisano.</b></div>'; } echo'
+        <table>
+            <tr>
+                <td>Login:</td>
+                <td>
+                    <input type="text" name="email_login" value="'.$ust['email_login'].'" style="width:200px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Hasło:</td>
+                <td>
+                    <input type="password" name="email_pas" value="'.$ust['email_pas'].'" style="width:200px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Host:</td>
+                <td>
+                    <input type="text" name="email_host" value="'.$ust['email_host'].'" style="width:200px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Port:</td>
+                <td>
+                    <input type="text" name="email_port" value="'.$ust['email_port'].'" style="width:35px;">
+                </td>
+            </tr>
+            <tr>
+                <td>Szyfrowanie:</td>
+                <td>
+                    <select name="email_uw">
+                        <option value="ssl" ';if($ust['email_uw ']=="sll"){echo' selected="selected" ';}echo'>sll</option>
+                        <option value="tls" ';if($ust['email_uw ']=="tls"){echo' selected="selected" ';}echo'>tls</option>
+                        <option value="" ';if($ust['email_uw ']==""){echo' selected="selected" ';}echo'>Brak</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>E-Mail:</td>
+                <td>
+                    <input type="text" name="email" value="'.$ust['email'].'" style="width:200px;">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Formularz kontaktowy:</td>
+                <td valign="top">
+                    <input type="radio" name="fk" value="1" '; if($ust['fk ']==1){echo' checked ';} echo'>Tak
+                    <input type="radio" name="fk" value="0" '; if($ust['fk ']==0){echo' checked ';} echo'>Nie</td>
+            </tr>
+            <tr>
+                <td valign="top">Treść:</td>
+                <td>
+                    <textarea name="kontaktt" style="width:500px;height:150px;">'.$ust['kontaktt'].'</textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Zapisz">
+    </form>'; } if($_GET['action']=="regulamin") { echo'
+    <br>
+    <form action="ust_up_reg.php" method="POST">
+        <center> </center>
+        <a name="regulamin"></a> <b>Regulamin:</b>
+        <br> '; if($_GET['e']==5) { echo'
+        <div id="ukryj" style="color:green"><b>Zapisano.</b></div>'; } echo'
+        <table>
+            <tr>
+                <td valign="top">Treść:</td>
+                <td>
+                    <textarea name="regulamin" style="width:500px;height:150px;" id="elm1">'.$ust['regulamin'].'</textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Zapisz">
+    </form>'; } ?>

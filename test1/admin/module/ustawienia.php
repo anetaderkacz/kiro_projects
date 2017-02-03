@@ -1,22 +1,21 @@
 <?php
-//komentarz
 if($indexphp!="ok"){exit();}
-include("../include/pay_set.php");
+
 echo'
 <center>
 <table width="1000">
 <tr>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=podstawowe"><b>Podstawowe</b></a> </td>
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=modele"><b>Modele</b></a> </td>
-
+<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=artykuly"><b>Ogłoszenia</b></a> </td>
+<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=galerie"><b>Zdjęcia</b></a> </td>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=rejestracja"><b>Rejestracja</b></a> </td> 
-
+<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=news"><b>News</b></a> </td>
 </tr><tr>
 
-
+<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=reklama"><b>Reklama</b></a> </td>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=kontakt"><b>Kontakt</b></a> </td>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=regulamin"><b>Regulamin</b></a>  </td>
-
+<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=woj"><b>Wojewodztwa</b></a></td>
 <td></td>
 </tr>
 </table>
@@ -58,55 +57,7 @@ echo'
 }
 
 
-if($_GET['action']=="woj" )
-{
 
-
-echo'
-<br>
-<a name="glowne"></a>
-<b>Wojewodztwa:</b><br>';
-
-
-
-echo'
-<form action="dodaj_woj.php" method="POST">
-Nazwa: <input type="text" name="nazwa"><input type="submit" name="ddd" value="Dodaj"></form>
-
-
-';
-if($_GET['v']=="dodane")
-{
-
-echo'<div id="ukryj" ><div id="green" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#e9ffd3;"><center><b>Dodane.</b></center></div></div><br>';
-}
-if($_GET['v']=="delete")
-{
-$del="DELETE FROM ".$pre."woj WHERE w_id='".db_real_escape_string($_GET['id'])."'";
-db_query($del);
-echo'<div id="ukryj" ><div id="red" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#fde1e1;"><center><b>Usunięte.</b></center></div></div><br>';
-}
-
-echo'<br><br>
-<table width="40%" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc;">
-<tr>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b></b></td>
-<td width="90%" background="style/images/belka.gif" height="24" align="center"><b>Nazwa</b></td>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b>Usuń</b></td>
-</tr>';
-
-$i=1;
-$Query='SELECT * FROM '.$pre.'woj  ORDER by w_id DESC '; 
-$result = db_query($Query) or die(db_error());
-while($row=db_fetch($result))
-{
-echo'<tr>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$i.'</td>
-<td width="90%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['w_nazwa'].'</td>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center"><a href="index.php?page=ustawienia&action=woj&v=delete&id='.$row['w_id'].'" onclick="return(potwierdz())"><img src="style/images/delete.png" title="Usuń"></a></td>
-</tr>';
-$i++;
-}
 echo'</table>';
 
 }
@@ -303,7 +254,7 @@ echo'
 </table>
 <input type="submit" value="Zapisz"></form>';
 }
-if($_GET['action']=="modele")
+if($_GET['action']=="artykuly")
 {
 
 if($_GET['d']=="")
@@ -311,8 +262,8 @@ if($_GET['d']=="")
 
 echo'<form action="ust_up_a.php" method="POST">
 
-<a name="modele"></a>
-<br><b>Modele:</b><br>
+<a name="artykuly"></a>
+<br><b>Ustawienia MODELI SI:</b><br>
 ';
 if($_GET['e']==3)
 {
@@ -320,35 +271,7 @@ echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
 }
 echo'
 <table>
-<tr>
-<td valign="top">Dodawanie:</td>
-<td valign="top">
-<select name="add_on">
-<option value="0" '; if($ust['add_on']==0){echo' selected="selected"';} echo'>Wyłączone</option>
-<option value="1" '; if($ust['add_on']==1){echo' selected="selected"';} echo'>Dla zalogowanych</option>
-<option value="2" '; if($ust['add_on']==2){echo' selected="selected"';} echo'>Dla zalogowanych oraz nie zalogowanych</option>
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Ocenianie:</td>
-<td valign="top">
-<select name="aocena">
-<option value="0" '; if($ust['aocena']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['aocena']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['aocena']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Komentowanie:</td>
-<td valign="top">
-<select name="akomentowanie">
-<option value="0" '; if($ust['akomentowanie']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['akomentowanie']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['akomentowanie']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</tr>
+
 <tr>
 <td valign="top">Ogłoszeń na stronę:</td>
 <td valign="top">
@@ -454,106 +377,302 @@ echo'
 
 
 
-<br><b>Czas trwania ogłoszenia:</b><br>
-<form action="dodaj_dni.php" method="POST">
-<table>
-<tr>
-<td><b>Dni:</b></td> 
-<td><input type="text" name="dni"></td>
-</tr>
-<tr>
-<td><b>Cena przelew:</b></td> 
-<td><input type="text" name="cena"><br><small>Pozostawiajac pole puste ogloszenie bedzie darmowe.</small></td>
-</tr>
-<tr>
-<td><b>Cena sms:</b></td> 
-<td><input type="text" name="cenasms"><br><small>Pozostawiajac pole puste ogloszenie bedzie darmowe.</small></td>
-</tr>
-<tr>
-<td><b>'.$pay_set['lang_kod'].':</b></td> 
-<td><input type="text" name="kod"><br><small>np: asdf</small></td>
-</tr>
-<tr>
-<td><b>Numer:</b></td> 
-<td><input type="text" name="numer"><br><small>np: 7123</small></td>
-</tr>
-<tr>
-<td><b>Tresc SMS:</b></td> 
-<td><input type="text" name="tresc"><br><small>np: ap.asdf</small></td>
-</tr>
-</table>
-<input type="submit" name="ddd" value="Dodaj"></form>
+<br><b>Wgraj nowe modele SI:</b><br>
+<br/>
+    <form action="config.php" method="post" enctype="multipart/form-data">
+        <label for="plik_l">Plik LIN:</label>
+        <input type="file" name="plik_l" id="plik_l">
+        <input type="submit" name="submit" value="Prześlij"> </form>
+    
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="plik_m3">Plik MLP3:</label>
+        <input type="file" name="plik_m3" id="plik_m3">
+        <input type="submit" name="submit" value="Prześlij"> </form>
+    
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="plik_m4">Plik MLP4:</label>
+        <input type="file" name="plik_m4" id="plik_m4">
+        <input type="submit" name="submit" value="Prześlij"> </form>
+    
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="plik_rbf">Plik RBF:</label>
+        <input type="file" name="plik_rbf" id="plik_rbf">
+        <input type="submit" name="submit" value="Prześlij"> </form>
+
 
 
 ';
-if($_GET['v']=="dodane")
-{
+    
+    //php do obslugi plikow i kompilacji*************start**************
+    //Obebranie pliku z kodem z formularza i zapisanie w folderze upload na serwerze. 
+//Uwaga: folder musi mieć prawo do zapisu!
 
-echo'<div id="ukryj" ><div id="green" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#e9ffd3;"><center><b>Dodane.</b></center></div></div><br>';
+
+	//sprawdzenie czy w tablicy $_FILES jest plik o nazwie pola z formularza
+    
+    // plik ****LIN********
+    if(isset($_FILES["plik_l"]["error"])){
+
+        if($_FILES["plik_l"]["error"] > 0){
+
+            echo "Błąd: " . $_FILES["plik_l"]["error"] . "<br />";
+
+        } else{
+
+                // Sprawdzenie czy plik folder upload jest dostępny do zapisu 
+				// warto byłoby dodać sprawdzenie czy na serwerze nie istnieje plik o takiej nazwie
+
+                if( !is_writable('upload') ) {
+
+                    echo 'Brak prawa zapisu <br />';
+
+                } else{
+
+					//przeniesienie przeslanego pliku z folderu tymczasowego do pliku w folderze upload pod nazwą "kodl.c"
+                    if ( move_uploaded_file($_FILES["plik_l"]["tmp_name"], 'upload/kodl.c' ) ) {
+
+                    echo "Plik przesłany poprawnie. <br />";
+
+
+					} else {
+					
+                    echo "Błąd przeniesienia pliku <br />";
+
+					}
+
+                } 
+
+        }
+
+    } else{
+
+        echo "Nie wybrano pliku <br />";
+
+    }
+    // plik ****MLP3********
+    if(isset($_FILES["plik_m3"]["error"])){
+
+        if($_FILES["plik_m3"]["error"] > 0){
+
+            echo "Błąd: " . $_FILES["plik_m3"]["error"] . "<br />";
+
+        } else{
+
+                // Sprawdzenie czy plik folder upload jest dostępny do zapisu 
+				// warto byłoby dodać sprawdzenie czy na serwerze nie istnieje plik o takiej nazwie
+
+                if( !is_writable('upload') ) {
+
+                    echo 'Brak prawa zapisu <br />';
+
+                } else{
+
+					//przeniesienie przeslanego pliku z folderu tymczasowego do pliku w folderze upload pod nazwą "kodl.c"
+                    if ( move_uploaded_file($_FILES["plik_m3"]["tmp_name"], 'upload/kodm3.c' ) ) {
+
+                    echo "Plik przesłany poprawnie. <br />";
+
+
+					} else {
+					
+                    echo "Błąd przeniesienia pliku <br />";
+
+					}
+
+                } 
+
+        }
+
+    } else{
+
+        echo "Nie wybrano pliku <br />";
+
+    }
+    
+        // plik ****MLP4********
+    if(isset($_FILES["plik_m4"]["error"])){
+
+        if($_FILES["plik_m4"]["error"] > 0){
+
+            echo "Błąd: " . $_FILES["plik_m4"]["error"] . "<br />";
+
+        } else{
+
+                // Sprawdzenie czy plik folder upload jest dostępny do zapisu 
+				// warto byłoby dodać sprawdzenie czy na serwerze nie istnieje plik o takiej nazwie
+
+                if( !is_writable('upload') ) {
+
+                    echo 'Brak prawa zapisu <br />';
+
+                } else{
+
+					//przeniesienie przeslanego pliku z folderu tymczasowego do pliku w folderze upload pod nazwą "kodl.c"
+                    if ( move_uploaded_file($_FILES["plik_m4"]["tmp_name"], 'upload/kodm4.c' ) ) {
+
+                    echo "Plik przesłany poprawnie. <br />";
+
+
+					} else {
+					
+                    echo "Błąd przeniesienia pliku <br />";
+
+					}
+
+                } 
+
+        }
+
+    } else{
+
+        echo "Nie wybrano pliku <br />";
+
+    }
+        // plik ****RBF********
+    if(isset($_FILES["plik_rbf"]["error"])){
+
+        if($_FILES["plik_rbf"]["error"] > 0){
+
+            echo "Błąd: " . $_FILES["plik_rbf"]["error"] . "<br />";
+
+        } else{
+
+                // Sprawdzenie czy plik folder upload jest dostępny do zapisu 
+				// warto byłoby dodać sprawdzenie czy na serwerze nie istnieje plik o takiej nazwie
+
+                if( !is_writable('upload') ) {
+
+                    echo 'Brak prawa zapisu <br />';
+
+                } else{
+
+					//przeniesienie przeslanego pliku z folderu tymczasowego do pliku w folderze upload pod nazwą "kodl.c"
+                    if ( move_uploaded_file($_FILES["plik_rbf"]["tmp_name"], 'upload/kod_rbf.c' ) ) {
+
+                    echo "Plik przesłany poprawnie. <br />";
+
+
+					} else {
+					
+                    echo "Błąd przeniesienia pliku <br />";
+
+					}
+
+                } 
+
+        }
+
+    } else{
+
+        echo "Nie wybrano pliku <br />";
+
+    }
+
+
+//Plik z kodem mamy na serwerze teraz musimy w nim znaleźć jakich parametrów (zmiennych) będzie oczekiwał skompilowany program 
+
+
+//wrzucamy cały plik z kodem w tablicę, którą będziemy przeszukiwać
+$kod = file ( "upload/kodl.c" ); 
+
+
+//zmienna przechowująca numer aktualnie czytanej w pętli linii kodu. Wstepnie jej wartość = 1
+$nr = 1;
+
+
+//w pętli foreach czytamy wczytany plik linia po linii, szukając interesujacych nas ciagów znaków
+foreach($kod as $linia){
+
+		//sprawdzamy czy linia zawiera tekst: "Input variables (Offset)", jesli tak zapisuje numer linii w zmiennej pomocniczej
+		if(strpos($linia,"Input variables (Offset)")!==FALSE){
+			
+			$linia_zmienne_start = $nr;
+		}
+		
+		//sprawdza czy linia zawiera tekst: "Stan", jesli tak zapisuje numer linii w zmiennej pomocniczej
+		if(strpos($linia,"Stan")!==FALSE){
+			
+			$linia_zmienne_stop = $nr;
+		}
+		
+	//zwiększamy numer linii o 1
+	$nr++;
 }
-if($_GET['v']=="delete")
-{
-$del="DELETE FROM ".$pre."dni WHERE dni_id='".db_real_escape_string($_GET['id'])."'";
-db_query($del);
-echo'<div id="ukryj" ><div id="red" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#fde1e1;"><center><b>Usunięte.</b></center></div></div><br>';
+
+
+//poprawiamy pozycję numerów linii początkowej i końcowej, tak aby wybrac tylko te linie gdzie są nazwy zmiennych
+$linia_zmienne_start = $linia_zmienne_start+1;
+$linia_zmienne_stop	 = $linia_zmienne_stop -3;
+
+
+
+// jeszcze raz przeczytamy cały plik od początku do końca tym razem jednak wczytamy do tablicy "nazwy_zmiennych_c" informacje z zakresu linii od - do 
+$nr = 1;
+$nazwy_zmiennych_c = array();
+
+//foreach($kod as $linia){
+
+
+//	if ($nr >= $linia_zmienne_start && $nr <= $linia_zmienne_stop ) {
+	
+
+		//za pomoca wyrazenia regularnego usuwamy wszytskie niealfanumeryczne znaki z odczytanej linijki kodu
+//		$linia = preg_replace("/[^a-zA-Z0-9]+/", "", $linia);
+
+
+		// zapisujemy nasza linijke do tablicy zmiennych i ustawiamy wstępnie wartość tego //parametru (zmiennej) na zero
+		
+	//	$nazwy_zmiennych_c[$linia] = 0;
+//	}
+//	$nr++;
+//}
+
+
+
+//teraz mamy nazwy zmiennych w tablicy, mozna je np. zapisac do bazy albo wyswietlic
+
+//echo '<pre>';
+//print_r ($nazwy_zmiennych_c);
+//echo '</pre>';
+
+
+
+
+//kompilacja pliku z kodem w c do postaci pliku wykonywalnego (uwaga PHP musi miec wylaczony tryb safe mode) 
+
+$kompilacja = system('g++ -o upload/kodl.out upload/kodl.c' , $bledy_kompilacji);
+
+if ( $bledy_kompilacji == 0 ) {
+						
+	echo 'Kompilacja OK <br />';
 }
 
-echo'<br><br>
-<table width="70%" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc;">
-<tr>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b></b></td>
-<td width="10%" background="style/images/belka.gif" height="24" align="center"><b>Dni</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena SMS</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Numer</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Kod</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Tresc SMS</b></td>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b>Usuń</b></td>
-</tr>';
+    $kompilacja1 = system('g++ -o upload/kodm3.out upload/kodm3.c' , $bledy_kompilacji);
 
-$i=1;
-$Query='SELECT * FROM '.$pre.'dni  ORDER by dni_id DESC '; 
-$result = db_query($Query) or die(db_error());
-while($row=db_fetch($result))
-{
-echo'<tr>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$i.'</td>
-<td width="10%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_dni'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cena'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cenasms'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_numer'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_kod'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_tresc'].'</td>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center"><a href="index.php?page=ustawienia&action=artykuly&v=delete&id='.$row['dni_id'].'" onclick="return(potwierdz())"><img src="style/images/delete.png" title="Usuń"></a></td>
-</tr>';
-$i++;
+if ( $bledy_kompilacji == 0 ) {
+						
+	echo 'Kompilacja OK <br />';
 }
-echo'</table>
-<br><br>
-<a href="index.php?page=ustawienia&action=artykuly&d=del"><b  style="color:red;">Usuń stare ogłoszenia</b></a>
+       $kompilacja2 = system('g++ -o upload/kodm4.out upload/kodm4.c' , $bledy_kompilacji);
 
-';
-
+if ( $bledy_kompilacji == 0 ) {
+						
+	echo 'Kompilacja OK <br />';
 }
-if($_GET['d']=="del")
-{
-echo'
-<a name="artykuly"></a>
-<br><b>Ogłoszenia:</b><br>
-<br>
+   
+     $kompilacja3 = system('g++ -o upload/kod_rbf.out upload/kod_rbf.c' , $bledy_kompilacji);
 
-<center><a href="index.php?page=ustawienia&action=artykuly&d=del&go=go"><b>Rozpocznij usuwanie</b></a><br><br>
-';
-
-if($_GET['go']=="go"){include("../del_old.php");}
-
-echo'</center>';
+if ( $bledy_kompilacji == 0 ) {
+						
+	echo 'Kompilacja OK <br />';
 }
-}
-if($_GET['action']=="galerie")
-{
-echo'
-<form action="ust_up_g.php" method="POST" name="aform">
+    
+    
+    
+    // php obsluga plikow i kompilacjii ************koniec**********
+
+
+
 
 <a name="galeria"></a>
 <br><b>Galerie:</b><br>
@@ -626,82 +745,88 @@ R:<input type="text" name="rt" style="width:30px" value="'.$ust['tekst_r'].'">G:
     <script type="text/javascript">
         var cp2 = new ColorPicker();
         cp2.writeDiv();
-    </script> } if($_GET['action']=="kontakt") { echo'
-    <br>
-    <form action="ust_up_k.php" method="POST">
-        <center> </center>
-        <a name="kontakt"></a> <b>Kontakt:</b>
-        <br> '; if($_GET['e']==5) { echo'
-        <div id="ukryj" style="color:green"><b>Zapisano.</b></div>'; } echo'
-        <table>
-            <tr>
-                <td>Login:</td>
-                <td>
-                    <input type="text" name="email_login" value="'.$ust['email_login'].'" style="width:200px;">
-                </td>
-            </tr>
-            <tr>
-                <td>Hasło:</td>
-                <td>
-                    <input type="password" name="email_pas" value="'.$ust['email_pas'].'" style="width:200px;">
-                </td>
-            </tr>
-            <tr>
-                <td>Host:</td>
-                <td>
-                    <input type="text" name="email_host" value="'.$ust['email_host'].'" style="width:200px;">
-                </td>
-            </tr>
-            <tr>
-                <td>Port:</td>
-                <td>
-                    <input type="text" name="email_port" value="'.$ust['email_port'].'" style="width:35px;">
-                </td>
-            </tr>
-            <tr>
-                <td>Szyfrowanie:</td>
-                <td>
-                    <select name="email_uw">
-                        <option value="ssl" ';if($ust['email_uw ']=="sll"){echo' selected="selected" ';}echo'>sll</option>
-                        <option value="tls" ';if($ust['email_uw ']=="tls"){echo' selected="selected" ';}echo'>tls</option>
-                        <option value="" ';if($ust['email_uw ']==""){echo' selected="selected" ';}echo'>Brak</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>E-Mail:</td>
-                <td>
-                    <input type="text" name="email" value="'.$ust['email'].'" style="width:200px;">
-                </td>
-            </tr>
-            <tr>
-                <td valign="top">Formularz kontaktowy:</td>
-                <td valign="top">
-                    <input type="radio" name="fk" value="1" '; if($ust['fk ']==1){echo' checked ';} echo'>Tak
-                    <input type="radio" name="fk" value="0" '; if($ust['fk ']==0){echo' checked ';} echo'>Nie</td>
-            </tr>
-            <tr>
-                <td valign="top">Treść:</td>
-                <td>
-                    <textarea name="kontaktt" style="width:500px;height:150px;">'.$ust['kontaktt'].'</textarea>
-                </td>
-            </tr>
-        </table>
-        <input type="submit" value="Zapisz">
-    </form>'; } if($_GET['action']=="regulamin") { echo'
-    <br>
-    <form action="ust_up_reg.php" method="POST">
-        <center> </center>
-        <a name="regulamin"></a> <b>Regulamin:</b>
-        <br> '; if($_GET['e']==5) { echo'
-        <div id="ukryj" style="color:green"><b>Zapisano.</b></div>'; } echo'
-        <table>
-            <tr>
-                <td valign="top">Treść:</td>
-                <td>
-                    <textarea name="regulamin" style="width:500px;height:150px;" id="elm1">'.$ust['regulamin'].'</textarea>
-                </td>
-            </tr>
-        </table>
-        <input type="submit" value="Zapisz">
-    </form>'; } ?>
+    </script>
+    <?php
+}
+
+
+if($_GET['action']=="kontakt")
+{
+echo'<br><form action="ust_up_k.php" method="POST">
+
+<center>
+
+</center>
+<a name="kontakt"></a>
+<b>Kontakt:</b><br>
+';
+if($_GET['e']==5)
+{
+echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
+}
+echo'
+<table>
+<tr>
+<td>Login:</td><td><input type="text" name="email_login" value="'.$ust['email_login'].'" style="width:200px;"></td>
+</tr>
+<tr>
+<td>Hasło:</td><td><input type="password" name="email_pas" value="'.$ust['email_pas'].'" style="width:200px;"></td>
+</tr>
+<tr>
+<td>Host:</td><td><input type="text" name="email_host" value="'.$ust['email_host'].'" style="width:200px;"></td>
+</tr>
+<tr>
+<td>Port:</td><td><input type="text" name="email_port" value="'.$ust['email_port'].'" style="width:35px;"></td>
+</tr>
+<tr>
+<td>Szyfrowanie:</td><td>
+<select name="email_uw">
+<option value="ssl"';if($ust['email_uw']=="sll"){echo' selected="selected"';}echo'>sll</option>
+<option value="tls"';if($ust['email_uw']=="tls"){echo' selected="selected"';}echo'>tls</option>
+<option value=""';if($ust['email_uw']==""){echo' selected="selected"';}echo'>Brak</option>
+</select>
+</td>
+</tr>
+
+
+<tr>
+<td>E-Mail:</td><td><input type="text" name="email" value="'.$ust['email'].'" style="width:200px;"></td>
+</tr>
+<tr>
+<td valign="top">Formularz kontaktowy:</td><td valign="top"><input type="radio" name="fk" value="1"'; if($ust['fk']==1){echo' checked';} echo'>Tak <input type="radio" name="fk" value="0"'; if($ust['fk']==0){echo' checked';} echo'>Nie</td>
+</tr>
+<tr>
+<td valign="top">Treść:</td>
+<td><textarea name="kontaktt" style="width:500px;height:150px;">'.$ust['kontaktt'].'</textarea></td>
+</tr>
+</table>
+<input type="submit" value="Zapisz"></form>';
+
+}
+
+
+if($_GET['action']=="regulamin")
+{
+echo'<br><form action="ust_up_reg.php" method="POST">
+
+<center>
+
+</center>
+<a name="regulamin"></a>
+<b>Regulamin:</b><br>
+';
+if($_GET['e']==5)
+{
+echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
+}
+echo'
+<table>
+<tr>
+<td valign="top">Treść:</td>
+<td><textarea name="regulamin" style="width:500px;height:150px;" id="elm1">'.$ust['regulamin'].'</textarea></td>
+</tr>
+</table>
+<input type="submit" value="Zapisz"></form>';
+
+}
+?>

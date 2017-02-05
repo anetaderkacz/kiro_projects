@@ -31,8 +31,9 @@
             <!-- <li> <a href="#about" onclick=$( "#menu-close").click();>O nas</a> </li>
             <li> <a href="#services" onclick=$( "#menu-close").click();>Opis</a> </li>
             <li> <a href="#portfolio" onclick=$( "#menu-close").click();>Diagnozuj</a> </li>
-            <li> <a href="#kontakt" onclick=$( "#menu-close").click();>Kontakt</a> </li>
+            
             -->
+            <li> <a href="#kontakt" onclick=$( "#menu-close").click();>Kontakt</a> </li>
             <li> <a href="panel/index.php" onclick=$( "#menu-close").click();>Zaloguj</a> </li>
             <li> <a href="panel/admin/index.php" onclick=$( "#menu-close").click();>Zarządzaj</a> </li>
         </ul>
@@ -124,133 +125,12 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Szybkie sprawdzanie</h1> <a> Wystarczy się zalogować aby </a> </div>
-    </aside>
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <!-- Form Name -->
-                            <legend>Wskaźniki Twojego przedsiębiorstwa</legend>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="AO-1">Aktywa ogółem stan na poczatku roku(tys.zł) </label>
-                                <div class="col-md-4">
-                                    <input id="AO-1" name="AO-1" placeholder="podaj wartość AO-1" class="form-control input-md" required="" type="text"> <span class="help-block">Aktywa ogółem stan na poczatku roku(tys.zł) Tutaj można rozwinąć opis</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="AO">Aktywa ogółem stan na koniec roku(tys.zł) </label>
-                                <div class="col-md-4">
-                                    <input id="AO" name="AO" placeholder="podaj wartość AO" class="form-control input-md" required="" type="text"> <span class="help-block">Aktywa ogółem stan na koniec roku(tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="AT">Aktywa trwałe stan na koniec roku(tys.zł) </label>
-                                <div class="col-md-4">
-                                    <input id="AT" name="AT" placeholder="podaj wartość AT" class="form-control input-md" required="" type="text"> <span class="help-block">Aktywa trwałe stan na koniec roku(tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="ZAP">Zapasy stan na koniec roku(tys.zł)</label>
-                                <div class="col-md-4">
-                                    <input id="ZAP" name="ZAP" placeholder="Podaj wartość ZAP" class="form-control input-md" required="" type="text"> <span class="help-block">Zapasy stan na koniec roku(tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="NKT">Należności krótkoterminowe(tys.zł)</label>
-                                <div class="col-md-4">
-                                    <input id="NKT" name="NKT" placeholder="Podaj wartość NKT" class="form-control input-md" required="" type="text"> <span class="help-block">Należności krótkoterminowe (tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="KW">Kapitał własny(tys.zł)</label>
-                                <div class="col-md-4">
-                                    <input id="KW" name="KW" placeholder="Podaj wartość KW" class="form-control input-md" required="" type="text"> <span class="help-block">Kapitał własny (tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="ZD">Zobowiązania długoterminowe(tys.zł)</label>
-                                <div class="col-md-4">
-                                    <input id="ZD" name="ZD" placeholder="Podaj wartość ZD" class="form-control input-md" required="" type="text"> <span class="help-block">Zobowiązania długoterminowe (tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="PN-1">Przychody netto ze sprzedaży w roku poprzednim (tys.zł)</label>
-                                <div class="col-md-4">
-                                    <input id="PN-1" name="PN-1" placeholder="Podaj wartość PN-1" class="form-control input-md" required="" type="text"> <span class="help-block">Przychody netto ze sprzedaży w roku poprzednim (tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="PN">Przychody netto ze sprzedaży za rok bieżący (tys.zł)</label>
-                                <div class="col-md-4">
-                                    <input id="PN" name="PN" placeholder="Podaj wartość PN" class="form-control input-md" required="" type="text"> <span class="help-block">Przychody netto ze sprzedaży za rok bieżący (tys.zł)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="ZO-1">Zatrudnienie-stan na koniec poprzedniego roku (liczba osób)</label>
-                                <div class="col-md-4">
-                                    <input id="ZO-1" name="ZO-1" placeholder="Podaj wartość ZO-1" class="form-control input-md" required="" type="text"> <span class="help-block">Zatrudnienie-stan na koniec poprzedniego roku (liczba osób)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="ZO">Zatrudnienie-stan na koniec bieżącego roku (liczba osób)</label>
-                                <div class="col-md-4">
-                                    <input id="ZO" name="ZO" placeholder="Podaj wartość ZO" class="form-control input-md" required="" type="text"> <span class="help-block">Zatrudnienie-stan na koniec bieżącego roku (liczba osób)</span> </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="WFB">Wynik finansowy brutto bieżącego roku (tys.zł)</label>
-                                <div class="col-md-4">
-                                    <input id="WFB" name="WFB" placeholder="Podaj wartość WFB" class="form-control input-md" required="" type="text"> <span class="help-block">Wynik finansowy brutto bieżącego roku (tys.zł)</span> </div>
-                            </div>
-                            <!-- wybór danych -->
-                            <form class="form-horizontal">
-                                <fieldset>
-                                    <!-- Form Name -->
-                                    <legend>Wybierz dane</legend>
-                                    <!-- Multiple Radios -->
-                                    <div class="form-group">
-                                        <label class="col-md-4 control-label" for="radios">Typ Danych</label>
-                                        <div class="col-md-4">
-                                            <div class="radio">
-                                                <label for="radios-0">
-                                                    <input type="radio" name="radios" id="radios-0" value="1" checked="checked"> Dane testowe </label>
-                                            </div>
-                                            <div class="radio">
-                                                <label for="radios-1">
-                                                    <input type="radio" name="radios" id="radios-1" value="2"> Dane prawdziwe <font color="red">*</font></label>
-                                                <p><strong> <font color="red"> *Upewnij się że wprowadzone dane są prawdziwe -służą do ulepszania modelu!  </font>  </strong> </p>
-                                            </div>
-                                        </div>
-                                </fieldset>
-                            </form>
-                            <!-- Button -->
-                            <div class="form-group">
-                                <label class="col-md-4 control-label" for="prognozuj"></label>
-                                <div class="col-md-4">
-                                    <button id="prognozuj" name="prognozuj" formaction="index2.php" class="btn btn-primary">Prześlij</button>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container -->
-    </section>
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Podsumowanie</h3>
-                    <a href="#"> </a>
-                </div>
-            </div>
+            <h2>Szybkie sprawdzanie</h2>
+            <br>Wystarczy wypełnić krótki formlarz z podstawowymi danymi firmy aby uzyskać odpowiedż jaki jest stan twojego biznesu!
+            <br>
+            <a href="panel/index.php">
+                <bold>Zaloguj</bold>
+            </a>
         </div>
     </aside>
     <!-- Kontakt -->
@@ -266,11 +146,11 @@
                         <p>promotor
                             <br> dr inż. Andrzej Burda</p>
                             </h4>
-                        <h3>Kontakt:</h3>
+                        <br>
+                        <br>
                         <ul class="list-unstyled">
                             <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:andrzejt@kiro.pl">Andrzej Tracz</a> </li>
                         </ul>
-                        <br>
                         <hr class="small">
                         <p class="text-muted">Copyright &copy; Andrzej Tracz 2017</p>
                     </div>

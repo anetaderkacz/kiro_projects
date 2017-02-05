@@ -1,0 +1,17 @@
+Szczegóły
+
+Baza danych została utworzona. Użyj poniższych ustawień:
+
+Baza danych:	mergi_antybankrut
+Host:	localhost
+Nazwa użytkownika:	mergi_admin
+Hasło:	Srebrny@13
+
+
+
+Baza danych:	mergi_antybankrut
+Host:	localhost
+Nazwa użytkownika:	mergi_netusia
+Hasło:	ArusiaKoTeK@1
+
+https://www.kiro.pl/phpmyadmin/

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="waluty">
+        <item>PLN</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>RUB</item>
+    </string-array>
+    
+  <string-array name="waluty1">
+        <item>RUB</item>
+        <item>PLN</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+       
+    </string-array>
+    
+    
+    
+</resources>

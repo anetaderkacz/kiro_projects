@@ -37,74 +37,87 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="AO-1">Aktywa ogółem stan na poczatku roku(tys.zł) </label>
                                 <div class="col-md-4">
-                                    <input id="AO-1" name="AO-1" placeholder="podaj wartość AO-1" class="form-control input-md" required="" type="text"> <span class="help-block">Aktywa ogółem stan na poczatku roku(tys.zł) Tutaj można rozwinąć opis</span> </div>
+                                    <input id="AO-1" name="AO-1" placeholder="podaj wartość AO-1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="AO">Aktywa ogółem stan na koniec roku(tys.zł) </label>
                                 <div class="col-md-4">
-                                    <input id="AO" name="AO" placeholder="podaj wartość AO" class="form-control input-md" required="" type="text"> <span class="help-block">Aktywa ogółem stan na koniec roku(tys.zł)</span> </div>
+                                    <input id="AO" name="AO" placeholder="podaj wartość AO" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="AT">Aktywa trwałe stan na koniec roku(tys.zł) </label>
                                 <div class="col-md-4">
-                                    <input id="AT" name="AT" placeholder="podaj wartość AT" class="form-control input-md" required="" type="text"> <span class="help-block">Aktywa trwałe stan na koniec roku(tys.zł)</span> </div>
+                                    <input id="AT" name="AT" placeholder="podaj wartość AT" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="ZAP">Zapasy stan na koniec roku(tys.zł)</label>
                                 <div class="col-md-4">
-                                    <input id="ZAP" name="ZAP" placeholder="Podaj wartość ZAP" class="form-control input-md" required="" type="text"> <span class="help-block">Zapasy stan na koniec roku(tys.zł)</span> </div>
+                                    <input id="ZAP" name="ZAP" placeholder="Podaj wartość ZAP" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="NKT">Należności krótkoterminowe(tys.zł)</label>
                                 <div class="col-md-4">
-                                    <input id="NKT" name="NKT" placeholder="Podaj wartość NKT" class="form-control input-md" required="" type="text"> <span class="help-block">Należności krótkoterminowe (tys.zł)</span> </div>
+                                    <input id="NKT" name="NKT" placeholder="Podaj wartość NKT" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="KW">Kapitał własny(tys.zł)</label>
                                 <div class="col-md-4">
-                                    <input id="KW" name="KW" placeholder="Podaj wartość KW" class="form-control input-md" required="" type="text"> <span class="help-block">Kapitał własny (tys.zł)</span> </div>
+                                    <input id="KW" name="KW" placeholder="Podaj wartość KW" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="ZD">Zobowiązania długoterminowe(tys.zł)</label>
                                 <div class="col-md-4">
-                                    <input id="ZD" name="ZD" placeholder="Podaj wartość ZD" class="form-control input-md" required="" type="text"> <span class="help-block">Zobowiązania długoterminowe (tys.zł)</span> </div>
+                                    <input id="ZD" name="ZD" placeholder="Podaj wartość ZD" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="PN-1">Przychody netto ze sprzedaży w roku poprzednim (tys.zł)</label>
                                 <div class="col-md-4">
-                                    <input id="PN-1" name="PN-1" placeholder="Podaj wartość PN-1" class="form-control input-md" required="" type="text"> <span class="help-block">Przychody netto ze sprzedaży w roku poprzednim (tys.zł)</span> </div>
+                                    <input id="PN-1" name="PN-1" placeholder="Podaj wartość PN-1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="PN">Przychody netto ze sprzedaży za rok bieżący (tys.zł)</label>
                                 <div class="col-md-4">
-                                    <input id="PN" name="PN" placeholder="Podaj wartość PN" class="form-control input-md" required="" type="text"> <span class="help-block">Przychody netto ze sprzedaży za rok bieżący (tys.zł)</span> </div>
+                                    <input id="PN" name="PN" placeholder="Podaj wartość PN" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="ZO-1">Zatrudnienie-stan na koniec poprzedniego roku (liczba osób)</label>
                                 <div class="col-md-4">
-                                    <input id="ZO-1" name="ZO-1" placeholder="Podaj wartość ZO-1" class="form-control input-md" required="" type="text"> <span class="help-block">Zatrudnienie-stan na koniec poprzedniego roku (liczba osób)</span> </div>
+                                    <input id="ZO-1" name="ZO-1" placeholder="Podaj wartość ZO-1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="ZO">Zatrudnienie-stan na koniec bieżącego roku (liczba osób)</label>
                                 <div class="col-md-4">
-                                    <input id="ZO" name="ZO" placeholder="Podaj wartość ZO" class="form-control input-md" required="" type="text"> <span class="help-block">Zatrudnienie-stan na koniec bieżącego roku (liczba osób)</span> </div>
+                                    <input id="ZO" name="ZO" placeholder="Podaj wartość ZO" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="WFB">Wynik finansowy brutto bieżącego roku (tys.zł)</label>
                                 <div class="col-md-4">
-                                    <input id="WFB" name="WFB" placeholder="Podaj wartość WFB" class="form-control input-md" required="" type="text"> <span class="help-block">Wynik finansowy brutto bieżącego roku (tys.zł)</span> </div>
+                                    <input id="WFB" name="WFB" placeholder="Podaj wartość WFB" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                             </div>
+							<br />
+							<br />
                             <!-- wybór danych -->
                             <form class="form-horizontal">
                                 <fieldset>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2017-02-04 22:59:52
+<?php /* Smarty version 2.6.28, created on 2017-02-05 21:27:06
          compiled from blu/cookie-alert.tpl */ ?>
 <?php if ($this->_tpl_vars['cookie_on'] == '1' && $this->_tpl_vars['cookie_get'] <> '1'): ?>
 <?php echo '

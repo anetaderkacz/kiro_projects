@@ -1,5 +1,4 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400,700&subset=latin,latin-ext');
-
 body{
 	color:#6f6f6f;
 	margin:0;
@@ -439,7 +438,7 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 
 .site_body{
 	margin:10px auto;
-	width:961px;
+	width:1000px;
 	clear: both;
 	overflow: hidden;
 
@@ -449,8 +448,8 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 
 .site_body_left{
 	padding:10px 5px 10px 0px;
-	width:200px;
-	float:left;
+	width:0px;
+
 
 	margin:0 10px 0 0;
 	
@@ -489,8 +488,8 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 
 .site_body_content{
 	padding:10px 10px 10px 5px;
-	width:710px;
-	float:left;
+	width:1000px;
+	
 
 
 }
@@ -505,7 +504,7 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 	font-weight:bold;
 }
 .post{
-	width:700px;
+	width:1000px;
 	margin:0 0px 20px 20px;
 }
 

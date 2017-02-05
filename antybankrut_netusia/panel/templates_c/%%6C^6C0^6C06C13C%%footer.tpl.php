@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2017-02-04 22:59:52
+<?php /* Smarty version 2.6.28, created on 2017-02-05 21:27:06
          compiled from blu/footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'substr', 'blu/footer.tpl', 20, false),)), $this); ?>

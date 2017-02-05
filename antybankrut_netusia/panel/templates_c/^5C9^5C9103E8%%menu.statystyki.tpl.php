@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2017-02-05 21:27:06
+<?php /* Smarty version 2.6.28, created on 2017-02-04 22:59:52
          compiled from blu/menu.statystyki.tpl */ ?>
 <?php echo $this->_tpl_vars['lang'][159]; ?>
 :  <?php echo $this->_tpl_vars['online_user']; ?>

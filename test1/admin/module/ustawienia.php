@@ -6,13 +6,13 @@ echo'
 <table width="1000">
 <tr>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=podstawowe"><b>Podstawowe</b></a> </td>
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=artykuly"><b>Ogłoszenia</b></a> </td>
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=galerie"><b>Zdjęcia</b></a> </td>
+<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=artykuly"><b>Modeli SI</b></a> </td>
+
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=rejestracja"><b>Rejestracja</b></a> </td> 
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=news"><b>News</b></a> </td>
+
 </tr><tr>
 
-<td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=reklama"><b>Reklama</b></a> </td>
+
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=kontakt"><b>Kontakt</b></a> </td>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=regulamin"><b>Regulamin</b></a>  </td>
 <td style="border: 1px solid #DEDEDE;font-size:12px;" class="td_hover" align="center" width="20%" height="25"><a href="index.php?page=ustawienia&action=woj"><b>Wojewodztwa</b></a></td>
@@ -353,26 +353,33 @@ echo'
     
        echo'
 <br><b>Wgraj nowe modele SI:</b><br>
+
+
 <br/>
-    <form action="config.php" method="post" enctype="multipart/form-data">
+    <form action="index.php?page=ustawienia&action=artykuly" method="post" enctype="multipart/form-data">
         <label for="plik_l">Plik LIN:</label>
         <input type="file" name="plik_l" id="plik_l">
         <input type="submit" name="submit" value="Prześlij"> </form>
     
-    <form action="index.php" method="post" enctype="multipart/form-data">
+    <form action="index.php?page=ustawienia&action=artykuly" method="post" enctype="multipart/form-data">
         <label for="plik_m3">Plik MLP3:</label>
         <input type="file" name="plik_m3" id="plik_m3">
         <input type="submit" name="submit" value="Prześlij"> </form>
     
-    <form action="index.php" method="post" enctype="multipart/form-data">
+    <form action="index.php?page=ustawienia&action=artykuly" method="post" enctype="multipart/form-data">
         <label for="plik_m4">Plik MLP4:</label>
         <input type="file" name="plik_m4" id="plik_m4">
         <input type="submit" name="submit" value="Prześlij"> </form>
     
-    <form action="index.php" method="post" enctype="multipart/form-data">
+    <form action="index.php?page=ustawienia&action=artykuly" method="post" enctype="multipart/form-data">
         <label for="plik_rbf">Plik RBF:</label>
         <input type="file" name="plik_rbf" id="plik_rbf">
         <input type="submit" name="submit" value="Prześlij"> </form>
+        
+           <form action="index.php?page=ustawienia&action=artykuly" method="post" enctype="multipart/form-data">
+    <label for="plik_rbf">Plik BBN:</label>
+    <input type="file" name="plik_BBN" id="plik_BBN">
+    <input type="submit" name="submit" value="Prześlij"> </form>
 ';
   //php do obslugi plikow i kompilacji*************start**************
     //Obebranie pliku z kodem z formularza i zapisanie w folderze upload na serwerze. 

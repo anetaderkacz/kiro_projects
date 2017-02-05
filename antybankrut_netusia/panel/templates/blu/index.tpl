@@ -22,15 +22,12 @@
 </script>
 {/literal}
 
-
-
-
-<div class="post">
+<div>
 	<h1>Wskaźniki Przedsiębiorstwa</h1>
 	<div class="entry">
 		<p>
 		<form class="form-horizontal">
-                        <fieldset>
+                        <fieldset class="ramka">
                             <!-- Form Name -->
                             <legend>Wskaźniki Twojego przedsiębiorstwa</legend>
                             <!-- Text input-->
@@ -134,11 +131,12 @@
                                             <div class="radio">
                                                 <label for="radios-1">
                                                     <input type="radio" name="radios" id="radios-1" value="2"> Dane prawdziwe <font color="red">*</font></label>
-                                                <p><strong> <font color="red"> *Upewnij się że wprowadzone dane są prawdziwe -służą do ulepszania modelu!  </font>  </strong> </p>
+                                                <p><strong> <font color="red"> *Upewnij się że wprowadzone dane są prawdziwe służą do ulepszania modelu!  </font>  </strong> </p>
                                             </div>
                                         </div>
                                 </fieldset>
                             </form>
+							<br />
                             <!-- Button -->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="prognozuj"></label>
@@ -147,30 +145,10 @@
                                 </div>
                             </div>
                         </fieldset>
-			{include file="$templa/lista.tpl"}
-
-			{if $podstron>1}
-			<br>
-			<center>
-			<table border="0">
-			<tr>
-			<td class="str_blok" align="center">{if $strona>1}<a href="s1" title="{$lang[363]}"><<</a>{else}<<{/if}</td>
-			<td class="str_blok" align="center">{if $page_m>=1}<a href="s{$page_m}" title="{$lang[364]}: {$page_m}"><</a>{else}<{/if}</td>
-			{section name=strona start=$page_start loop=$page_end step=1}
-
-			<td class="str_blok" align="center"><a href="s{$smarty.section.strona.index+1}">{if $strona==$smarty.section.strona.index+1}<b>{$smarty.section.strona.index+1}</b>{else}{$smarty.section.strona.index+1}{/if}</a></td>
-
-			{/section}
-
-			<td class="str_blok" align="center">{if $page_p<=$podstron}<a href="s{$page_p}"  title="{$lang[364]}: {$page_p}">></a>{else}>{/if}</td>
-			<td class="str_blok" align="center">{if $strona!=$podstron}<a href="s{$podstron}" title="{$lang[365]} ({$podstron})">>></a>{else}>>{/if}</td>
-			</tr>
-			</table>
-			</center>
-			{/if}
+			
+			
 		</p>
 	</div>
 </div>
-		
-{include file="$templa/right.tpl"}
+	</div>	
 {include file="$templa/footer.tpl"}

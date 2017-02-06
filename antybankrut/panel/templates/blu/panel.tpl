@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 {include file="$templa/subheader.tpl"} {include file="$templa/top.tpl"} {include file="$templa/left.tpl"}
+=======
+{include file="$templa/subheader.tpl"} {include file="$templa/top.tpl"}
+>>>>>>> 989198528c0ee5f48f51d5c60cda216cedb79ffe
 <div class="post">
     <h1 class="title">{$lang[172]}</h1>
     <div class="entry">

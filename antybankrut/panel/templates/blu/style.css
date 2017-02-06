@@ -1,5 +1,8 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400,700&subset=latin,latin-ext');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 989198528c0ee5f48f51d5c60cda216cedb79ffe
 body{
 	color:#6f6f6f;
 	margin:0;
@@ -439,7 +442,11 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 
 .site_body{
 	margin:10px auto;
+<<<<<<< HEAD
 	width:961px;
+=======
+	width:1000px;
+>>>>>>> 989198528c0ee5f48f51d5c60cda216cedb79ffe
 	clear: both;
 	overflow: hidden;
 
@@ -449,8 +456,13 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 
 .site_body_left{
 	padding:10px 5px 10px 0px;
+<<<<<<< HEAD
 	width:200px;
 	float:left;
+=======
+	width:0px;
+
+>>>>>>> 989198528c0ee5f48f51d5c60cda216cedb79ffe
 
 	margin:0 10px 0 0;
 	
@@ -489,8 +501,13 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 
 .site_body_content{
 	padding:10px 10px 10px 5px;
+<<<<<<< HEAD
 	width:710px;
 	float:left;
+=======
+	width:1000px;
+	
+>>>>>>> 989198528c0ee5f48f51d5c60cda216cedb79ffe
 
 
 }
@@ -505,7 +522,11 @@ a, a:hover, a:visited, a:link {color:#3f3f3f;}
 	font-weight:bold;
 }
 .post{
+<<<<<<< HEAD
 	width:700px;
+=======
+	width:1000px;
+>>>>>>> 989198528c0ee5f48f51d5c60cda216cedb79ffe
 	margin:0 0px 20px 20px;
 }
 

@@ -1,4 +1,4 @@
-{include file="$templa/subheader.tpl"} {include file="$templa/top.tpl"} {include file="$templa/left.tpl"}
+{include file="$templa/subheader.tpl"} {include file="$templa/top.tpl"}
 <div class="post">
     <h1 class="title">{$lang[172]}</h1>
     <div class="entry">

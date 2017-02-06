@@ -18,7 +18,10 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script> {/literal}
-<div>
+<div class="post">
+    <p> {if $user_id==""}
+        <h1 class="title">{$lang[200]}</h1> {/if} </div>
+<div class="entry"> {if $user_id!=""}
     <h1>Wskaźniki Przedsiębiorstwa</h1>
     <div class="entry">
         <p>
@@ -140,8 +143,7 @@
                             <button id="prognozuj" name="prognozuj" formaction="index2.php" class="btn btn-primary">Prześlij</button>
                         </div>
                     </div>
-                </fieldset>
-        </p>
+                </fieldset> {/if} </p>
         </div>
     </div>
 </div> {include file="$templa/footer.tpl"}

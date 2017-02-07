@@ -140,7 +140,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label" for="prognozuj"></label>
                         <div class="col-md-4">
-                            <button id="prognozuj" name="prognozuj" formaction="index2.php" class="btn btn-primary">Prześlij</button>
+                            <button id="prognozuj" name="prognozuj" formaction="prognoza.php" class="btn btn-primary">Prześlij</button>
                         </div>
                     </div>
                 </fieldset> {/if} </p>

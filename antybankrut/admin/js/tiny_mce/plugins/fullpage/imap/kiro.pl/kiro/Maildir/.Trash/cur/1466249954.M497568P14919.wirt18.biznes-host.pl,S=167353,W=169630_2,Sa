@@ -1,0 +1,1721 @@
+Return-path: <ecommlr@us.ibm.com>
+Envelope-to: kiro@kiro.pl
+Delivery-date: Thu, 16 Jun 2016 04:47:57 +0200
+Received: from mx0b-001b2d01.pphosted.com ([148.163.158.5] helo=mx0a-001b2d01.pphosted.com)
+	by mx2.wirt18.biznes-host.pl with esmtps (TLSv1.2:AES256-SHA:256)
+	(Exim 4.84)
+	(envelope-from <ecommlr@us.ibm.com>)
+	id 1bDNLX-0000Cp-37
+	for kiro@kiro.pl; Thu, 16 Jun 2016 04:47:56 +0200
+Received: from pps.filterd (m0098417.ppops.net [127.0.0.1])
+	by mx0a-001b2d01.pphosted.com (8.16.0.11/8.16.0.11) with SMTP id u5G2lYLn052727
+	for <kiro@kiro.pl>; Wed, 15 Jun 2016 22:48:46 -0400
+Received: from e32.co.us.ibm.com (e32.co.us.ibm.com [32.97.110.150])
+	by mx0a-001b2d01.pphosted.com with ESMTP id 23jgmpkadg-1
+	(version=TLSv1.2 cipher=AES256-SHA bits=256 verify=NOT)
+	for <kiro@kiro.pl>; Wed, 15 Jun 2016 22:48:45 -0400
+Received: from localhost
+	by e32.co.us.ibm.com with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted
+	for <kiro@kiro.pl> from <ecommlr@us.ibm.com>;
+	Wed, 15 Jun 2016 20:48:44 -0600
+Received: from d03dlp01.boulder.ibm.com (9.17.202.177)
+	by e32.co.us.ibm.com (192.168.1.132) with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted;
+	Wed, 15 Jun 2016 20:48:43 -0600
+X-IBM-Helo: d03dlp01.boulder.ibm.com
+X-IBM-MailFrom: ecommlr@us.ibm.com
+X-IBM-RcptTo: kiro@kiro.pl
+Received: from b01cxnp22035.gho.pok.ibm.com (b01cxnp22035.gho.pok.ibm.com [9.57.198.25])
+	by d03dlp01.boulder.ibm.com (Postfix) with ESMTP id 94B591FF0023
+	for <kiro@kiro.pl>; Wed, 15 Jun 2016 20:48:26 -0600 (MDT)
+Received: from b01ledav001.gho.pok.ibm.com (b01ledav001.gho.pok.ibm.com [9.57.199.106])
+	by b01cxnp22035.gho.pok.ibm.com (8.14.9/8.14.9/NCO v10.0) with ESMTP id u5G2mgUT38666370
+	for <kiro@kiro.pl>; Thu, 16 Jun 2016 02:48:42 GMT
+Received: from b01ledav001.gho.pok.ibm.com (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 284622803F
+	for <kiro@kiro.pl>; Wed, 15 Jun 2016 22:48:42 -0400 (EDT)
+Received: from b01ciapp014boot.ahe.pok.ibm.com (unknown [9.57.199.254])
+	by b01ledav001.gho.pok.ibm.com (Postfix) with ESMTP id D2F102803A
+	for <kiro@kiro.pl>; Wed, 15 Jun 2016 22:48:41 -0400 (EDT)
+Received: from b01ciapp014boot (loopback [127.0.0.1])
+	by b01ciapp014boot.ahe.pok.ibm.com (AIX7.1/8.14.4/8.14.4) with ESMTP id u5G2m12C51970218
+	for <kiro@kiro.pl>; Thu, 16 Jun 2016 02:48:41 GMT
+Date: Thu, 16 Jun 2016 02:48:40 +0000 (GMT)
+From: IBM PartnerWorld <ecommlr@us.ibm.com>
+Reply-To: IBM PartnerWorld <emeapw@uk.ibm.com>
+To: kiro@kiro.pl
+Subject: Business Partner Weekly Update
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-TM-AS-GCONF: 00
+X-Content-Scanned: Fidelis XPS MAILER
+x-cbid: 16061602-0004-0000-0000-00000FB2094F
+X-IBM-AV-DETECTION: SAVI=unused REMOTE=unused XFE=unused
+x-cbparentid: 16061602-0005-0000-0000-00007634A38D
+Message-Id: <269619218.5266041466045320440.JavaMail.rrstream@b01ciapp014boot>
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:,, definitions=2016-06-16_01:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 spamscore=0 suspectscore=95
+ malwarescore=0 phishscore=0 adultscore=0 bulkscore=100 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=8.0.1-1604210000
+ definitions=main-1606160032
+X-Antivirus-Scanner: Clean mail though you should still use an Antivirus
+
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"936" border=3D"0" valig=
+n=3D"top" >
+<tr>
+<td colspan=3D"2" ><a href=3D"http://www.ibm.com/partnerworld"><img src=3D"=
+http://www.ibm.com/i/c.gif" width=3D"0" height=3D"0" border=3D"0" ></a>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"background-color:#cccccc;" width=3D"936" height=
+=3D"302" valign=3D"top" ><img src=3D"http://www.ibm.com/partnerworld/images=
+/ecomms/v17/connect_en.gif" width=3D"936" height=3D"62" border=3D"0" usemap=
+=3D#connect alt=3D"Connect with IBM PartnerWorld" ><br><a href=3D"https://w=
+ww.ibm.com/partnerworld/go" ><img src=3D"http://www-2000.ibm.com/partnerwor=
+ld/images/ecomms/v17/PW_Program_6-13_emen.jpg" width=3D"936" height=3D"240"=
+ border=3D"0" alt=3D"Enhanced PartnerWorld Programme. Rich and flexible ben=
+efits portfolio designed to help you grow your business." ></a>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"background-color:#cccccc;" height=3D"12">
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"background-color:#cccccc;" valign=3D"top" align=
+=3D"center"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<tr>=20
+<td style=3D"vertical-align: top;">
+<ul style=3D"list-style-type: none; padding: 0; margin:0">
+<li style=3D"margin:0; background: none; padding: 0">
+<!--1.&#160;Coming Soon - Introduction to the new IBM Digital Content Marke=
+ting (DCM) Benefit--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"300"><tr><td style=3D"border-left:1px solid; border-right:1px so=
+lid; border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; b=
+ackground-color: #ffffff; vertical-align: top;"><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img s=
+rc=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=
+=3D"font-family:arial; font-size:14px; text-decoration:none; color:#999999;=
+">PartnerWorld program</td><td height=3D"40" border=3D"0"><img src=3D"http:=
+//www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></t=
+r><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/=
+partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL=
+&a=3DEC6MEUDT97"style=3D"vertical-align: middle; text-decoration:none;" bor=
+der=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/AA3=
+R8GLA_card.jpg" width=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr=
+><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" b=
+order=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" heigh=
+t=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px;=
+ font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/=
+partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL=
+&a=3DEC6MEUDT97"style=3D"vertical-align: middle; color:#000000; text-decora=
+tion:none;" border=3D"0">Coming Soon - Introduction to the new IBM Digital =
+Content Marketing (DCM) Benefit</a><img src=3D"http://www.ibm.com/i/c.gif" =
+style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img =
+src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr>=
+<td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td>=
+<td style=3D"font-family:arial; font-size: 17px; font-weight: lighter; colo=
+r:#000000; text-decoration:none;">Hear all the details. DCM is moving to th=
+e Zift Solutions platform. Register for the webcast on 21 June today!<br><i=
+mg src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><=
+img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr>=
+<tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"><=
+/td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter;"=
+><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertoo=
+ls/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDT97"style=
+=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D=
+"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/link.jpg" style=3D"=
+vertical-align: middle; text-decoration:none;" border=3D"0">Read more</a><b=
+r><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;"=
+ height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif=
+" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"htt=
+p://www-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif" height=3D=
+"12" border=3D"0"></td></tr></table></td></tr><tr><td style=3D"border-left:=
+1px solid; border-right:1px solid; border-top:1px solid; border-bottom:1px =
+solid; border-color:#cccccc; background-color: #cccccc; vertical-align: top=
+;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td>=
+</tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--2.&#160;SAP HANA on IBM POWER Installation Workshop--><table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"borde=
+r-left:1px solid; border-right:1px solid; border-top:1px solid; border-bott=
+om:1px solid; border-color:#cccccc; background-color: #ffffff; vertical-ali=
+gn: top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td c=
+olspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" heig=
+ht=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size:14px;=
+ text-decoration:none; color:#999999;">PartnerWorld program</td><td height=
+=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" b=
+order=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"=
+newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=
+=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDT9L"style=3D"vertical-a=
+lign: middle; text-decoration:none;" border=3D"0"><img src=3D"http://www-20=
+00.ibm.com/partnerworld/images/cards/A9UAN4EM_card.jpg" width=3D"300" borde=
+r=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D"ht=
+tp://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img =
+src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td styl=
+e=3D"font-family:arial; font-size: 28px; font-weight: lighter;"><a target=
+=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?c=
+md=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDT9L"style=3D"vertical=
+-align: middle; color:#000000; text-decoration:none;" border=3D"0">SAP HANA=
+ on IBM POWER Installation Workshop</a><img src=3D"http://www.ibm.com/i/c.g=
+if" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><=
+img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr>=
+<tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"><=
+/td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter; =
+color:#000000; text-decoration:none;">Enrol now! Seats are limited <br><img=
+ src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><im=
+g src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><t=
+r><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></t=
+d><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter;"><=
+a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools=
+/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDT9L"style=3D"=
+vertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D"htt=
+p://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_link.gif" style=3D"=
+vertical-align: middle; text-decoration:none;" border=3D"0">Read more</a><b=
+r><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;"=
+ height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif=
+" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"htt=
+p://www-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif" height=3D=
+"12" border=3D"0"></td></tr></table></td></tr><tr><td style=3D"border-left:=
+1px solid; border-right:1px solid; border-top:1px solid; border-bottom:1px =
+solid; border-color:#cccccc; background-color: #cccccc; vertical-align: top=
+;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td>=
+</tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--3.&#160;The Weather Company Webcast Series for Business Partners--><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td s=
+tyle=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid=
+; border-bottom:1px solid; border-color:#cccccc; background-color: #ffffff;=
+ vertical-align: top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/=
+i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; fo=
+nt-size:14px; text-decoration:none; color:#999999;">IBM Analytics</td><td h=
+eight=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"=
+15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a targe=
+t=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?=
+cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDT9O"style=3D"vertica=
+l-align: middle; text-decoration:none;" border=3D"0"><img src=3D"http://www=
+-2000.ibm.com/partnerworld/images/cards/AA2MZBSC_card.jpg" width=3D"300" bo=
+rder=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D=
+"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><i=
+mg src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td s=
+tyle=3D"font-family:arial; font-size: 28px; font-weight: lighter;"><a targe=
+t=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?=
+cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDT9O"style=3D"vertica=
+l-align: middle; color:#000000; text-decoration:none;" border=3D"0">The Wea=
+ther Company Webcast Series for Business Partners</a><img src=3D"http://www=
+.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D=
+"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D=
+"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" =
+border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-wei=
+ght: lighter; color:#000000; text-decoration:none;">Learn how your solution=
+s can leverage weather data to help clients excel! <br><img src=3D"http://w=
+ww.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D=
+"font-family:arial; font-size: 17px; font-weight: lighter;"><a target=3D"ne=
+wwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dc=
+tt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDT9O"style=3D"vertical-align=
+: middle; text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.i=
+bm.com/partnerworld/images/ecomms/v17/mem_link.gif" style=3D"vertical-align=
+: middle; text-decoration:none;" border=3D"0">Read more</a><br><img src=3D"=
+http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10"=
+ border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15"=
+ border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.i=
+bm.com/partnerworld/images/ecomms/Banner-white.gif" height=3D"12" border=3D=
+"0"></td></tr></table></td></tr><tr><td style=3D"border-left:1px solid; bor=
+der-right:1px solid; border-top:1px solid; border-bottom:1px solid; border-=
+color:#cccccc; background-color: #cccccc; vertical-align: top;"><img src=3D=
+"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table><=
+/li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--4.&#160;New opportunity and contract to embed IBM Analytics Software in=
+to solutions to grow your cloud business--><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px sol=
+id; border-right:1px solid; border-top:1px solid; border-bottom:1px solid; =
+border-color:#cccccc; background-color: #ffffff; vertical-align: top;"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"><=
+/td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" bord=
+er=3D"0"></td><td style=3D"font-family:arial; font-size:14px; text-decorati=
+on:none; color:#999999;">IBM Analytics</td><td height=3D"40" border=3D"0"><=
+img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr>=
+<tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"htt=
+p://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697=
+602&country=3DPL&a=3DEC6MEUDTA7"style=3D"vertical-align: middle; text-decor=
+ation:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/=
+images/cards/AAGE23SC_card.jpg" width=3D"300" border=3D"0" height=3D"170"><=
+/a></td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif=
+" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.co=
+m/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; =
+font-size: 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"htt=
+p://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697=
+602&country=3DPL&a=3DEC6MEUDTA7"style=3D"vertical-align: middle; color:#000=
+000; text-decoration:none;" border=3D"0">New opportunity and contract to em=
+bed IBM Analytics Software into solutions to grow your cloud business</a><i=
+mg src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" hei=
+ght=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" wi=
+dth=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/=
+c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-=
+size: 17px; font-weight: lighter; color:#000000; text-decoration:none;">Lea=
+rn more about the new IBM Embedded Solution Agreement. <br><img src=3D"http=
+://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"htt=
+p://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img s=
+rc=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=
+=3D"font-family:arial; font-size: 17px; font-weight: lighter;"><a target=3D=
+"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=
+=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTA7"style=3D"vertical-a=
+lign: middle; text-decoration:none;" border=3D"0"><img src=3D"http://www-20=
+00.ibm.com/partnerworld/images/ecomms/v17/mem_link.gif" style=3D"vertical-a=
+lign: middle; text-decoration:none;" border=3D"0">Read more</a><br><img src=
+=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D=
+"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D=
+"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-20=
+00.ibm.com/partnerworld/images/ecomms/Banner-white.gif" height=3D"12" borde=
+r=3D"0"></td></tr></table></td></tr><tr><td style=3D"border-left:1px solid;=
+ border-right:1px solid; border-top:1px solid; border-bottom:1px solid; bor=
+der-color:#cccccc; background-color: #cccccc; vertical-align: top;"><img sr=
+c=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></tab=
+le></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--5.&#160;Are you selling IBM Analytics software and you missed our Visio=
+n Conference Business Partner sessions on 9 May?--><table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:=
+1px solid; border-right:1px solid; border-top:1px solid; border-bottom:1px =
+solid; border-color:#cccccc; background-color: #ffffff; vertical-align: top=
+;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=
+=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"=
+12" border=3D"0"></td><td style=3D"font-family:arial; font-size:14px; text-=
+decoration:none; color:#999999;">IBM Analytics</td><td height=3D"40" border=
+=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></=
+td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" hre=
+f=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=
+=3D10697602&country=3DPL&a=3DEC6MEUDTAB"style=3D"vertical-align: middle; te=
+xt-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partn=
+erworld/images/cards/AAGJ5GSC_card.jpg" width=3D"300" border=3D"0" height=
+=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://=
+www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-fami=
+ly:arial; font-size: 28px; font-weight: lighter;"><a target=3D"newwindow" h=
+ref=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_tra=
+ck=3D10697602&country=3DPL&a=3DEC6MEUDTAB"style=3D"vertical-align: middle; =
+color:#000000; text-decoration:none;" border=3D"0">Are you selling IBM Anal=
+ytics software and you missed our Vision Conference Business Partner sessio=
+ns on 9 May?</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-a=
+lign: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.i=
+bm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"htt=
+p://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-f=
+amily:arial; font-size: 17px; font-weight: lighter; color:#000000; text-dec=
+oration:none;">We are sharing the sessions and content with you, visit Part=
+nerWorld today. <br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" b=
+order=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" b=
+order=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=
+=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; =
+font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTAB"style=3D"vertical-align: middle; text-decoration:none;" bord=
+er=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17=
+/mem_link.gif" style=3D"vertical-align: middle; text-decoration:none;" bord=
+er=3D"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"=
+vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"ht=
+tp://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colsp=
+an=3D"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Ban=
+ner-white.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><=
+td style=3D"border-left:1px solid; border-right:1px solid; border-top:1px s=
+olid; border-bottom:1px solid; border-color:#cccccc; background-color: #ccc=
+ccc; vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--6.&#160;Price change: General price increase for IBM Data Repositories =
+Software - Effective 8 July, 2016--><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; bord=
+er-right:1px solid; border-top:1px solid; border-bottom:1px solid; border-c=
+olor:#cccccc; background-color: #ffffff; vertical-align: top;"><table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr=
+><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"=
+></td><td style=3D"font-family:arial; font-size:14px; text-decoration:none;=
+ color:#999999;">IBM Analytics</td><td height=3D"40" border=3D"0"><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+ colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerwo=
+rld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6M=
+EUDTAI"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0"=
+></a></td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.g=
+if" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.=
+com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial=
+; font-size: 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"h=
+ttp://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D106=
+97602&country=3DPL&a=3DEC6MEUDTAI"style=3D"vertical-align: middle; color:#0=
+00000; text-decoration:none;" border=3D"0">Price change: General price incr=
+ease for IBM Data Repositories Software - Effective 8 July, 2016</a><img sr=
+c=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=
+=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=
+=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.g=
+if" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-siz=
+e: 17px; font-weight: lighter; color:#000000; text-decoration:none;">IBM is=
+ announcing a price increase for select data repositories software in its A=
+nalytics portfolio. <br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"1=
+0" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"1=
+5" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" w=
+idth=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17=
+px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.c=
+om/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=
+=3DPL&a=3DEC6MEUDTAI"style=3D"vertical-align: middle; text-decoration:none;=
+" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecom=
+ms/v17/mem_link.gif" style=3D"vertical-align: middle; text-decoration:none;=
+" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" sty=
+le=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+ colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecom=
+ms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr=
+><tr><td style=3D"border-left:1px solid; border-right:1px solid; border-top=
+:1px solid; border-bottom:1px solid; border-color:#cccccc; background-color=
+: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" he=
+ight=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--7.&#160;Trusted Data Campaign added to DCM Tool--><table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"border-le=
+ft:1px solid; border-right:1px solid; border-top:1px solid; border-bottom:1=
+px solid; border-color:#cccccc; background-color: #ffffff; vertical-align: =
+top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colsp=
+an=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size:14px; t=
+ext-decoration:none; color:#999999;">IBM Analytics</td><td height=3D"40" bo=
+rder=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0=
+"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow"=
+ href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_t=
+rack=3D10697602&country=3DPL&a=3DEC6MEUDTAM"style=3D"vertical-align: middle=
+; text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/p=
+artnerworld/images/cards/AAGLL8SC_card.jpg" width=3D"300" border=3D"0" heig=
+ht=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm=
+.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http:=
+//www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-fa=
+mily:arial; font-size: 28px; font-weight: lighter;"><a target=3D"newwindow"=
+ href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_t=
+rack=3D10697602&country=3DPL&a=3DEC6MEUDTAM"style=3D"vertical-align: middle=
+; color:#000000; text-decoration:none;" border=3D"0">Trusted Data Campaign =
+added to DCM Tool</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"verti=
+cal-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D=
+"font-family:arial; font-size: 17px; font-weight: lighter; color:#000000; t=
+ext-decoration:none;">Take a moment to review the campaign and consider how=
+ you can use it in your second quarter efforts and beyond.  <br><img src=3D=
+"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td=
+ style=3D"font-family:arial; font-size: 17px; font-weight: lighter;"><a tar=
+get=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.ws=
+s?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTAM"style=3D"verti=
+cal-align: middle; text-decoration:none;" border=3D"0"><img src=3D"http://w=
+ww-2000.ibm.com/partnerworld/images/ecomms/v17/mem_link.gif" style=3D"verti=
+cal-align: middle; text-decoration:none;" border=3D"0">Read more</a><br><im=
+g src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" heig=
+ht=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" wid=
+th=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://w=
+ww-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif" height=3D"12" =
+border=3D"0"></td></tr></table></td></tr><tr><td style=3D"border-left:1px s=
+olid; border-right:1px solid; border-top:1px solid; border-bottom:1px solid=
+; border-color:#cccccc; background-color: #cccccc; vertical-align: top;"><i=
+mg src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr>=
+</table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--8.&#160;IBM Analytics in Action Business Partner Newsletter - May 2016-=
+-><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr=
+><td style=3D"border-left:1px solid; border-right:1px solid; border-top:1px=
+ solid; border-bottom:1px solid; border-color:#cccccc; background-color: #f=
+fffff; vertical-align: top;"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ib=
+m.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:ari=
+al; font-size:14px; text-decoration:none; color:#999999;">IBM Analytics</td=
+><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" wid=
+th=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a=
+ target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/=
+p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTB1"style=3D"v=
+ertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D"http=
+://www-2000.ibm.com/partnerworld/images/cards/AANDGXSC_card.jpg" width=3D"3=
+00" border=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><img =
+src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr>=
+<td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td=
+><td style=3D"font-family:arial; font-size: 28px; font-weight: lighter;"><a=
+ target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/=
+p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTB1"style=3D"v=
+ertical-align: middle; color:#000000; text-decoration:none;" border=3D"0">I=
+BM Analytics in Action Business Partner Newsletter - May 2016</a><img src=
+=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D=
+"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D=
+"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif"=
+ width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-size: =
+17px; font-weight: lighter; color:#000000; text-decoration:none;">Stay upda=
+ted on IBM activities, market buzz and new opportunities with this monthly =
+newsletter.  <br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" bord=
+er=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bord=
+er=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D=
+"15" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; fon=
+t-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/part=
+nerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=
+=3DEC6MEUDTB1"style=3D"vertical-align: middle; text-decoration:none;" borde=
+r=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/=
+link.jpg" style=3D"vertical-align: middle; text-decoration:none;" border=3D=
+"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"verti=
+cal-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D=
+"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-w=
+hite.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td st=
+yle=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid;=
+ border-bottom:1px solid; border-color:#cccccc; background-color: #cccccc; =
+vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12"=
+ border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--9.&#160;IBM and Cisco: The most powerful analytics anywhere - Now you c=
+an run them everywhere--><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; border-right:1=
+px solid; border-top:1px solid; border-bottom:1px solid; border-color:#cccc=
+cc; background-color: #ffffff; vertical-align: top;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><=
+img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td =
+style=3D"font-family:arial; font-size:14px; text-decoration:none; color:#99=
+9999;">IBM Analytics</td><td height=3D"40" border=3D"0"><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr>=
+<tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/pa=
+rtnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=
+=3DEC6MEUDTBM"style=3D"vertical-align: middle; text-decoration:none;" borde=
+r=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/AAPDA=
+ESC_card.jpg" width=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr><=
+td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bor=
+der=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; =
+font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTBM"style=3D"vertical-align: middle; color:#000000; text-decorat=
+ion:none;" border=3D"0">IBM and Cisco: The most powerful analytics anywhere=
+ - Now you can run them everywhere</a><img src=3D"http://www.ibm.com/i/c.gi=
+f" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><i=
+mg src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><=
+tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></=
+td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter; c=
+olor:#000000; text-decoration:none;">Welcome to the edge of what's possible=
+ in Internet of Things (IoT)<br><img src=3D"http://www.ibm.com/i/c.gif" hei=
+ght=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" wi=
+dth=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/=
+c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-=
+size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http://w=
+ww.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&c=
+ountry=3DPL&a=3DEC6MEUDTBM"style=3D"vertical-align: middle; text-decoration=
+:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/image=
+s/ecomms/v17/link.jpg" style=3D"vertical-align: middle; text-decoration:non=
+e;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" s=
+tyle=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img s=
+rc=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><=
+td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ec=
+omms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></table></td></=
+tr><tr><td style=3D"border-left:1px solid; border-right:1px solid; border-t=
+op:1px solid; border-bottom:1px solid; border-color:#cccccc; background-col=
+or: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" =
+height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--10.&#160;Calling all SPSS Modeler Users - Your input matters--><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=
+=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid; bo=
+rder-bottom:1px solid; border-color:#cccccc; background-color: #ffffff; ver=
+tical-align: top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=
+<tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.=
+gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-s=
+ize:14px; text-decoration:none; color:#999999;">IBM Analytics</td><td heigh=
+t=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" =
+border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D=
+"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=
+=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTBU"style=3D"vertical-a=
+lign: middle; text-decoration:none;" border=3D"0"><img src=3D"http://www-20=
+00.ibm.com/partnerworld/images/cards/AA29E4SC_card.jpg" width=3D"300" borde=
+r=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D"ht=
+tp://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img =
+src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td styl=
+e=3D"font-family:arial; font-size: 28px; font-weight: lighter;"><a target=
+=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?c=
+md=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTBU"style=3D"vertical=
+-align: middle; color:#000000; text-decoration:none;" border=3D"0">Calling =
+all SPSS Modeler Users - Your input matters</a><img src=3D"http://www.ibm.c=
+om/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></=
+td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></=
+td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weight: l=
+ighter; color:#000000; text-decoration:none;">Please take our brief survey =
+and let us know how IBM SPSS Modeler provides value to your organisation.  =
+<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td=
+><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td=
+></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weight: l=
+ighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/pa=
+rtnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTBU=
+"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img =
+src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/link.jpg" sty=
+le=3D"vertical-align: middle; text-decoration:none;" border=3D"0">Read more=
+</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: mi=
+ddle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i=
+/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=
+=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif" he=
+ight=3D"12" border=3D"0"></td></tr><tr><td colspan=3D"3" height=3D"40" styl=
+e=3D"font-family:arial; font-size:17px; font-weight: lighter;color:#ffffff;=
+ text-decoration:none; background-color: #000000; vertical-align: middle;">=
+<img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/share_bk=
+_en.gif" height=3D"40" width=3D"150" border=3D"0"><a href=3D"https://www.fa=
+cebook.com/sharer/sharer.php?&url=3Dhttp://bit.ly/1svm5cj"><img src=3D"http=
+://www-2000.ibm.com/partnerworld/images/ecomms/v17/facebook_bk.jpg" height=
+=3D"40" width=3D"30" border=3D"0"></a><a href=3D"https://plus.google.com/sh=
+are?url=3Dhttp://bit.ly/1svm5cj"><img src=3D"http://www-2000.ibm.com/partne=
+rworld/images/ecomms/v17/google_bk.jpg" height=3D"40" width=3D"30" border=
+=3D"0"></a><a href=3D"http://www.linkedin.com/shareArticle?url=3Dhttp://bit=
+.ly/1svm5cj&title=3DCalling%20all%20SPSS%20Modeler%20Users%20&#45%20Your%20=
+input%20matters&summary=3DAre%20you%20an%20%23SPSSModeler%20user?%20Take%20=
+this%20survey%20for%20your%20chance%20at%20winning%20$500.%20%23IBMSPSS%20i=
+bm.biz%23SPSSSurvey
+"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/linked=
+in_bk.jpg" height=3D"40" width=3D"30" border=3D"0"></a><a href=3D"http://tw=
+itter.com/share?url=3Dhttp://bit.ly/1svm5cj&text=3DAre%20you%20an%20%23SPSS=
+Modeler%20user?%20Take%20this%20survey%20for%20your%20chance%20at%20winning=
+%20$500.%20%23IBMSPSS%20ibm.biz%23SPSSSurvey
+"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/twitte=
+r_bk.jpg" height=3D"40" width=3D"30" border=3D"0"></a><a href=3D"mailto:?&s=
+ubject=3DCalling%20all%20SPSS%20Modeler%20Users%20&#45%20Your%20input%20mat=
+ters&body=3DThought%20you%20might%20find%20this%20interesting:%20http://bit=
+.ly/1svm5cj%0D%0A%0D%0AShared%20via%20IBM%20PartnerWorld%20News"><img src=
+=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/email_bk.jpg" he=
+ight=3D"40" width=3D"28" border=3D"0"></a></td></tr></table></td></tr><tr><=
+td style=3D"border-left:1px solid; border-right:1px solid; border-top:1px s=
+olid; border-bottom:1px solid; border-color:#cccccc; background-color: #ccc=
+ccc; vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--11.&#160;Replay available - IBM Cognitive Solutions Lab Services - Team=
+ Overview for Business Partners--><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; border=
+-right:1px solid; border-top:1px solid; border-bottom:1px solid; border-col=
+or:#cccccc; background-color: #ffffff; vertical-align: top;"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr>=
+<tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0">=
+</td><td style=3D"font-family:arial; font-size:14px; text-decoration:none; =
+color:#999999;">IBM Analytics</td><td height=3D"40" border=3D"0"><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www=
+.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&cou=
+ntry=3DPL&a=3DEC6MEUDTBX"style=3D"vertical-align: middle; text-decoration:n=
+one;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/=
+cards/A9LDSKSC_card.jpg" width=3D"300" border=3D"0" height=3D"170"></a></td=
+></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=
+=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.g=
+if" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-si=
+ze: 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www=
+.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&cou=
+ntry=3DPL&a=3DEC6MEUDTBX"style=3D"vertical-align: middle; color:#000000; te=
+xt-decoration:none;" border=3D"0">Replay available - IBM Cognitive Solution=
+s Lab Services - Team Overview for Business Partners</a><img src=3D"http://=
+www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=
+=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"1=
+5" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-=
+weight: lighter; color:#000000; text-decoration:none;">Accelerating your ca=
+pability and capacity to successfully implement and deploy IBM software sol=
+utions.<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"=
+0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"=
+0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" b=
+order=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weig=
+ht: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerwor=
+ld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6ME=
+UDTBX"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0">=
+<img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_link=
+.gif" style=3D"vertical-align: middle; text-decoration:none;" border=3D"0">=
+Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-=
+align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.=
+ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3">=
+<img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-white=
+.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td style=
+=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid; bo=
+rder-bottom:1px solid; border-color:#cccccc; background-color: #cccccc; ver=
+tical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" bo=
+rder=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--12.&#160;Cognos Analytics and Watson Analytics: Cloud Attach Play for B=
+usiness Partners--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"300"><tr><td style=3D"border-left:1px solid; border-right:1px soli=
+d; border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; bac=
+kground-color: #ffffff; vertical-align: top;"><table border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=
+=3D"font-family:arial; font-size:14px; text-decoration:none; color:#999999;=
+">IBM Analytics</td><td height=3D"40" border=3D"0"><img src=3D"http://www.i=
+bm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><=
+td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/partner=
+world/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC=
+6MEUDTC1"style=3D"vertical-align: middle; text-decoration:none;" border=3D"=
+0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/AAWD8GSC_c=
+ard.jpg" width=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr><td co=
+lspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"=
+12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; font=
+-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partn=
+erworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3D=
+EC6MEUDTC1"style=3D"vertical-align: middle; color:#000000; text-decoration:=
+none;" border=3D"0">Cognos Analytics and Watson Analytics: Cloud Attach Pla=
+y for Business Partners</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D=
+"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"h=
+ttp://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img=
+ src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td styl=
+e=3D"font-family:arial; font-size: 17px; font-weight: lighter; color:#00000=
+0; text-decoration:none;">Help clients to see and experience the power of C=
+ognos Analytics on the Cloud and Watson Analytics <br><img src=3D"http://ww=
+w.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://w=
+ww.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D=
+"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"fo=
+nt-family:arial; font-size: 17px; font-weight: lighter;"><a target=3D"newwi=
+ndow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&=
+ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTC1"style=3D"vertical-align: m=
+iddle; text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.=
+com/partnerworld/images/ecomms/v17/mem_link.gif" style=3D"vertical-align: m=
+iddle; text-decoration:none;" border=3D"0">Read more</a><br><img src=3D"htt=
+p://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" bo=
+rder=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bo=
+rder=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.=
+com/partnerworld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"=
+></td></tr></table></td></tr><tr><td style=3D"border-left:1px solid; border=
+-right:1px solid; border-top:1px solid; border-bottom:1px solid; border-col=
+or:#cccccc; background-color: #cccccc; vertical-align: top;"><img src=3D"ht=
+tp://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li=
+>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--13.&#160;Reach more customers: Join a Digital Marketing workshop--><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td s=
+tyle=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid=
+; border-bottom:1px solid; border-color:#cccccc; background-color: #ffffff;=
+ vertical-align: top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/=
+i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; fo=
+nt-size:14px; text-decoration:none; color:#999999;">IBM Commerce</td><td he=
+ight=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"1=
+5" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=
+=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?c=
+md=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCH"style=3D"vertical=
+-align: middle; text-decoration:none;" border=3D"0"><img src=3D"http://www-=
+2000.ibm.com/partnerworld/images/cards/A84UF5SV_card.jpg" width=3D"300" bor=
+der=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D"=
+http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><im=
+g src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td st=
+yle=3D"font-family:arial; font-size: 28px; font-weight: lighter;"><a target=
+=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?c=
+md=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCH"style=3D"vertical=
+-align: middle; color:#000000; text-decoration:none;" border=3D"0">Reach mo=
+re customers: Join a Digital Marketing workshop</a><img src=3D"http://www.i=
+bm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0=
+"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0=
+"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bo=
+rder=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weigh=
+t: lighter; color:#000000; text-decoration:none;">Increase your digital mar=
+keting proficiency. Get a jump start on running a digital campaign with lat=
+est IBM Commerce offers and materials.<br><img src=3D"http://www.ibm.com/i/=
+c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i=
+/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.=
+ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:ar=
+ial; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=
+=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=
+=3D10697602&country=3DPL&a=3DEC6MEUDTCH"style=3D"vertical-align: middle; te=
+xt-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partn=
+erworld/images/ecomms/v17/link.jpg" style=3D"vertical-align: middle; text-d=
+ecoration:none;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.c=
+om/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></=
+td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></=
+td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerwo=
+rld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></=
+table></td></tr><tr><td style=3D"border-left:1px solid; border-right:1px so=
+lid; border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; b=
+ackground-color: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.=
+com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--14.&#160;PointSource creates new applications and unifies the user expe=
+rience at Security First--><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; border-right:=
+1px solid; border-top:1px solid; border-bottom:1px solid; border-color:#ccc=
+ccc; background-color: #ffffff; vertical-align: top;"><table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td>=
+<img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td=
+ style=3D"font-family:arial; font-size:14px; text-decoration:none; color:#9=
+99999;">IBM Mobile</td><td height=3D"40" border=3D"0"><img src=3D"http://ww=
+w.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><t=
+r><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/part=
+nerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=
+=3DEC6MEUDTCO"style=3D"vertical-align: middle; text-decoration:none;" borde=
+r=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/AANJ8=
+2JB_card.jpg" width=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr><=
+td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bor=
+der=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; =
+font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTCO"style=3D"vertical-align: middle; color:#000000; text-decorat=
+ion:none;" border=3D"0">PointSource creates new applications and unifies th=
+e user experience at Security First</a><img src=3D"http://www.ibm.com/i/c.g=
+if" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><=
+img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr>=
+<tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"><=
+/td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter; =
+color:#000000; text-decoration:none;">IBM MobileFirst deployment boosts and=
+ transforms mobile customer involvement. <br><img src=3D"http://www.ibm.com=
+/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.co=
+m/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://w=
+ww.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family=
+:arial; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" hre=
+f=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=
+=3D10697602&country=3DPL&a=3DEC6MEUDTCO"style=3D"vertical-align: middle; te=
+xt-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partn=
+erworld/images/ecomms/v17/mem_link.gif" style=3D"vertical-align: middle; te=
+xt-decoration:none;" border=3D"0">Read more</a><br><img src=3D"http://www.i=
+bm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0=
+"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0=
+"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partn=
+erworld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></t=
+r></table></td></tr><tr><td style=3D"border-left:1px solid; border-right:1p=
+x solid; border-top:1px solid; border-bottom:1px solid; border-color:#ccccc=
+c; background-color: #cccccc; vertical-align: top;"><img src=3D"http://www.=
+ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--15.&#160;New Identity Governance and Intelligence campaign to support y=
+our Security marketing activities--><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; bord=
+er-right:1px solid; border-top:1px solid; border-bottom:1px solid; border-c=
+olor:#cccccc; background-color: #ffffff; vertical-align: top;"><table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr=
+><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"=
+></td><td style=3D"font-family:arial; font-size:14px; text-decoration:none;=
+ color:#999999;">IBM Security</td><td height=3D"40" border=3D"0"><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www=
+.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&cou=
+ntry=3DPL&a=3DEC6MEUDTCP"style=3D"vertical-align: middle; text-decoration:n=
+one;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/=
+cards/AAAS59JA_card.jpg" width=3D"300" border=3D"0" height=3D"170"></a></td=
+></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=
+=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.g=
+if" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-si=
+ze: 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www=
+.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&cou=
+ntry=3DPL&a=3DEC6MEUDTCP"style=3D"vertical-align: middle; color:#000000; te=
+xt-decoration:none;" border=3D"0">New Identity Governance and Intelligence =
+campaign to support your Security marketing activities</a><img src=3D"http:=
+//www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" bord=
+er=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bord=
+er=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D=
+"15" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; fon=
+t-weight: lighter; color:#000000; text-decoration:none;">Plan and build you=
+r Identity Governance pipeline with these exciting new marketing materials.=
+<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td=
+><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td=
+></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weight: l=
+ighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/pa=
+rtnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCP=
+"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img =
+src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_link.gif"=
+ style=3D"vertical-align: middle; text-decoration:none;" border=3D"0">Read =
+more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align=
+: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img =
+src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif"=
+ height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td style=3D"bo=
+rder-left:1px solid; border-right:1px solid; border-top:1px solid; border-b=
+ottom:1px solid; border-color:#cccccc; background-color: #cccccc; vertical-=
+align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=
+=3D"0"></td></tr></table></li>
+</ul>
+</td>
+<td width=3D"12px"></td><td style=3D"vertical-align: top;">
+<ul style=3D"list-style-type: none; padding: 0; margin:0">
+<li style=3D"margin:0; background: none; padding: 0">
+<!--16.&#160;Replay available - Security Talk: Combatting the Insider Threa=
+t--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><=
+tr><td style=3D"border-left:1px solid; border-right:1px solid; border-top:1=
+px solid; border-bottom:1px solid; border-color:#cccccc; background-color: =
+#ffffff; vertical-align: top;"><table border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www.=
+ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:a=
+rial; font-size:14px; text-decoration:none; color:#999999;">IBM Security</t=
+d><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" wi=
+dth=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><=
+a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools=
+/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCS"style=3D"=
+vertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D"htt=
+p://www-2000.ibm.com/partnerworld/images/cards/AAVD5JDG_card.jpg" width=3D"=
+300" border=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><img=
+ src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr=
+><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></t=
+d><td style=3D"font-family:arial; font-size: 28px; font-weight: lighter;"><=
+a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools=
+/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCS"style=3D"=
+vertical-align: middle; color:#000000; text-decoration:none;" border=3D"0">=
+Replay available - Security Talk: Combatting the Insider Threat</a><img src=
+=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D=
+"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D=
+"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif"=
+ width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-size: =
+17px; font-weight: lighter; color:#000000; text-decoration:none;">With anal=
+ytics, predictive insight and agility, stop insider breaches before they ta=
+ke root.<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D=
+"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D=
+"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" =
+border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-wei=
+ght: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerwo=
+rld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6M=
+EUDTCS"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0"=
+><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_lin=
+k.gif" style=3D"vertical-align: middle; text-decoration:none;" border=3D"0"=
+>Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical=
+-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www=
+.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"=
+><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-whit=
+e.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td style=
+=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid; bo=
+rder-bottom:1px solid; border-color:#cccccc; background-color: #cccccc; ver=
+tical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" bo=
+rder=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--17.&#160;Share your IBM Security knowledge with your social networks an=
+d beyond--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"300"><tr><td style=3D"border-left:1px solid; border-right:1px solid; borde=
+r-top:1px solid; border-bottom:1px solid; border-color:#cccccc; background-=
+color: #ffffff; vertical-align: top;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http=
+://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-f=
+amily:arial; font-size:14px; text-decoration:none; color:#999999;">IBM Secu=
+rity</td><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.=
+gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=
+=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/part=
+nertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCU"s=
+tyle=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img sr=
+c=3D"http://www-2000.ibm.com/partnerworld/images/cards/A9VKXLDS_card.jpg" w=
+idth=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D =
+"3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td>=
+</tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; font-weight: l=
+ighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/pa=
+rtnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCU=
+"style=3D"vertical-align: middle; color:#000000; text-decoration:none;" bor=
+der=3D"0">Share your IBM Security knowledge with your social networks and b=
+eyond</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: m=
+iddle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/=
+i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www=
+.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:a=
+rial; font-size: 17px; font-weight: lighter; color:#000000; text-decoration=
+:none;">Open Badges allow you to earn and digitally broadcast credentials f=
+or skills achieved with IBM Security. <br><img src=3D"http://www.ibm.com/i/=
+c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i=
+/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.=
+ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:ar=
+ial; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=
+=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=
+=3D10697602&country=3DPL&a=3DEC6MEUDTCU"style=3D"vertical-align: middle; te=
+xt-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partn=
+erworld/images/ecomms/v17/ext_link.gif" style=3D"vertical-align: middle; te=
+xt-decoration:none;" border=3D"0">Read more</a><br><img src=3D"http://www.i=
+bm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0=
+"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0=
+"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partn=
+erworld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></t=
+r></table></td></tr><tr><td style=3D"border-left:1px solid; border-right:1p=
+x solid; border-top:1px solid; border-bottom:1px solid; border-color:#ccccc=
+c; background-color: #cccccc; vertical-align: top;"><img src=3D"http://www.=
+ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--18.&#160;IBM a Leader in 2016 Gartner Magic Quadrant for Enterprise Mob=
+ility Management--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"300"><tr><td style=3D"border-left:1px solid; border-right:1px soli=
+d; border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; bac=
+kground-color: #ffffff; vertical-align: top;"><table border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=
+=3D"font-family:arial; font-size:14px; text-decoration:none; color:#999999;=
+">IBM Security</td><td height=3D"40" border=3D"0"><img src=3D"http://www.ib=
+m.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><t=
+d colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerw=
+orld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6=
+MEUDTCV"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0=
+"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/AAVHDADG_ca=
+rd.jpg" width=3D"300" border=3D"0" height=3D"165"></a></td></tr><tr><td col=
+span =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D=
+"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12"=
+ border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; font-we=
+ight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerw=
+orld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6=
+MEUDTCV"style=3D"vertical-align: middle; color:#000000; text-decoration:non=
+e;" border=3D"0">IBM a Leader in 2016 Gartner Magic Quadrant for Enterprise=
+ Mobility Management</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"ve=
+rtical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http=
+://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img sr=
+c=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=
+=3D"font-family:arial; font-size: 17px; font-weight: lighter; color:#000000=
+; text-decoration:none;">For the fifth consecutive year, IBM has been recog=
+nised as a Leader in the Gartner Magic Quadrant for EMM Suites.<br><img src=
+=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><img sr=
+c=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><t=
+d><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><t=
+d style=3D"font-family:arial; font-size: 17px; font-weight: lighter;"><a ta=
+rget=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.w=
+ss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCV"style=3D"vert=
+ical-align: middle; text-decoration:none;" border=3D"0"><img src=3D"http://=
+www-2000.ibm.com/partnerworld/images/ecomms/v17/ext_link.gif" style=3D"vert=
+ical-align: middle; text-decoration:none;" border=3D"0">Read more</a><br><i=
+mg src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" hei=
+ght=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" wi=
+dth=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://=
+www-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif" height=3D"12"=
+ border=3D"0"></td></tr></table></td></tr><tr><td style=3D"border-left:1px =
+solid; border-right:1px solid; border-top:1px solid; border-bottom:1px soli=
+d; border-color:#cccccc; background-color: #cccccc; vertical-align: top;"><=
+img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr=
+></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--19.&#160;Watch highlights from the IBM Security Summit--><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"b=
+order-left:1px solid; border-right:1px solid; border-top:1px solid; border-=
+bottom:1px solid; border-color:#cccccc; background-color: #ffffff; vertical=
+-align: top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><=
+td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" =
+height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size:1=
+4px; text-decoration:none; color:#999999;">IBM Security</td><td height=3D"4=
+0" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwi=
+ndow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&=
+ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCX"style=3D"vertical-align: m=
+iddle; text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.=
+com/partnerworld/images/cards/AA96H6DG_card.jpg" width=3D"300" border=3D"0"=
+ height=3D"150"></a></td></tr><tr><td colspan =3D "3"><img src=3D"http://ww=
+w.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"=
+http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"fo=
+nt-family:arial; font-size: 28px; font-weight: lighter;"><a target=3D"newwi=
+ndow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&=
+ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTCX"style=3D"vertical-align: m=
+iddle; color:#000000; text-decoration:none;" border=3D"0">Watch highlights =
+from the IBM Security Summit</a><img src=3D"http://www.ibm.com/i/c.gif" sty=
+le=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td=
+ style=3D"font-family:arial; font-size: 17px; font-weight: lighter; color:#=
+000000; text-decoration:none;">IBM Security Summit held on 10 May, focused =
+on cognitive, cloud and collaboration.<br><img src=3D"http://www.ibm.com/i/=
+c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i=
+/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.=
+ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:ar=
+ial; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=
+=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=
+=3D10697602&country=3DPL&a=3DEC6MEUDTCX"style=3D"vertical-align: middle; te=
+xt-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partn=
+erworld/images/ecomms/v17/link.jpg" style=3D"vertical-align: middle; text-d=
+ecoration:none;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.c=
+om/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></=
+td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></=
+td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerwo=
+rld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></=
+table></td></tr><tr><td style=3D"border-left:1px solid; border-right:1px so=
+lid; border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; b=
+ackground-color: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.=
+com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--20.&#160;IBM wins "Best Security Company" and "Best Mobile Security Sol=
+ution" at the 2016 SC Magazine Europe Awards--><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px =
+solid; border-right:1px solid; border-top:1px solid; border-bottom:1px soli=
+d; border-color:#cccccc; background-color: #ffffff; vertical-align: top;"><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3=
+"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" b=
+order=3D"0"></td><td style=3D"font-family:arial; font-size:14px; text-decor=
+ation:none; color:#999999;">IBM Security</td><td height=3D"40" border=3D"0"=
+><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></t=
+r><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"h=
+ttp://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D106=
+97602&country=3DPL&a=3DEC6MEUDTCZ"style=3D"vertical-align: middle; text-dec=
+oration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworl=
+d/images/cards/AAW6XWDG_card.jpg" width=3D"300" border=3D"0" height=3D"175"=
+></a></td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.g=
+if" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.=
+com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial=
+; font-size: 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"h=
+ttp://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D106=
+97602&country=3DPL&a=3DEC6MEUDTCZ"style=3D"vertical-align: middle; color:#0=
+00000; text-decoration:none;" border=3D"0">IBM wins "Best Security Company"=
+ and "Best Mobile Security Solution" at the 2016 SC Magazine Europe Awards<=
+/a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;=
+" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gi=
+f" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; =
+font-size: 17px; font-weight: lighter; color:#000000; text-decoration:none;=
+">This fantastic achievement illustrates IBM's tremendous growth in the sec=
+urity industry in recent years. <br><img src=3D"http://www.ibm.com/i/c.gif"=
+ height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif=
+" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.co=
+m/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; f=
+ont-size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http=
+://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D106976=
+02&country=3DPL&a=3DEC6MEUDTCZ"style=3D"vertical-align: middle; text-decora=
+tion:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/i=
+mages/ecomms/v17/mem_link.gif" style=3D"vertical-align: middle; text-decora=
+tion:none;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.com/i/=
+c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><t=
+d><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></=
+tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerworld/i=
+mages/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></table=
+></td></tr><tr><td style=3D"border-left:1px solid; border-right:1px solid; =
+border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; backgr=
+ound-color: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.com/i=
+/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--21.&#160;Webinar: IBM Security AppExchange Spotlight - Endpoint Protect=
+ion Strategies--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"300"><tr><td style=3D"border-left:1px solid; border-right:1px solid;=
+ border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; backg=
+round-color: #ffffff; vertical-align: top;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=
+=3D"font-family:arial; font-size:14px; text-decoration:none; color:#999999;=
+">IBM Security</td><td height=3D"40" border=3D"0"><img src=3D"http://www.ib=
+m.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><t=
+d colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerw=
+orld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6=
+MEUDTD1"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0=
+"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/AAW7NJDG_ca=
+rd.jpg" width=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr><td col=
+span =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D=
+"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12"=
+ border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; font-we=
+ight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerw=
+orld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6=
+MEUDTD1"style=3D"vertical-align: middle; color:#000000; text-decoration:non=
+e;" border=3D"0">Webinar: IBM Security AppExchange Spotlight - Endpoint Pro=
+tection Strategies</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vert=
+ical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http:/=
+/www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D=
+"font-family:arial; font-size: 17px; font-weight: lighter; color:#000000; t=
+ext-decoration:none;">Find the perfect endpoint protection app pairing. Rep=
+lay of 7 June webcast.<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D=
+"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D=
+"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif"=
+ width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-size: =
+17px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm=
+.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=
+=3DPL&a=3DEC6MEUDTD1"style=3D"vertical-align: middle; text-decoration:none;=
+" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecom=
+ms/v17/ext_link.gif" style=3D"vertical-align: middle; text-decoration:none;=
+" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" sty=
+le=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+ colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecom=
+ms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr=
+><tr><td style=3D"border-left:1px solid; border-right:1px solid; border-top=
+:1px solid; border-bottom:1px solid; border-color:#cccccc; background-color=
+: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" he=
+ight=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--22.&#160;IBM Security App Exchange: Are you ready to create some good p=
+airings?--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"300"><tr><td style=3D"border-left:1px solid; border-right:1px solid; borde=
+r-top:1px solid; border-bottom:1px solid; border-color:#cccccc; background-=
+color: #ffffff; vertical-align: top;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http=
+://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-f=
+amily:arial; font-size:14px; text-decoration:none; color:#999999;">IBM Secu=
+rity</td><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.=
+gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=
+=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/part=
+nertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTD6"s=
+tyle=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img sr=
+c=3D"http://www-2000.ibm.com/partnerworld/images/cards/A9LKVRDG_card.jpg" w=
+idth=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D =
+"3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td>=
+</tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; font-weight: l=
+ighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/pa=
+rtnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTD6=
+"style=3D"vertical-align: middle; color:#000000; text-decoration:none;" bor=
+der=3D"0">IBM Security App Exchange: Are you ready to create some good pair=
+ings?</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: m=
+iddle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/=
+i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www=
+.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:a=
+rial; font-size: 17px; font-weight: lighter; color:#000000; text-decoration=
+:none;">Offer up some great apps that pair well with IBM QRadar or Big Fix =
+to your clients, or create your own. <br><img src=3D"http://www.ibm.com/i/c=
+.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/=
+c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.i=
+bm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:ari=
+al; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=3D=
+"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D1=
+0697602&country=3DPL&a=3DEC6MEUDTD6"style=3D"vertical-align: middle; text-d=
+ecoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerwo=
+rld/images/ecomms/v17/mem_link.gif" style=3D"vertical-align: middle; text-d=
+ecoration:none;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.c=
+om/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></=
+td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></=
+td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerwo=
+rld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></=
+table></td></tr><tr><td style=3D"border-left:1px solid; border-right:1px so=
+lid; border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; b=
+ackground-color: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.=
+com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--23.&#160;Easily configure QRadar with the new QRadar Solution Centre (Q=
+SC)--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"=
+><tr><td style=3D"border-left:1px solid; border-right:1px solid; border-top=
+:1px solid; border-bottom:1px solid; border-color:#cccccc; background-color=
+: #ffffff; vertical-align: top;"><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://ww=
+w.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family=
+:arial; font-size:14px; text-decoration:none; color:#999999;">IBM Security<=
+/td><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" =
+width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"=
+><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertoo=
+ls/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDD"style=
+=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D=
+"http://www-2000.ibm.com/partnerworld/images/cards/A63M9NKK_card.gif" width=
+=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3">=
+<img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr=
+><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"=
+></td><td style=3D"font-family:arial; font-size: 28px; font-weight: lighter=
+;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnert=
+ools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDD"style=
+=3D"vertical-align: middle; color:#000000; text-decoration:none;" border=3D=
+"0">Easily configure QRadar with the new QRadar Solution Centre (QSC)</a><i=
+mg src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" hei=
+ght=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" wi=
+dth=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/=
+c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-=
+size: 17px; font-weight: lighter; color:#000000; text-decoration:none;">Exp=
+lore how the QRadar Solution Centre allows you to configure and quote QRada=
+r quickly and efficiently. <br><img src=3D"http://www.ibm.com/i/c.gif" heig=
+ht=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" wid=
+th=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c=
+.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-s=
+ize: 17px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http://ww=
+w.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&co=
+untry=3DPL&a=3DEC6MEUDTDD"style=3D"vertical-align: middle; text-decoration:=
+none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images=
+/ecomms/v17/mem_link.gif" style=3D"vertical-align: middle; text-decoration:=
+none;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif=
+" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><im=
+g src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><t=
+r><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images=
+/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></table></td=
+></tr><tr><td style=3D"border-left:1px solid; border-right:1px solid; borde=
+r-top:1px solid; border-bottom:1px solid; border-color:#cccccc; background-=
+color: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gi=
+f" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--24.&#160;New IBM Security Certifications and 50&#37; discount offer on =
+certifications in 3Q 2016--><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; border-right=
+:1px solid; border-top:1px solid; border-bottom:1px solid; border-color:#cc=
+cccc; background-color: #ffffff; vertical-align: top;"><table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td=
+><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><t=
+d style=3D"font-family:arial; font-size:14px; text-decoration:none; color:#=
+999999;">IBM Security</td><td height=3D"40" border=3D"0"><img src=3D"http:/=
+/www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr=
+><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTDN"style=3D"vertical-align: middle; text-decoration:none;" bord=
+er=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/A6RL=
+58HS_card.gif" width=3D"300" border=3D"0" height=3D"170"></a></td></tr><tr>=
+<td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bo=
+rder=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; =
+font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTDN"style=3D"vertical-align: middle; color:#000000; text-decorat=
+ion:none;" border=3D"0">New IBM Security Certifications and 50&#37; discoun=
+t offer on certifications in 3Q 2016</a><img src=3D"http://www.ibm.com/i/c.=
+gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td>=
+<img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr=
+><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0">=
+</td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter;=
+ color:#000000; text-decoration:none;">Take advantage of the limited time d=
+iscount offer and check out new IBM Security Certifications available today=
+!<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></t=
+d><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></t=
+d></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weight: l=
+ighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/pa=
+rtnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDN=
+"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img =
+src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_link.gif"=
+ style=3D"vertical-align: middle; text-decoration:none;" border=3D"0">Read =
+more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align=
+: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img =
+src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif"=
+ height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td style=3D"bo=
+rder-left:1px solid; border-right:1px solid; border-top:1px solid; border-b=
+ottom:1px solid; border-color:#cccccc; background-color: #cccccc; vertical-=
+align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=
+=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--25.&#160;ICS Sales Talk: IBM and Genband - 21 June--><table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"border=
+-left:1px solid; border-right:1px solid; border-top:1px solid; border-botto=
+m:1px solid; border-color:#cccccc; background-color: #ffffff; vertical-alig=
+n: top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td co=
+lspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" heigh=
+t=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size:14px; =
+text-decoration:none; color:#999999;">IBM Social</td><td height=3D"40" bord=
+er=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0">=
+</td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" h=
+ref=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_tra=
+ck=3D10697602&country=3DPL&a=3DEC6MEUDTDR"style=3D"vertical-align: middle; =
+text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/par=
+tnerworld/images/cards/A6JF8CHS_card.jpg" width=3D"300" border=3D"0" height=
+=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://=
+www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-fami=
+ly:arial; font-size: 28px; font-weight: lighter;"><a target=3D"newwindow" h=
+ref=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_tra=
+ck=3D10697602&country=3DPL&a=3DEC6MEUDTDR"style=3D"vertical-align: middle; =
+color:#000000; text-decoration:none;" border=3D"0">ICS Sales Talk: IBM and =
+Genband - 21 June</a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"verti=
+cal-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D=
+"font-family:arial; font-size: 17px; font-weight: lighter; color:#000000; t=
+ext-decoration:none;">Attend this Sales Talk to learn about the IBM and Gen=
+band relationship and the opportunity it presents to you as an IBM Business=
+ Partner.<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=
+=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"1=
+5" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-=
+weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partne=
+rworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DE=
+C6MEUDTDR"style=3D"vertical-align: middle; text-decoration:none;" border=3D=
+"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_=
+link.gif" style=3D"vertical-align: middle; text-decoration:none;" border=3D=
+"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"verti=
+cal-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D=
+"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-w=
+hite.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td st=
+yle=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid;=
+ border-bottom:1px solid; border-color:#cccccc; background-color: #cccccc; =
+vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12"=
+ border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--26.&#160;New Talent Management campaigns for your digital marketing tac=
+tics--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300=
+"><tr><td style=3D"border-left:1px solid; border-right:1px solid; border-to=
+p:1px solid; border-bottom:1px solid; border-color:#cccccc; background-colo=
+r: #ffffff; vertical-align: top;"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://w=
+ww.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-famil=
+y:arial; font-size:14px; text-decoration:none; color:#999999;">IBM Social</=
+td><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" w=
+idth=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3">=
+<a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertool=
+s/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDT"style=3D=
+"vertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D"ht=
+tp://www-2000.ibm.com/partnerworld/images/cards/A8X8LPDG_card.jpg" width=3D=
+"300" border=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><im=
+g src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><t=
+r><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></=
+td><td style=3D"font-family:arial; font-size: 28px; font-weight: lighter;">=
+<a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertool=
+s/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDT"style=3D=
+"vertical-align: middle; color:#000000; text-decoration:none;" border=3D"0"=
+>New Talent Management campaigns for your digital marketing tactics</a><img=
+ src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" heigh=
+t=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" widt=
+h=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.=
+gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-si=
+ze: 17px; font-weight: lighter; color:#000000; text-decoration:none;">Creat=
+e your own digital campaigns and start building your pipeline today. <br><i=
+mg src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><=
+img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr>=
+<tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"><=
+/td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter;"=
+><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertoo=
+ls/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDT"style=
+=3D"vertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D=
+"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_link.gif" style=
+=3D"vertical-align: middle; text-decoration:none;" border=3D"0">Read more</=
+a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: midd=
+le;" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c=
+.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D=
+"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-white.gif" heigh=
+t=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td style=3D"border-l=
+eft:1px solid; border-right:1px solid; border-top:1px solid; border-bottom:=
+1px solid; border-color:#cccccc; background-color: #cccccc; vertical-align:=
+ top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"><=
+/td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--27.&#160;Business Partners help clients find Social success--><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=
+=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid; bo=
+rder-bottom:1px solid; border-color:#cccccc; background-color: #ffffff; ver=
+tical-align: top;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=
+<tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.=
+gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-s=
+ize:14px; text-decoration:none; color:#999999;">IBM Social</td><td height=
+=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" b=
+order=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"=
+newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=
+=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDW"style=3D"vertical-a=
+lign: middle; text-decoration:none;" border=3D"0"><img src=3D"http://www-20=
+00.ibm.com/partnerworld/images/cards/AAGLL8SC_card.jpg" width=3D"300" borde=
+r=3D"0" height=3D"170"></a></td></tr><tr><td colspan =3D "3"><img src=3D"ht=
+tp://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img =
+src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td styl=
+e=3D"font-family:arial; font-size: 28px; font-weight: lighter;"><a target=
+=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?c=
+md=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTDW"style=3D"vertical=
+-align: middle; color:#000000; text-decoration:none;" border=3D"0">Business=
+ Partners help clients find Social success</a><img src=3D"http://www.ibm.co=
+m/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></t=
+d><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></t=
+d></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weight: l=
+ighter; color:#000000; text-decoration:none;">Brief references videos show =
+how you can improve customer collaboration. <br><img src=3D"http://www.ibm.=
+com/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm=
+.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http:=
+//www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-fam=
+ily:arial; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" =
+href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_tr=
+ack=3D10697602&country=3DPL&a=3DEC6MEUDTDW"style=3D"vertical-align: middle;=
+ text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/pa=
+rtnerworld/images/ecomms/v17/mem_link.gif" style=3D"vertical-align: middle;=
+ text-decoration:none;" border=3D"0">Read more</a><br><img src=3D"http://ww=
+w.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=
+=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/=
+partnerworld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></t=
+d></tr></table></td></tr><tr><td style=3D"border-left:1px solid; border-rig=
+ht:1px solid; border-top:1px solid; border-bottom:1px solid; border-color:#=
+cccccc; background-color: #cccccc; vertical-align: top;"><img src=3D"http:/=
+/www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--28.&#160;A New Way to Learn: Innovative enablement programme for IBM Co=
+llaboration Solutions Business Partners--><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px sol=
+id; border-right:1px solid; border-top:1px solid; border-bottom:1px solid; =
+border-color:#cccccc; background-color: #ffffff; vertical-align: top;"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"><=
+/td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" bord=
+er=3D"0"></td><td style=3D"font-family:arial; font-size:14px; text-decorati=
+on:none; color:#999999;">IBM Social</td><td height=3D"40" border=3D"0"><img=
+ src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr=
+><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http:/=
+/www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602=
+&country=3DPL&a=3DEC6MEUDTDY"style=3D"vertical-align: middle; text-decorati=
+on:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/ima=
+ges/cards/AAA8TZDG_card.jpg" width=3D"300" border=3D"0" height=3D"155"></a>=
+</td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" w=
+idth=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i=
+/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; fon=
+t-size: 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http:/=
+/www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602=
+&country=3DPL&a=3DEC6MEUDTDY"style=3D"vertical-align: middle; color:#000000=
+; text-decoration:none;" border=3D"0">A New Way to Learn: Innovative enable=
+ment programme for IBM Collaboration Solutions Business Partners</a><img sr=
+c=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=
+=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=
+=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.g=
+if" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; font-siz=
+e: 17px; font-weight: lighter; color:#000000; text-decoration:none;">Sign u=
+p for New Way to Learn Enablement Programme, get access to over 100 web-bas=
+ed technical and sales sessions. <br><img src=3D"http://www.ibm.com/i/c.gif=
+" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gi=
+f" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; =
+font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=3D"htt=
+p://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697=
+602&country=3DPL&a=3DEC6MEUDTDY"style=3D"vertical-align: middle; text-decor=
+ation:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/=
+images/ecomms/v17/ext_link.gif" style=3D"vertical-align: middle; text-decor=
+ation:none;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.com/i=
+/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><=
+td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><=
+/tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerworld/=
+images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></tabl=
+e></td></tr><tr><td style=3D"border-left:1px solid; border-right:1px solid;=
+ border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; backg=
+round-color: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.com/=
+i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--29.&#160;ICS SalesTalk: IBM mail support for Microsoft Outlook on premi=
+ses - 29 June--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"300"><tr><td style=3D"border-left:1px solid; border-right:1px solid; =
+border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; backgr=
+ound-color: #ffffff; vertical-align: top;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=
+=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=
+=3D"font-family:arial; font-size:14px; text-decoration:none; color:#999999;=
+">IBM Social</td><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.=
+com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td =
+colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerwor=
+ld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6ME=
+UDTDZ"style=3D"vertical-align: middle; text-decoration:none;" border=3D"0">=
+<img src=3D"http://www-2000.ibm.com/partnerworld/images/v17e/images/webinar=
+c_300x200.jpg" width=3D"300" border=3D"0" height=3D"200"></a></td></tr><tr>=
+<td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bo=
+rder=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; =
+font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTDZ"style=3D"vertical-align: middle; color:#000000; text-decorat=
+ion:none;" border=3D"0">ICS SalesTalk: IBM mail support for Microsoft Outlo=
+ok on premises - 29 June</a><img src=3D"http://www.ibm.com/i/c.gif" style=
+=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td><img src=
+=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td=
+><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td=
+ style=3D"font-family:arial; font-size: 17px; font-weight: lighter; color:#=
+000000; text-decoration:none;">Wednesday, 29 June at 16:00 UK / 17: 00 CET =
+/ 11:00 EDT<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=
+=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"1=
+5" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-=
+weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partne=
+rworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DE=
+C6MEUDTDZ"style=3D"vertical-align: middle; text-decoration:none;" border=3D=
+"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/mem_=
+link.gif" style=3D"vertical-align: middle; text-decoration:none;" border=3D=
+"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"verti=
+cal-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D=
+"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-w=
+hite.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td st=
+yle=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid;=
+ border-bottom:1px solid; border-color:#cccccc; background-color: #cccccc; =
+vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12"=
+ border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--30.&#160;ICS SalesTalk: IBM Collaboration Solutions and Genband - 21 Ju=
+ne--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"300">=
+<tr><td style=3D"border-left:1px solid; border-right:1px solid; border-top:=
+1px solid; border-bottom:1px solid; border-color:#cccccc; background-color:=
+ #ffffff; vertical-align: top;"><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><img src=3D"http://www=
+.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:=
+arial; font-size:14px; text-decoration:none; color:#999999;">IBM Social</td=
+><td height=3D"40" border=3D"0"><img src=3D"http://www.ibm.com/i/c.gif" wid=
+th=3D"15" border=3D"0"></td></tr><tr><td></td></tr><tr><td colspan=3D"3"><a=
+ target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/partnertools/=
+p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTE1"style=3D"v=
+ertical-align: middle; text-decoration:none;" border=3D"0"><img src=3D"http=
+://www-2000.ibm.com/partnerworld/images/v17e/images/webinarc_300x200.jpg" w=
+idth=3D"300" border=3D"0" height=3D"200"></a></td></tr><tr><td colspan =3D =
+"3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td>=
+</tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=
+=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; font-weight: l=
+ighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerworld/pa=
+rtnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTE1=
+"style=3D"vertical-align: middle; color:#000000; text-decoration:none;" bor=
+der=3D"0">ICS SalesTalk: IBM Collaboration Solutions and Genband - 21 June<=
+/a><img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;=
+" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gi=
+f" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; =
+font-size: 17px; font-weight: lighter; color:#000000; text-decoration:none;=
+">Learn how ICS combined with Genband's cloud telephony and video conferenc=
+ing solutions open up an entire new set of buyers.<br><img src=3D"http://ww=
+w.ibm.com/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://w=
+ww.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D=
+"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"fo=
+nt-family:arial; font-size: 17px; font-weight: lighter;"><a target=3D"newwi=
+ndow" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&=
+ctt_track=3D10697602&country=3DPL&a=3DEC6MEUDTE1"style=3D"vertical-align: m=
+iddle; text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.=
+com/partnerworld/images/ecomms/v17/mem_link.gif" style=3D"vertical-align: m=
+iddle; text-decoration:none;" border=3D"0">Read more</a><br><img src=3D"htt=
+p://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" bo=
+rder=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bo=
+rder=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.=
+com/partnerworld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"=
+></td></tr></table></td></tr><tr><td style=3D"border-left:1px solid; border=
+-right:1px solid; border-top:1px solid; border-bottom:1px solid; border-col=
+or:#cccccc; background-color: #cccccc; vertical-align: top;"><img src=3D"ht=
+tp://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li=
+>
+</ul>
+</td>
+<td width=3D"12px"></td><td style=3D"vertical-align: top;">
+<ul style=3D"list-style-type: none; padding: 0; margin:0">
+<li style=3D"margin:0; background: none; padding: 0">
+<!--31.&#160;SAP HANA on Power Systems for Customers IBM Client Centre Mont=
+pellier - 7 to 8 July 2016--><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; border-righ=
+t:1px solid; border-top:1px solid; border-bottom:1px solid; border-color:#c=
+ccccc; background-color: #ffffff; vertical-align: top;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><t=
+d><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><=
+td style=3D"font-family:arial; font-size:14px; text-decoration:none; color:=
+#999999;">IBM Systems</td><td height=3D"40" border=3D"0"><img src=3D"http:/=
+/www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr=
+><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTE3"style=3D"vertical-align: middle; text-decoration:none;" bord=
+er=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/A4TJ=
+F4EC_card.jpg" width=3D"300" border=3D"0" height=3D"175"></a></td></tr><tr>=
+<td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bo=
+rder=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; =
+font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTE3"style=3D"vertical-align: middle; color:#000000; text-decorat=
+ion:none;" border=3D"0">SAP HANA on Power Systems for Customers IBM Client =
+Centre Montpellier - 7 to 8 July 2016</a><img src=3D"http://www.ibm.com/i/c=
+.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td=
+><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></t=
+r><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"=
+></td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter=
+; color:#000000; text-decoration:none;">Learn how to design, size, deploy a=
+nd operate SAP HANA&#174; on IBM Power Systems<br><img src=3D"http://www.ib=
+m.com/i/c.gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.i=
+bm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"htt=
+p://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-f=
+amily:arial; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow=
+" href=3D"http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_=
+track=3D10697602&country=3DPL&a=3DEC6MEUDTE3"style=3D"vertical-align: middl=
+e; text-decoration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/=
+partnerworld/images/ecomms/v17/link.jpg" style=3D"vertical-align: middle; t=
+ext-decoration:none;" border=3D"0">Read more</a><br><img src=3D"http://www.=
+ibm.com/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"=
+0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"=
+0"></td></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/part=
+nerworld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></=
+tr></table></td></tr><tr><td style=3D"border-left:1px solid; border-right:1=
+px solid; border-top:1px solid; border-bottom:1px solid; border-color:#cccc=
+cc; background-color: #cccccc; vertical-align: top;"><img src=3D"http://www=
+.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--32.&#160;Power your Oracle Workshop for Customers, 5 to 6 July 2016 IBM=
+ Client Centre Montpellier--><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; border-righ=
+t:1px solid; border-top:1px solid; border-bottom:1px solid; border-color:#c=
+ccccc; background-color: #ffffff; vertical-align: top;"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><t=
+d><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><=
+td style=3D"font-family:arial; font-size:14px; text-decoration:none; color:=
+#999999;">IBM Systems</td><td height=3D"40" border=3D"0"><img src=3D"http:/=
+/www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></td></tr=
+><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTE6"style=3D"vertical-align: middle; text-decoration:none;" bord=
+er=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/cards/A4TJ=
+F4EC_card.jpg" width=3D"300" border=3D"0" height=3D"175"></a></td></tr><tr>=
+<td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" bo=
+rder=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=
+=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size: 28px; =
+font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/p=
+artnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&=
+a=3DEC6MEUDTE6"style=3D"vertical-align: middle; color:#000000; text-decorat=
+ion:none;" border=3D"0">Power your Oracle Workshop for Customers, 5 to 6 Ju=
+ly 2016 IBM Client Centre Montpellier</a><img src=3D"http://www.ibm.com/i/c=
+.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><td=
+><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></t=
+r><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"=
+></td><td style=3D"font-family:arial; font-size: 17px; font-weight: lighter=
+; color:#000000; text-decoration:none;">Demonstrate Infrastructure matters =
+for Workloads on Oracle - better price/performance/resiliency/agility on Po=
+wer Systems<br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=
+=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=
+=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"1=
+5" border=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-=
+weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partne=
+rworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&country=3DPL&a=3DE=
+C6MEUDTE6"style=3D"vertical-align: middle; text-decoration:none;" border=3D=
+"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/ext_=
+link.gif" style=3D"vertical-align: middle; text-decoration:none;" border=3D=
+"0">Read more</a><br><img src=3D"http://www.ibm.com/i/c.gif" style=3D"verti=
+cal-align: middle;" height=3D"10" border=3D"0"></td><td><img src=3D"http://=
+www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td colspan=3D=
+"3"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/Banner-w=
+hite.gif" height=3D"12" border=3D"0"></td></tr></table></td></tr><tr><td st=
+yle=3D"border-left:1px solid; border-right:1px solid; border-top:1px solid;=
+ border-bottom:1px solid; border-color:#cccccc; background-color: #cccccc; =
+vertical-align: top;"><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12"=
+ border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--33.&#160;IBM Power systems and storage Summer Camp for Business Partner=
+s 5 to 7 July IBM Client Center Montpellier--><table border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"300"><tr><td style=3D"border-left:1px s=
+olid; border-right:1px solid; border-top:1px solid; border-bottom:1px solid=
+; border-color:#cccccc; background-color: #ffffff; vertical-align: top;"><t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"=
+></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" bo=
+rder=3D"0"></td><td style=3D"font-family:arial; font-size:14px; text-decora=
+tion:none; color:#999999;">IBM Systems</td><td height=3D"40" border=3D"0"><=
+img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr>=
+<tr><td></td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"htt=
+p://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697=
+602&country=3DPL&a=3DEC6MEUDTE7"style=3D"vertical-align: middle; text-decor=
+ation:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/=
+images/cards/A4TJF4EC_card.jpg" width=3D"300" border=3D"0" height=3D"175"><=
+/a></td></tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif=
+" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.co=
+m/i/c.gif" height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; =
+font-size: 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"htt=
+p://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697=
+602&country=3DPL&a=3DEC6MEUDTE7"style=3D"vertical-align: middle; color:#000=
+000; text-decoration:none;" border=3D"0">IBM Power systems and storage Summ=
+er Camp for Business Partners 5 to 7 July IBM Client Center Montpellier</a>=
+<img src=3D"http://www.ibm.com/i/c.gif" style=3D"vertical-align: middle;" h=
+eight=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" =
+width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/=
+i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:arial; fon=
+t-size: 17px; font-weight: lighter; color:#000000; text-decoration:none;">P=
+ower Systems running Open Databases on Linux on Power and Storage with Spec=
+trum Family with focus Flash Systems<br><img src=3D"http://www.ibm.com/i/c.=
+gif" height=3D"10" border=3D"0"></td><td><img src=3D"http://www.ibm.com/i/c=
+.gif" width=3D"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ib=
+m.com/i/c.gif" width=3D"15" border=3D"0"></td><td style=3D"font-family:aria=
+l; font-size: 17px; font-weight: lighter;"><a target=3D"newwindow" href=3D"=
+http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10=
+697602&country=3DPL&a=3DEC6MEUDTE7"style=3D"vertical-align: middle; text-de=
+coration:none;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerwor=
+ld/images/ecomms/v17/ext_link.gif" style=3D"vertical-align: middle; text-de=
+coration:none;" border=3D"0">Read more</a><br><img src=3D"http://www.ibm.co=
+m/i/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></t=
+d><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></t=
+d></tr><tr><td colspan=3D"3"><img src=3D"http://www-2000.ibm.com/partnerwor=
+ld/images/ecomms/Banner-white.gif" height=3D"12" border=3D"0"></td></tr></t=
+able></td></tr><tr><td style=3D"border-left:1px solid; border-right:1px sol=
+id; border-top:1px solid; border-bottom:1px solid; border-color:#cccccc; ba=
+ckground-color: #cccccc; vertical-align: top;"><img src=3D"http://www.ibm.c=
+om/i/c.gif" height=3D"12" border=3D"0"></td></tr></table></li>
+<li style=3D"margin:0; background: none; padding: 0">
+<!--34.&#160;New Demo - Optimise your Spark workload with IBM Platform Cond=
+uctor for Spark=C2=A0--><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"300"><tr><td style=3D"border-left:1px solid; border-right:1=
+px solid; border-top:1px solid; border-bottom:1px solid; border-color:#cccc=
+cc; background-color: #ffffff; vertical-align: top;"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tr><td colspan=3D"3"></td></tr><tr><td><=
+img src=3D"http://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td><td =
+style=3D"font-family:arial; font-size:14px; text-decoration:none; color:#99=
+9999;">IT service management</td><td height=3D"40" border=3D"0"><img src=3D=
+"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td></tr><tr><td></=
+td></tr><tr><td colspan=3D"3"><a target=3D"newwindow" href=3D"http://www.ib=
+m.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&countr=
+y=3DPL&a=3DEC6MEUDTE9"style=3D"vertical-align: middle; text-decoration:none=
+;" border=3D"0"><img src=3D"http://www-2000.ibm.com/partnerworld/images/car=
+ds/A4TJF4EC_card.jpg" width=3D"300" border=3D"0" height=3D"175"></a></td></=
+tr><tr><td colspan =3D "3"><img src=3D"http://www.ibm.com/i/c.gif" width=3D=
+"15" border=3D"0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif"=
+ height=3D"12" border=3D"0"></td><td style=3D"font-family:arial; font-size:=
+ 28px; font-weight: lighter;"><a target=3D"newwindow" href=3D"http://www.ib=
+m.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602&countr=
+y=3DPL&a=3DEC6MEUDTE9"style=3D"vertical-align: middle; color:#000000; text-=
+decoration:none;" border=3D"0">New Demo - Optimise your Spark workload with=
+ IBM Platform Conductor for Spark=C2=A0</a><img src=3D"http://www.ibm.com/i=
+/c.gif" style=3D"vertical-align: middle;" height=3D"10" border=3D"0"></td><=
+td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"0"></td><=
+/tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"=
+0"></td><td style=3D"font-family:arial; font-size: 17px; font-weight: light=
+er; color:#000000; text-decoration:none;">Optimise your Spark workload with=
+ IBM Platform Conductor for Spark - Multi-tenancy, multi-users and multi-ve=
+rsions <br><img src=3D"http://www.ibm.com/i/c.gif" height=3D"10" border=3D"=
+0"></td><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" border=3D"=
+0"></td></tr><tr><td><img src=3D"http://www.ibm.com/i/c.gif" width=3D"15" b=
+order=3D"0"></td><td style=3D"font-family:arial; font-size: 17px; font-weig=
+ht: lighter;"><a target=3D"newwindow" href=3D"http://www.ibm.com/partnerwor=
+ld/partnertools/p.wss?cmd=3Dctt&ctt_track=3D10697602

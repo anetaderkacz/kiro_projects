@@ -1,0 +1,311 @@
+AWSTATS DATA FILE 7.5 (build 20160127)
+# If you remove this file, all statistics for date 201701 will be lost/reset.
+# Last config file used to build this data file was /home/mergi/domains/kiro.pl/awstats/antybankrut/.data/awstats.antybankrut.kiro.pl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2113                
+POS_TIME 2785                
+POS_VISITOR 6740                
+POS_DAY 7754                
+POS_DOMAIN 3386                
+POS_LOGIN 3617                
+POS_ROBOT 3772                
+POS_WORMS 4011                
+POS_EMAILSENDER 4142                
+POS_EMAILRECEIVER 4285                
+POS_SESSION 8134                
+POS_SIDER 8330                
+POS_FILETYPES 4420                
+POS_DOWNLOADS 4612                
+POS_OS 4660                
+POS_BROWSER 4803                
+POS_SCREENSIZE 4945                
+POS_UNKNOWNREFERER 5019                
+POS_UNKNOWNREFERERBROWSER 5201                
+POS_ORIGIN 5378                
+POS_SEREFERRALS 5515                
+POS_PAGEREFS 5659                
+POS_SEARCHWORDS 5873                
+POS_KEYWORDS 6025                
+POS_MISC 2449                
+POS_ERRORS 6084                
+POS_CLUSTER 3473                
+POS_SIDER_403 6185                
+POS_SIDER_400 6267                
+POS_SIDER_404 6349                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170202221253 1 0 11525028960796
+FirstTime 20170114204731
+LastTime 20170131231301
+LastUpdate 20170203001222 1 0 0 0 0
+TotalVisits 44                  
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 24                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 9 23 846775 0 5 0
+9 2 9 364017 0 1 0
+10 3 10 364603 0 1 0
+11 6 13 367129 0 1 0
+12 4 4 9643 0 2 0
+13 21 37 760875 5 12 7691
+14 3 10 364707 9 11 7070
+15 10 24 729444 3 7 582
+16 6 16 460318 0 1 0
+17 3 10 368685 0 3 0
+18 13 42 1472940 0 4 0
+19 4 11 363932 0 2 0
+20 8 24 737935 0 4 0
+21 16 16 14490 7 13 6159
+22 65 115 2598610 12 33 395992
+23 38 74 1862648 1 7 882
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 211 438 11686751
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+googlebot 9 378745 20170121224513 0
+facebook 5 9875 20170127140434 0
+w3c_validator 1 4811 20170121224500 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 165 367567 0 0
+css 91 969643 0 0
+png 8 16944 0 0
+js 64 1540235 0 0
+jpg 64 6838204 0 0
+woff2 45 1882380 0 0
+woff 1 71778 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linuxandroid 33 12
+winxp 9 2
+win10 241 147
+Unknown 5 5
+win8.1 9 2
+win7 141 43
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+firefox50.0 27 6
+chrome55.0.2883.87 384 192
+Unknown 5 5
+android 9 2
+chrome55.0.2883.91 13 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Validator.nu/LV_http://validator.w3.org/services 20170121224840
+Validator.nu/LV 20170121230459
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Validator.nu/LV_http://validator.w3.org/services 20170121224840
+Validator.nu/LV 20170121230459
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 115 115
+From1 0 0
+From2 0 0
+From3 6 6
+From4 90 317
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://quirktools.com/screenfly/ 4 4
+https://www.facebook.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 15 2910
+404 25 22035
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/index.php 7 http://antybankrut.kiro.pl/config.php
+/css/bootstrap.min.css.map 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 24
+62.244.131.92 77 120 1951956 20170126132536
+77.254.235.13 54 91 1900779 20170114234246
+46.186.0.176 34 90 2885733 20170128180852
+80.55.107.158 7 21 728620 20170124092915
+212.182.99.98 6 13 367129 20170115115559
+62.244.145.34 5 19 725578 20170131231301
+62.244.131.176 3 3 671 20170116205214
+185.54.59.33 2 9 363932 20170120133635
+66.102.9.30 2 4 334414 20170122080324
+128.30.52.96 2 2 9622 20170121224840
+46.226.110.52 1 1 4811 20170121230459
+66.220.145.246 1 5 134750 20170121224351
+66.220.145.243 1 4 229267 20170121224353
+94.254.225.116 1 1 57050 20170122080324
+66.102.9.5 0 1 24287 
+178.212.127.69 2 9 363932 20170115184543
+178.212.127.208 2 9 363932 20170117173022
+128.30.52.134 1 1 4811 20170121224524
+89.74.64.117 2 9 363932 20170117104955
+128.30.52.72 1 1 4811 20170121224524
+94.254.225.213 1 1 57050 20170120165048
+94.254.227.101 2 9 378660 20170115132432
+66.102.9.2 2 6 67092 20170122080323
+178.212.120.22 2 9 363932 20170116085800
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20170114 57 101 2268917 2
+20170115 20 41 1111972 5
+20170116 7 21 728535 4
+20170117 7 21 728535 4
+20170120 7 28 1148846 5
+20170121 33 82 2835652 11
+20170122 3 3 118911 3
+20170123 2 2 0 1
+20170124 4 18 728034 2
+20170125 44 62 530723 1
+20170126 17 20 30451 2
+20170127 2 9 364036 1
+20170128 6 21 731268 2
+20170131 2 9 360871 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+5mn-15mn 2
+0s-30s 32
+2mn-5mn 2
+15mn-30mn 1
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 71 272258 34 12
+/install.php 54 61718 1 4
+/font-awesome/fonts/fontawesome-webfont.woff2 45 1882380 6 20
+/config.php 17 11672 3 5
+/index2.php 13 15039 0 1
+/bbn.php 6 1580 0 1
+/admin/ 4 5300 0 0
+/font-awesome/fonts/fontawesome-webfont.woff 1 71778 0 1
+END_SIDER

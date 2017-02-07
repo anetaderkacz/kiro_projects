@@ -1,0 +1,508 @@
+Return-Path: <7x16744.36390809.1082666361@news.spacemail.pl>
+Delivered-To: kiro@kiro.pl
+Received: from s20.hekko.net.pl
+	by s20.hekko.net.pl (Dovecot) with LMTP id eUxnAYTldli13AAAb9fnRQ
+	for <kiro@kiro.pl>; Thu, 12 Jan 2017 03:10:12 +0100
+Return-path: <7x16744.36390809.1082666361@news.spacemail.pl>
+Received: from smtp02.expandmail.pl ([185.70.36.11])
+	by s20.hekko.net.pl with esmtp (Exim 4.87)
+	(envelope-from <7x16744.36390809.1082666361@news.spacemail.pl>)
+	id 1cRUqB-000FXz-Qg
+	for kiro@kiro.pl; Thu, 12 Jan 2017 03:10:11 +0100
+Received: from smtp02.expandmail.pl (smtp02.expandmail.pl [185.70.36.11])
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=spacemail.pl;
+	s=default; t=1484187011; bh=llDF5O7LbVFk2klcWAtvvNz33ns=;
+	h=From:To:Reply-To:Date:Subject;
+	b=SHhl5cNDkfXMswE8S8WDbNe9HVs7ZU1c8pyETSZTwymE7SJMYCsopvAi5Ug3xGJJL
+	 KoGQvhGeVs1VavX51JTebu+PJByqH6bIXcAx+2GnjGXpf3dP5d0KBf+ZIp1ycuf39Q
+	 3F+yxGLhU5eIt7nsiK3HFB4lwlNNctKl0Au5MQ9E=
+From: "Monster Polska" <mailing@raz2.com.pl> 
+To: "kiro@kiro.pl" <kiro@kiro.pl>
+Reply-To: mailing@raz2.com.pl
+Date: Thu, 12 Jan 2017 03:10:11 +0100
+Subject: =?utf-8?B?VHlzacSFY2Ugb2ZlcnQgcHJhY3kgdyBUd29pbSB3b2pld8OzZHp0d2llLiBTcHJhd2TFuiE=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_=aspNetEmail=_8f6cfea591714c6d838ccfcad66febed"
+Precedence: bulk
+Feedback-ID: :36390809:16744:spacemail.pl
+X-Sid: 20170112.031011.8238@spacemail.pl
+Message-ID: <7x16744.36390809.1082666361@news.spacemail.pl>
+SPFCheck: Server passes SPF test, -30 Spam score
+Forward-Confirmed-ReverseDNS: Reverse and forward lookup success on 185.70.36.11, -10 Spam score
+X-DKIM: signer='spacemail.pl' status='pass' reason=''
+DKIMCheck: Server passes DKIM test, -20 Spam score
+SpamTally: Final spam score: -60
+X-Antivirus-Scanner: Clean mail though you should still use an Antivirus
+
+--_=aspNetEmail=_8f6cfea591714c6d838ccfcad66febed
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0AWiadomo=C5=9B=C4=87 wys=C5=82ana przez serwis raz2=2Ecom=2Epl na zlece=
+nie S=C4=85d Rejonowy dla m=2Est=2E Warszawy XIII Wydzia=C5=82 Gospodarcz=
+y Krajowego Rejestru S=C4=85dowego KRS:0000026127 =7C NIP: 527-22-29-937 =
+=7C Kapita=C5=82 zak=C5=82adowy: 100=2E000 PLN REGON: 014963940 MONSTER P=
+OLSKA Sp=2E z o=2Eo=2E =7C Al=2E Jerozolimskie 96 =7C 00-807 Warszawa=2E =
+Zgodnie z dzia=C5=82alno=C5=9Bci=C4=85 serwisu, dysponujesz prawem dost=C4=
+=99pu, zmiany, sprostowania i usuwania swoich informacji osobowych=2E Mo=C5=
+=BCesz tego dokona=C4=87 tutaj=2E Pozostaj=C4=85c w serwisie raz2=2Ecom=2E=
+pl zachowujesz dost=C4=99p do atrakcyjnych ofert=2E W przypadku pyta=C5=84=
+ dotycz=C4=85cych prezentowanych produkt=C3=B3w i us=C5=82ug, prosimy o z=
+wracanie si=C4=99 bezpo=C5=9Brednio do reklamodawcy=2E Informujemy, =C5=BC=
+e u=C5=BCywamy cookies i podobnych technologii m=2Ein=2E w celach: =C5=9B=
+wiadczenia us=C5=82ug, reklamy, statystyk=2E Informujemy, =C5=BCe bez zmi=
+any ustawie=C5=84 Twojej przegl=C4=85darki oznacza, =C5=BCe b=C4=99d=C4=85=
+ one umieszczane w Twoim urz=C4=85dzeniu ko=C5=84cowym=2E Pami=C4=99taj, =
+=C5=BCe zawsze mo=C5=BCesz zmieni=C4=87 te ustawienia=2E=0D=0A
+
+--_=aspNetEmail=_8f6cfea591714c6d838ccfcad66febed
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<=21DOCTYPE html>=0A<html>=0A    <head>=0A        <title>Monster</title>=0A=
+        <meta http-equiv=3D=22Content-Type=22 content=3D=22text/html; cha=
+rset=3Dutf-8=22 />=0A        <base href=3D=22http://templates=2Espacemail=
+=2Epl/16744/3f36412e-05ff-4c62-91d9-acd0e94b7594/=22 />=0A    </head>=0A =
+   <body margintop=3D=220=22 marginleft=3D=220=22 marginright=3D=220=22 s=
+tyle=3D=22background-color: =23f5f5f5;=22>=0A        <table width=3D=2210=
+0=25=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22 styl=
+e=3D=22background-color: =23f5f5f5;=22>=0A            <tbody>=0A         =
+       <tr>=0A                    <td align=3D=22center=22 style=3D=22bac=
+kground-color: =23f5f5f5;=22>=0A                    <table width=3D=22100=
+=25=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22 style=
+=3D=22background-color: =23642891;=22>=0A                        <tbody>=0A=
+                            <tr>=0A                                <td st=
+yle=3D=22width: 100=25; height: 10px;=22></td>=0A                        =
+    </tr>=0A                        </tbody>=0A                    </tabl=
+e>=0A                    <table width=3D=22644=22 border=3D=220=22 cellsp=
+acing=3D=220=22 cellpadding=3D=220=22 align=3D=22center=22 class=3D=22wra=
+pto100pc=22>=0A                        <tbody>=0A                        =
+    <tr>=0A                                <td>=0A                       =
+         <table width=3D=22100=25=22 border=3D=220=22 cellspacing=3D=220=22=
+ cellpadding=3D=220=22 class=3D=22wrapto100pc=22>=0A                     =
+               <tbody>=0A                                        <tr>=0A =
+                                           <td class=3D=22h15=22 style=3D=
+=22width: 100=25; height: 30px;=22></td>=0A                              =
+          </tr>=0A                                    </tbody>=0A        =
+                        </table>=0A                                <table=
+ class=3D=22wrapto100pc=22 width=3D=22638=22 cellspacing=3D=220=22 cellpa=
+dding=3D=220=22 border=3D=220=22 style=3D=22background-color: =23ffffff;=22=
+>=0A                                    <tbody>=0A                       =
+                 <tr>=0A                                            <td v=
+align=3D=22top=22 align=3D=22center=22 style=3D=22width: 638px;=22>=0A   =
+                                         <table class=3D=22wrapto100pc=22=
+ width=3D=22638=22 cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=22=
+0=22 style=3D=22border:1px solid =23d2d2d2;=22>=0A                       =
+                         <tbody>=0A                                      =
+              <tr>=0A                                                    =
+    <td style=3D=22width: 100=25; height: 40px;=22></td>=0A              =
+                                      </tr>=0A                           =
+                         <tr>=0A                                         =
+               <td style=3D=22width: 100=25; height: 30px;=22>=0A        =
+                                                <table class=3D=22wrapto1=
+00pc=22 width=3D=22638=22 cellspacing=3D=220=22 cellpadding=3D=220=22 bor=
+der=3D=220=22 style=3D=22background-color: =23ffffff;=22>=0A             =
+                                               <tbody>=0A                =
+                                                <tr>=0A                  =
+                                                  <td valign=3D=22top=22 =
+align=3D=22center=22 style=3D=22width: 30px;=22></td>=0A                 =
+                                                   <td valign=3D=22top=22=
+ align=3D=22center=22 style=3D=22font-family: Tahoma, Geneva, sans-serif;=
+ font-size: 26px; line-height: 35px; color: =23555555; text-align: center=
+;=22>=0A                                                                 =
+   Monster wyczuwa Tw=C3=B3j talent=2E=0A                                =
+                                    <br />=0A                            =
+                                        Uwolnij jego si=C5=82y w=26nbsp;p=
+oszukiwaniu pracy=21=0A                                                  =
+                  </td>=0A                                               =
+                     <td valign=3D=22top=22 align=3D=22center=22 style=3D=
+=22width: 30px;=22></td>=0A                                              =
+                  </tr>=0A                                               =
+             </tbody>=0A                                                 =
+       </table>=0A                                                       =
+ </td>=0A                                                    </tr>=0A    =
+                                                <tr>=0A                  =
+                                      <td style=3D=22width: 100=25; heigh=
+t: 40px;=22></td>=0A                                                    <=
+/tr>=0A                                                    <tr>=0A       =
+                                                 <td style=3D=22font-fami=
+ly: Tahoma, Geneva, sans-serif;=22 valign=3D=22top=22>=0A                =
+                                        <a href=3D=22http://news=2Espacem=
+ail=2Epl/app/panel/Redirect=2Easpx?link_id=3DEF00A725-6AC7-4DC3-86C2-25D5=
+AF4F62CC=26mail_id=3D5E03712A-439F-4839-8DB1-40419BFD737D=26d=3D7A2AC4F5-=
+7410-41E1-9389-81D86310E0A7=26site=3DaHR0cCUzYSUyZiUyZnMueHlhLnBsJTJmZmUw=
+ZGFjMTAtZDczOS0xMWU2LWE4NTgtNGJhZjViZmYzM2NiJTJmdzVPUzl3SlhJOElCNnFmJTJmJ=
+TIzJTIzc3RyaW5nMSUyMyUyMyUyZnczTHI1UzVuUklCNjJRbyUyZklOTi5odG1sJTNmX21kNV=
+8lM2QlMjMlMjNzdHJpbmc0JTIzJTIz=22 target=3D=22_blank=22><img alt=3D=22Mon=
+sterpolska=22 class=3D=22wrapto100pc=22 src=3D=22http://templates=2Espace=
+mail=2Epl/16744/3f36412e-05ff-4c62-91d9-acd0e94b7594/newsletter-hero-pl-m=
+onster=2Ejpg=22 style=3D=22display: block; border-width: 0px; border-styl=
+e: solid;=22 width=3D=22638=22 /></a></td>=0A                            =
+                        </tr>=0A                                         =
+           <tr>=0A                                                       =
+ <td style=3D=22width: 100=25; height: 50px;=22></td>=0A                 =
+                                   </tr>=0A                              =
+                      <tr>=0A                                            =
+            <td style=3D=22width: 100=25; height: 30px;=22>=0A           =
+                                             <table class=3D=22wrapto100p=
+c=22 width=3D=22638=22 cellspacing=3D=220=22 cellpadding=3D=220=22 border=
+=3D=220=22 style=3D=22background-color: =23ffffff;=22>=0A                =
+                                            <tbody>=0A                   =
+                                             <tr>=0A                     =
+                                               <td valign=3D=22top=22 ali=
+gn=3D=22center=22 style=3D=22width: 30px;=22></td>=0A                    =
+                                                <td valign=3D=22top=22 al=
+ign=3D=22center=22 style=3D=22font-family: Tahoma, Geneva, sans-serif; fo=
+nt-size: 26px; line-height: 35px; color: =23555555; text-align: center;=22=
+>=0A                                                                    P=
+onad 200=26nbsp;000 ofert pracy w=26nbsp;Polsce i=26nbsp;za=26nbsp;granic=
+=C4=85 czeka w=C5=82a=C5=9Bnie na=26nbsp;Ciebie=2E=0A                    =
+                                                </td>=0A                 =
+                                                   <td valign=3D=22top=22=
+ align=3D=22center=22 style=3D=22width: 30px;=22></td>=0A                =
+                                                </tr>=0A                 =
+                                           </tbody>=0A                   =
+                                     </table>=0A                         =
+                               </td>=0A                                  =
+                  </tr>=0A                                               =
+     <tr>=0A                                                        <td s=
+tyle=3D=22width: 100=25; height: 40px;=22></td>=0A                       =
+                             </tr>=0A                                    =
+                <tr>=0A                                                  =
+      <td style=3D=22width: 100=25; height: 30px;=22>=0A                 =
+                                       <table class=3D=22wrapto100pc=22 w=
+idth=3D=22638=22 cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=22=
+0=22 style=3D=22background-color: =23ffffff;=22>=0A                      =
+                                      <tbody>=0A                         =
+                                       <tr>=0A                           =
+                                         <td valign=3D=22top=22 align=3D=22=
+center=22 style=3D=22width: 30px;=22></td>=0A                            =
+                                        <td valign=3D=22top=22 align=3D=22=
+center=22>=0A                                                            =
+        <table width=3D=22100=25=22 cellspacing=3D=220=22 cellpadding=3D=22=
+0=22 border=3D=220=22 style=3D=22background-color: =23ffffff;=22>=0A     =
+                                                                   <tbody=
+>=0A                                                                     =
+       <tr>=0A                                                           =
+                     <td style=3D=22width: 45=25;=22>=0A                 =
+                                                               <table wid=
+th=3D=22100=25=22 cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=22=
+0=22 style=3D=22background-color: =23ffffff;=22>=0A                      =
+                                                              <tbody>=0A =
+                                                                         =
+              <tr>=0A                                                    =
+                                        <td style=3D=22font-family: Tahom=
+a, Geneva, sans-serif; font-size: 19px; line-height: 25px; color: =23ffff=
+ff; border: 1px solid =2300aff0; text-align: center; font-weight: normal;=
+ padding: 15px; vertical-align: middle; background: =2300aff0;=22 valign=3D=
+=22middle=22>=0A                                                         =
+                                   <a target=3D=22_blank=22 href=3D=22htt=
+p://news=2Espacemail=2Epl/app/panel/Redirect=2Easpx?link_id=3D2B839A40-D1=
+FB-4CC6-AA0C-DC8C810B5DD6=26mail_id=3D5E03712A-439F-4839-8DB1-40419BFD737=
+D=26d=3D7A2AC4F5-7410-41E1-9389-81D86310E0A7=26site=3DaHR0cCUzYSUyZiUyZnM=
+ueHlhLnBsJTJmZmUwZGFjMTAtZDczOS0xMWU2LWE4NTgtNGJhZjViZmYzM2NiJTJmdzVPUzl3=
+SlhJOElCNnFmJTJmJTIzJTIzc3RyaW5nMSUyMyUyMyUyZnczTHI1UzVuUklCNjJRbyUyZklOT=
+i5odG1sJTNmX21kNV8lM2QlMjMlMjNzdHJpbmc0JTIzJTIz=22 style=3D=22color: =23f=
+fffff; text-decoration: none;=22>SPRAWD=C5=B9 OFERTY PRACY</a>=0A        =
+                                                                         =
+           </td>=0A                                                      =
+                                  </tr>=0A                               =
+                                                     </tbody>=0A         =
+                                                                       </=
+table>=0A                                                                =
+                </td>=0A                                                 =
+                               <td style=3D=22width: 10=25;=22>=0A       =
+                                                                         =
+</td>=0A                                                                 =
+               <td style=3D=22width: 45=25;=22>=0A                       =
+                                                         <table width=3D=22=
+100=25=22 cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 st=
+yle=3D=22background-color: =23ffffff;=22>=0A                             =
+                                                       <tbody>=0A        =
+                                                                         =
+       <tr>=0A                                                           =
+                                 <td style=3D=22font-family: Tahoma, Gene=
+va, sans-serif; font-size: 19px; line-height: 25px; color: =23ffffff; bor=
+der: 1px solid =2300aff0; text-align: center; font-weight: normal; paddin=
+g: 15px; vertical-align: middle; background: =2300aff0;=22 valign=3D=22mi=
+ddle=22>=0A                                                              =
+                              <a target=3D=22_blank=22 href=3D=22http://n=
+ews=2Espacemail=2Epl/app/panel/Redirect=2Easpx?link_id=3DC7213CC4-7A07-46=
+50-9291-D03761BB82E8=26mail_id=3D5E03712A-439F-4839-8DB1-40419BFD737D=26d=
+=3D7A2AC4F5-7410-41E1-9389-81D86310E0A7=26site=3DaHR0cCUzYSUyZiUyZnMueHlh=
+LnBsJTJmZmUwZGFjMTAtZDczOS0xMWU2LWE4NTgtNGJhZjViZmYzM2NiJTJmdXhDQU9OTVRRa=
+WVpdWFZJTJmJTIzJTIzc3RyaW5nMSUyMyUyMyUyZnczTHI1UzVuUklCNjJRbyUyZklOTi5odG=
+1sJTNmX21kNV8lM2QlMjMlMjNzdHJpbmc0JTIzJTIz=22 style=3D=22color: =23ffffff=
+; text-decoration: none;=22>DODAJ CV</a>=0A                              =
+                                                              </td>=0A   =
+                                                                         =
+            </tr>=0A                                                     =
+                               </tbody>=0A                               =
+                                                 </table>=0A             =
+                                                                   </td>=0A=
+                                                                         =
+   </tr>=0A                                                              =
+          </tbody>=0A                                                    =
+                </table>=0A                                              =
+                      </td>=0A                                           =
+                         <td valign=3D=22top=22 align=3D=22center=22 styl=
+e=3D=22width: 30px;=22></td>=0A                                          =
+                      </tr>=0A                                           =
+                 </tbody>=0A                                             =
+           </table>=0A                                                   =
+     </td>=0A                                                    </tr>=0A=
+                                                    <tr>=0A              =
+                                          <td style=3D=22width: 100=25; h=
+eight: 50px;=22></td>=0A                                                 =
+   </tr>=0A                                                </tbody>=0A   =
+                                         </table>=0A                     =
+                       </td>=0A                                        </=
+tr>=0A                                    </tbody>=0A                    =
+            </table>=0A                                </td>=0A          =
+                  </tr>=0A                        </tbody>=0A            =
+        </table>=0A                    <table width=3D=22100=25=22 border=
+=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>=0A               =
+         <tbody>=0A                            <tr>=0A                   =
+             <td style=3D=22width: 100=25; height: 30px;=22></td>=0A     =
+                       </tr>=0A                        </tbody>=0A       =
+             </table>=0A                    <table width=3D=22100=25=22 b=
+order=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>=0A          =
+              <tbody>=0A                            <tr>=0A              =
+                  <td style=3D=22width: 100=25;=22>=0A                   =
+             <table width=3D=22100=25=22 border=3D=220=22 cellspacing=3D=22=
+0=22 cellpadding=3D=220=22 style=3D=22border-top: 1px solid =23dddddd; ba=
+ckground-color: =23ffffff;=22>=0A                                    <tbo=
+dy>=0A                                        <tr>=0A                    =
+                        <td align=3D=22center=22 style=3D=22background-co=
+lor: =23ffffff;=22>=0A                                            <table =
+width=3D=22644=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=22=
+0=22 align=3D=22center=22 class=3D=22wrapto100pc=22 style=3D=22vertical-a=
+lign: middle; background-color: =23ffffff;=22>=0A                        =
+                        <tbody>=0A                                       =
+             <tr>=0A                                                     =
+   <td align=3D=22center=22 style=3D=22vertical-align: middle; width: 100=
+=25; height: 100px;=22>=0A                                               =
+         <table border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=
+=22 align=3D=22center=22 style=3D=22vertical-align: middle;=22>=0A       =
+                                                     <tbody>=0A          =
+                                                      <tr>=0A            =
+                                                        <td class=3D=22no=
+mob=22 style=3D=22width: 20px;=22></td>=0A                               =
+                                     <td class=3D=22nomob=22 style=3D=22f=
+ont-family: Tahoma, Geneva, sans-serif; font-size: 14px; line-height: 19p=
+x; color: =23642891; text-align: left; vertical-align: middle;=22>=0A    =
+                                                                ZNAJD=C5=B9=
+ NAS NA:=0A                                                              =
+      </td>=0A                                                           =
+         <td style=3D=22width: 10px;=22></td>=0A                         =
+                                           <td style=3D=22font-family: Ta=
+homa, Geneva, sans-serif; width: 50px;=22><img style=3D=22display: block;=
+ border-width: 0px; border-style: solid;=22 src=3D=22http://templates=2Es=
+pacemail=2Epl/16744/3f36412e-05ff-4c62-91d9-acd0e94b7594/facebook=2Ejpg=22=
+ width=3D=2250=22 height=3D=2245=22 alt=3D=22Facebook=22 /></td>=0A      =
+                                                              <td style=3D=
+=22width: 10px;=22></td>=0A                                              =
+                      <td style=3D=22font-family: Tahoma, Geneva, sans-se=
+rif; width: 50px;=22><img style=3D=22display: block; border-width: 0px; b=
+order-style: solid;=22 src=3D=22http://templates=2Espacemail=2Epl/16744/3=
+f36412e-05ff-4c62-91d9-acd0e94b7594/twitter=2Ejpg=22 width=3D=2250=22 hei=
+ght=3D=2245=22 alt=3D=22Twitter=22 /></td>=0A                            =
+                                        <td style=3D=22width: 10px;=22></=
+td>=0A                                                                   =
+ <td style=3D=22font-family: Tahoma, Geneva, sans-serif; width: 50px;=22>=
+<img style=3D=22display: block; border-width: 0px; border-style: solid;=22=
+ src=3D=22http://templates=2Espacemail=2Epl/16744/3f36412e-05ff-4c62-91d9=
+-acd0e94b7594/youtube=2Ejpg=22 width=3D=2250=22 height=3D=2245=22 alt=3D=22=
+Youtube=22 /></td>=0A                                                    =
+                <td style=3D=22width: 10px;=22></td>=0A                  =
+                                                  <td style=3D=22font-fam=
+ily: Tahoma, Geneva, sans-serif; width: 50px;=22><img style=3D=22display:=
+ block; border-width: 0px; border-style: solid;=22 src=3D=22http://templa=
+tes=2Espacemail=2Epl/16744/3f36412e-05ff-4c62-91d9-acd0e94b7594/google=2E=
+jpg=22 width=3D=2250=22 height=3D=2245=22 alt=3D=22Google+=22 /></td>=0A =
+                                                                   <td st=
+yle=3D=22width: 10px;=22></td>=0A                                        =
+                            <td style=3D=22font-family: Tahoma, Geneva, s=
+ans-serif; width: 50px;=22><img style=3D=22display: block; border-width: =
+0px; border-style: solid;=22 src=3D=22http://templates=2Espacemail=2Epl/1=
+6744/3f36412e-05ff-4c62-91d9-acd0e94b7594/mobile=2Epng=22 width=3D=2250=22=
+ height=3D=2245=22 alt=3D=22Aplikacje Monster=22 /></td>=0A              =
+                                                      <td style=3D=22widt=
+h: 10px;=22></td>=0A                                                     =
+           </tr>=0A                                                      =
+      </tbody>=0A                                                        =
+</table>=0A                                                        </td>=0A=
+                                                    </tr>=0A             =
+                                   </tbody>=0A                           =
+                 </table>=0A                                            <=
+/td>=0A                                        </tr>=0A                  =
+                  </tbody>=0A                                </table>=0A =
+                               </td>=0A                            </tr>=0A=
+                        </tbody>=0A                    </table>=0A       =
+             <table width=3D=22100=25=22 border=3D=220=22 cellspacing=3D=22=
+0=22 cellpadding=3D=220=22 style=3D=22background-color: =23642891;=22>=0A=
+                        <tbody>=0A                            <tr>=0A    =
+                            <td style=3D=22width: 100=25;=22>=0A         =
+                       <table border=3D=220=22 cellspacing=3D=220=22 cell=
+padding=3D=220=22 width=3D=22100=25=22 style=3D=22background-color: =2364=
+2891;=22>=0A                                    <tbody>=0A               =
+                         <tr>=0A                                         =
+   <td align=3D=22center=22 valign=3D=22top=22>=0A                       =
+                     <table width=3D=22640=22 border=3D=220=22 cellpaddin=
+g=3D=220=22 cellspacing=3D=220=22 class=3D=22wrapto100pc=22 style=3D=22ve=
+rtical-align: middle; background-color: =23642891;=22>=0A                =
+                                <tbody>=0A                               =
+                     <tr>=0A                                             =
+           <td class=3D=22nomob=22 style=3D=22width: 20px; height: 60px;=22=
+></td>=0A                                                        <td alig=
+n=3D=22center=22 valign=3D=22middle=22 style=3D=22color: =23d9d9d9; font-=
+family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 24px;=
+ vertical-align: middle;=22>=0A                                          =
+              <table width=3D=22100=25=22 border=3D=220=22 cellpadding=3D=
+=220=22 cellspacing=3D=220=22>=0A                                        =
+                    <tbody>=0A                                           =
+                     <tr>=0A                                             =
+                       <td align=3D=22center=22 valign=3D=22middle=22 cla=
+ss=3D=22footersplit=22 style=3D=22color: =23a571cd; font-family: Arial, H=
+elvetica, sans-serif; font-size: 12px; line-height: 24px; vertical-align:=
+ middle;=22><a href=3D=22http://news=2Espacemail=2Epl/app/panel/Redirect=2E=
+aspx?link_id=3DCAC31EAB-41F6-44FF-8EF1-E0CBEEAE59FB=26mail_id=3D5E03712A-=
+439F-4839-8DB1-40419BFD737D=26d=3D7A2AC4F5-7410-41E1-9389-81D86310E0A7=26=
+site=3DaHR0cCUzYSUyZiUyZnMueHlhLnBsJTJmZmUwZGFjMTAtZDczOS0xMWU2LWE4NTgtNG=
+JhZjViZmYzM2NiJTJmdzVPUzl3SlhJOElCNnFmJTJmJTIzJTIzc3RyaW5nMSUyMyUyMyUyZnc=
+zTHI1UzVuUklCNjJRbyUyZklOTi5odG1sJTNmX21kNV8lM2QlMjMlMjNzdHJpbmc0JTIzJTIz=
+=22 style=3D=22color: =23a571cd; text-decoration: none; text-transform: u=
+ppercase;=22 class=3D=22footerlink=22>Oferty pracy</a></td>=0A           =
+                                                         <td align=3D=22c=
+enter=22 class=3D=22nomob=22 style=3D=22color: =235a2483; font-family: Ar=
+ial, Helvetica, sans-serif; font-size: 12px; line-height: 24px; vertical-=
+align: middle;=22>=26nbsp;=26nbsp;=26nbsp;=7C=26nbsp;=26nbsp;=26nbsp;</td=
+>=0A                                                                    <=
+td align=3D=22center=22 valign=3D=22middle=22 class=3D=22footersplit=22 s=
+tyle=3D=22color: =23a571cd; font-family: Arial, Helvetica, sans-serif; fo=
+nt-size: 12px; line-height: 24px; vertical-align: middle;=22><a href=3D=22=
+http://news=2Espacemail=2Epl/app/panel/Redirect=2Easpx?link_id=3DEDF179C7=
+-D5B7-4F29-ABA2-2939183ED0D3=26mail_id=3D5E03712A-439F-4839-8DB1-40419BFD=
+737D=26d=3D7A2AC4F5-7410-41E1-9389-81D86310E0A7=26site=3DaHR0cCUzYSUyZiUy=
+ZnMueHlhLnBsJTJmZmUwZGFjMTAtZDczOS0xMWU2LWE4NTgtNGJhZjViZmYzM2NiJTJmdXhDQ=
+U9OTVRRaWVpdWFZJTJmJTIzJTIzc3RyaW5nMSUyMyUyMyUyZnczTHI1UzVuUklCNjJRbyUyZk=
+lOTi5odG1sJTNmX21kNV8lM2QlMjMlMjNzdHJpbmc0JTIzJTIz=22 style=3D=22color: =23=
+a571cd; text-decoration: none; text-transform: uppercase;=22 class=3D=22f=
+ooterlink=22>Dodaj CV</a></td>=0A                                        =
+                            <td align=3D=22center=22 class=3D=22nomob=22 =
+style=3D=22color: =235a2483; font-family: Arial, Helvetica, sans-serif; f=
+ont-size: 12px; line-height: 24px; vertical-align: middle;=22>=26nbsp;=26=
+nbsp;=26nbsp;=7C=26nbsp;=26nbsp;=26nbsp;</td>=0A                         =
+                                           <td align=3D=22center=22 valig=
+n=3D=22middle=22 class=3D=22footersplit=22 style=3D=22color: =23a571cd; f=
+ont-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 2=
+4px; vertical-align: middle;=22><a style=3D=22color: =23a571cd; text-deco=
+ration: none; text-transform: uppercase;=22 class=3D=22footerlink=22>Pora=
+dnik kariery</a></td>=0A                                                 =
+                   <td align=3D=22center=22 class=3D=22nomob=22 style=3D=22=
+color: =235a2483; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+2px; line-height: 24px; vertical-align: middle;=22>=26nbsp;=26nbsp;=26nbs=
+p;=7C=26nbsp;=26nbsp;=26nbsp;</td>=0A                                    =
+                                <td align=3D=22center=22 valign=3D=22midd=
+le=22 class=3D=22footersplit=22 style=3D=22color: =23a571cd; font-family:=
+ Arial, Helvetica, sans-serif; font-size: 12px; line-height: 24px; vertic=
+al-align: middle;=22><a style=3D=22color: =23a571cd; text-decoration: non=
+e; text-transform: uppercase;=22 class=3D=22footerlink=22>Kontakt</a></td=
+>=0A                                                                </tr>=
+=0A                                                            </tbody>=0A=
+                                                        </table>=0A      =
+                                                  </td>=0A               =
+                                         <td class=3D=22nomob=22 style=3D=
+=22width: 20px; height: 60px;=22></td>=0A                                =
+                    </tr>=0A                                             =
+   </tbody>=0A                                            </table>=0A    =
+                                        <table width=3D=22640=22 border=3D=
+=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 class=3D=22wrapto100p=
+c=22 style=3D=22vertical-align: middle; background-color: =23642891;=22>=0A=
+                                                <tbody>=0A               =
+                                     <tr>=0A                             =
+                           <td style=3D=22width: 20px;=22></td>=0A       =
+                                                 <td align=3D=22center=22=
+ valign=3D=22middle=22 style=3D=22color: =23a571cd; font-family: Arial, H=
+elvetica, sans-serif; font-size: 12px; line-height: 24px; vertical-align:=
+ middle;=22>=0A                                                        <b=
+r />=0A                                                        Monster Po=
+lska Sp=2E z o=2Eo=2E, Al=2E Jerozolimskie 96, 00-807 Warszawa<br />=0A  =
+                                                      C 2017 Monster - Ws=
+zelkie prawa zastrze=C5=BCone<br />=0A                                   =
+                     <br />=0A                                           =
+             </td>=0A                                                    =
+    <td style=3D=22width: 20px;=22></td>=0A                              =
+                      </tr>=0A                                           =
+     </tbody>=0A                                            </table>=0A  =
+                                          </td>=0A                       =
+                 </tr>=0A                                    </tbody>=0A =
+                               </table>=0A                               =
+ </td>=0A                            </tr>=0A                        </tb=
+ody>=0A                    </table>=0A                    </td>=0A       =
+         </tr>=0A            </tbody>=0A        </table>=0A        <table=
+ width=3D=22600=22 border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=22=
+0=22 align=3D=22center=22>=0A            <tbody>=0A                <tr>=0A=
+                    <td style=3D=22text-align: justify;=22>=0A           =
+         <span style=3D=22font-size: 11px; text-decoration: none; font-fa=
+mily: Helvetica, Arial, sans-serif; color: =23424242;=22><br />=0A       =
+             Wiadomo=C5=9B=C4=87 wys=C5=82ana przez serwis raz2=2Ecom=2Ep=
+l na zlecenie S=C4=85d Rejonowy dla m=2Est=2E Warszawy XIII Wydzia=C5=82 =
+Gospodarczy Krajowego Rejestru S=C4=85dowego=0A                    KRS:00=
+00026127 =7C NIP: 527-22-29-937 =7C Kapita=C5=82 zak=C5=82adowy: 100=2E00=
+0 PLN=0A                    REGON: 014963940=0A                    MONSTE=
+R POLSKA Sp=2E z o=2Eo=2E =7C Al=2E Jerozolimskie 96 =7C 00-807 Warszawa=2E=
+ Zgodnie z dzia=C5=82alno=C5=9Bci=C4=85 serwisu, dysponujesz prawem dost=C4=
+=99pu, zmiany, sprostowania i usuwania swoich informacji osobowych=2E Mo=C5=
+=BCesz tego dokona=C4=87 <a href=3D=22http://news=2Espacemail=2Epl/app/pa=
+nel/Redirect=2Easpx?link_id=3DA4D9E215-0204-4C9A-8284-2FA41F8C85E6=26mail=
+_id=3D5E03712A-439F-4839-8DB1-40419BFD737D=26d=3D7A2AC4F5-7410-41E1-9389-=
+81D86310E0A7=26site=3DaHR0cCUzYSUyZiUyZnJhejIuY29tLnBsJTJmdW5zdWJzY3JpYmU=
+lMmZ1bnN1YnNjcmliZS5waHAlM2ZwJTNkODA4MiUyNmslM2RyMmElMjZtJTNkcjJhJTIzJTIz=
+c3RyaW5nMSUyMyUyMw=253d=253d=22>tutaj=2E</a> Pozostaj=C4=85c w serwisie r=
+az2=2Ecom=2Epl zachowujesz dost=C4=99p do atrakcyjnych ofert=2E W przypad=
+ku pyta=C5=84 dotycz=C4=85cych prezentowanych produkt=C3=B3w i us=C5=82ug=
+, prosimy o zwracanie si=C4=99 bezpo=C5=9Brednio do reklamodawcy=2E Infor=
+mujemy, =C5=BCe u=C5=BCywamy cookies i podobnych technologii m=2Ein=2E w =
+celach: =C5=9Bwiadczenia us=C5=82ug, reklamy, statystyk=2E Informujemy, =C5=
+=BCe bez zmiany ustawie=C5=84 Twojej przegl=C4=85darki oznacza, =C5=BCe b=
+=C4=99d=C4=85 one umieszczane w Twoim urz=C4=85dzeniu ko=C5=84cowym=2E Pa=
+mi=C4=99taj, =C5=BCe zawsze mo=C5=BCesz <a href=3D=22http://system=2Espac=
+email=2Epl/redirect/index=2Ephp?lid=3D706900C2-6B2D-449E-B19B-4912AAD6D67=
+4=26mccid=3D5E03712A-439F-4839-8DB1-40419BFD737D=26did=3D7A2AC4F5-7410-41=
+E1-9389-81D86310E0A7=26mid=3DUj9WIDIuDR5OYBtI=26cid=3DCmAXdkJ9VFU=253d=26=
+site=3DaHR0cCUzYSUyZiUyZnJhejIuY29tLnBsJTJmU2tybyUyNUNDJTI1ODFjb255X3Bvcm=
+FkbmlrX0Nvb2tpZXMucGRm=22 target=3D=22_blank=22>zmieni=C4=87 te ustawieni=
+a=2E</a></span>=0A                    </td>=0A                </tr>=0A   =
+         </tbody>=0A        </table>=0A        <img alt=3D=22=22 nochange=
+url=3D=221=22 src=3D=22http://api=2Espoldzielnia=2Ensaudience=2Epl/fronte=
+nd/api/matchDataReceiver=2Epng?token=3Df3265d6a-cecd-46be-85be-cfa4b0f28e=
+21=26provId=3Dleadr2=26userId=3D8767171d286b864ee2bd41bf7353db84=22 width=
+=3D=221=22 height=3D=221=22 />=0A        <img alt=3D=22=22 nochangeurl=3D=
+=221=22 src=3D=22http://api=2Ebehavioralengine=2Ecom/pixel?data-hash-e=3D=
+ffb7ed66d95c007603470a5df399c795=26data-p=3Dleadr=22 />=0A        <img al=
+t=3D=22=22 nochangeurl=3D=221=22 src=3D=22http://i=2Eclickonometrics=2Epl=
+/partner/512cdb93a1706906c2ccc235129fda7b/cookie-match?uid=3D8767171d286b=
+864ee2bd41bf7353db84=22 width=3D=221=22 height=3D=221=22 />=0A        <im=
+g nochangeurl=3D=221=22 alt=3D=22RL=22 src=3D=22http://s=2Exya=2Epl/pix/x=
+=2Egif=22 width=3D=221=22 height=3D=221=22 />=0A        <img alt=3D=22=22=
+ nochangeurl=3D=221=22 src=3D=22http://s=2Exya=2Epl/check/fe0dac10-d739-1=
+1e6-a858-4baf5bff33cb/w3Lr5S5nRIB62Qo/8767171d286b864ee2bd41bf7353db84=2E=
+gif=22 width=3D=221=22 height=3D=221=22 />=0A        <img alt=3D=22=22 no=
+changeurl=3D=221=22 src=3D=22http://ti=2Etradetracker=2Enet/?c=3D24904=26=
+m=3D1040772=26a=3D204501=26r=3D=26t=3Dhtml=22 width=3D=221=22 height=3D=22=
+1=22 style=3D=22border-width: 0px; border-style: solid;=22 />=0A    =0A</=
+html><img alt=3D=22image=22 src=3D=22http://system=2Espacemail=2Epl/open/=
+index=2Ephp?mccid=3D5E03712A-439F-4839-8DB1-40419BFD737D=26did=3D7A2AC4F5=
+-7410-41E1-9389-81D86310E0A7=26mid=3DUj9WIDIuDR5OYBtI=26cid=3DCmAXdkJ9VFU=
+=253d=26div=3D0=22 width=3D=221=22 height=3D=222=22/><div style=3D=22widt=
+h:1px;height:2px;background:url(=27http://system=2Espacemail=2Epl/open/in=
+dex=2Ephp?mccid=3D5E03712A-439F-4839-8DB1-40419BFD737D=26did=3D7A2AC4F5-7=
+410-41E1-9389-81D86310E0A7=26mid=3DUj9WIDIuDR5OYBtI=26cid=3DCmAXdkJ9VFU=25=
+3d=26div=3D1=27)=22></div></body>=0D=0A
+
+--_=aspNetEmail=_8f6cfea591714c6d838ccfcad66febed--
+

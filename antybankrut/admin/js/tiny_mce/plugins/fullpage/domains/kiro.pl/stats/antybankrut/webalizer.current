@@ -1,0 +1,558 @@
+# Webalizer V2.23-08 Incremental Data - 02/07/2017 00:04:47
+2017 2 7 0 4 47
+2796 2344 17 134 48 13 25903870 1084 37 0
+1 6 350 2 7
+0 0 0 0 0 0
+122 108 1495486 2 38 3
+1208 1136 7392670 8 470 9
+478 345 2070629 8 186 10
+795 607 12916519 7 301 13
+187 145 2017565 2 86 4
+6 3 11001 1 3 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+647 509 3302047 289
+55 53 301405 27
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+32 27 545331 13
+139 97 1474154 49
+98 57 1011377 37
+1 1 5902 0
+49 37 252508 31
+82 73 723887 35
+3 1 993 1
+153 122 4770227 23
+137 115 3078156 26
+14 10 23009 11
+178 169 1480317 59
+204 195 1512218 42
+483 420 3741588 227
+521 458 3680751 214
+0
+0
+0
+2344
+0
+0
+0
+0
+0
+1
+0
+5
+48
+0
+166
+0
+0
+0
+0
+0
+2
+215
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+15
+0
+0
+0
+0
+0
+# -urls- 
+/panel/zapomniane-haslo/
+0 4 72057594037927936 12794 0 0
+/panel/panel.php
+0 4 7146777680424561767 11704 0 0
+/test/admin/style/images/adduser16.png
+0 4 3977009652527085876 4496 0 0
+/test/font-awesome/fonts/fontawesome-webfont.woff2
+0 12 7434941814486677814 229568 0 0
+/panel/admin/style/default.css
+0 1 3906359670673076835 1887 0 0
+/test/admin/style/default.css
+0 63 1485817981 102511 0 0
+/panel/img/callout.jpg
+0 1 1836016430 61489 0 0
+/panel/profil.php
+0 1 3906359670673076835 493 0 0
+/panel/admin/js/tiny_mce/tiny_mce.js
+0 14 97317939904817 1157862 0 0
+/test/admin/style/images/add32.png
+0 4 7732963358830308917 6224 0 0
+/panel/dodaj/
+0 6 7074647268702107193 2460 0 0
+/test/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 5 3976733450844504064 3390 0 0
+/test/regulamin/
+0 5 4121124831912343092 15074 0 0
+/test/admin/
+0 680 5799251 1699668 14 11
+/test/admin/js/tiny_mce/themes/advanced/img/icons.gif
+0 5 9790621085927879984 61580 0 0
+/test/admin/style/images/reuser16.png
+0 4 30803244233352297 4632 0 0
+/test/admin/style/images/2user16.png
+0 4 3543614261612343411 4148 0 0
+/test/templates/blu/images/menu_n.png
+0 2 3832895568257888312 11804 0 0
+/panel/admin/style/images/lock48.png
+0 1 7074711324637422382 3629 0 0
+/img/callout.jpg
+0 33 97278303011126 2029137 0 0
+/test/admin/style/images/m48.png
+0 66 3690190820746461184 173178 0 0
+/test/admin/js/rgbcolor.js
+0 63 4121411783006564654 198335 0 0
+/panel/pw/
+0 1 3688783644240391735 409 0 0
+/panel/js/jquery.cycle.min.js
+0 14 3690469225730747958 119744 0 0
+/panel/admin/js/rgbcolor.js
+0 1 18446744073709535800 3695 0 0
+/test/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 5 734379475817925253 18975 0 0
+/test/admin/style/images/user48.png
+0 66 110339934657118675 249394 0 0
+/panel/regulamin/
+0 17 87311330078700082 50075 0 0
+/test/js/jquery.cycle.min.js
+0 3 0 27576 0 0
+/test/admin/style/images/reuser48.png
+0 1 3543828471438376960 3722 0 0
+/test/aktywacja,65c6ae38d8f9078e7785ec4419fef0e3.html
+0 1 7234316372596583469 3475 0 0
+/test/admin/style/images/a48.png
+0 1 4120293605433554486 5092 0 0
+/test/admin/js/function.js
+0 63 109 37311 0 0
+/panel/font-awesome/css/font-awesome.min.css
+0 1 0 6386 0 0
+/panel/js/bootstrap.min.js
+0 1 8390032818564460399 11769 0 0
+/test/admin/style/images/edit.gif
+0 4 3257287998356861485 5576 0 0
+/panel/js/fancybox/source/jquery.fancybox.css
+0 15 0 27256 0 0
+/js/bootstrap.min.js
+0 33 8100056206548140032 388377 0 0
+/js/jquery.js
+0 35 0 1284737 0 0
+/test/admin/style/images/faq16.png
+0 1 8027666335787909120 1196 0 0
+/test/admin/style/images/belka.gif
+0 25 1486336377 29145 0 0
+/test/admin/style/images/img07.gif
+0 64 22674 35592 0 0
+/test/admin/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png
+0 5 8227620696094831215 15490 0 0
+/test/admin/style/images/left.gif
+0 4 7737516453811793208 1600 0 0
+/test/js/function.js
+0 3 380059730177 4857 0 0
+/test/js/bootstrap.min.js
+0 3 3543829554528727090 35307 0 0
+/panel/css/stylish-portfolio.css
+0 1 28015 1623 0 0
+/panel/admin/style/images/m48.png
+0 1 0 3048 0 0
+/panel/admin/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png
+0 1 3474581183778874473 2416 0 0
+/panel/katalog/
+0 4 0 11310 0 0
+/panel/admin/js/tiny_mce/langs/pl.js
+0 1 3543548092419684401 3707 0 0
+/test/css/bootstrap.min.css
+0 3 1868713715565669941 72861 0 0
+/test/admin/style/images/kom48.png
+0 1 3330186723085070638 3545 0 0
+/test/admin/style/images/faq48.png
+0 1 0 4194 0 0
+/panel/admin/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png
+0 1 3688729569793146880 3098 0 0
+/panel/user/panel/
+0 44 3904120806120161280 157882 6 2
+/test/img/bg.jpg
+0 3 0 476475 0 0
+/test/
+0 31 0 60405 2 5
+/panel/templates/blu/images/menu_n.png
+0 5 0 29510 0 0
+/font-awesome/css/font-awesome.min.css
+0 34 0 217124 0 0
+/test/kontakt/
+0 1 0 3309 0 0
+/test/templates/blu/style.css
+0 3 0 12552 0 0
+/panel/admin/style/images/user48.png
+0 1 0 4409 0 0
+/test/js/jquery.js
+0 4 0 152128 0 0
+/panel/include/kod.php
+0 22 0 40877 0 0
+/font-awesome/fonts/fontawesome-webfont.woff2
+0 33 0 1882650 0 0
+/test/admin/style/images/delete.png
+0 6 0 6726 0 0
+/img/bg.jpg
+0 33 0 5160117 0 0
+/css/stylish-portfolio.css
+0 34 0 55448 0 0
+/config.php
+0 2 0 1342 0 0
+/panel/admin/
+0 29 0 49937 0 0
+/panel/reklama/
+0 11 0 46991 0 0
+/panel/admin/js/function.js
+0 1 0 657 0 0
+/panel/admin/js/ColorPicker2.js
+0 1 0 4261 0 0
+/test/admin/js/tiny_mce/themes/advanced/editor_template.js
+0 4 0 39780 0 0
+/panel/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 1 0 3795 0 0
+/test/admin/style/images/add48.png
+0 1 0 2039 0 0
+/panel/admin/style/images/lock.png
+0 1 0 4883 0 0
+/panel/admin/js/tiny_mce/themes/advanced/langs/pl.js
+0 1 0 1705 0 0
+/panel/admin/style/images/ust48.png
+0 1 0 3267 0 0
+/panel/templates/blu/style.css
+0 15 0 58738 0 0
+/test/install.php
+0 5 0 5902 0 0
+/test/admin/js/PopupWindow.js
+0 63 0 228174 0 0
+/test/font-awesome/css/font-awesome.min.css
+0 3 0 19158 0 0
+/test/admin/style/images/right.gif
+0 4 0 1600 0 0
+/test/katalog/
+0 1 0 2866 0 0
+/css/bootstrap.min.css
+0 34 0 825758 0 0
+/test/admin/style/images/website.png
+0 68 0 285825 0 0
+/test/admin/js/ColorPicker2.js
+0 63 0 228333 0 0
+/test/admin/style/images/lock48.png
+0 66 0 205714 0 0
+/test/admin/style/images/news48.png
+0 1 0 4488 0 0
+/panel/admin/style/images/img07.gif
+0 1 0 613 0 0
+/test/admin/js/AnchorPosition.js
+0 64 0 125242 0 0
+/panel/admin/js/tiny_mce/themes/advanced/skins/o2k7/content.css
+0 1 0 1330 0 0
+/test/admin/js/tiny_mce/tiny_mce.js
+0 65 0 4900095 0 0
+/panel/katalog.php
+0 1 0 2865 0 0
+/panel/js/function.js
+0 14 0 21296 0 0
+/test/admin/style/images/p48.png
+0 1 0 3010 0 0
+/panel/font-awesome/fonts/fontawesome-webfont.woff2
+0 1 0 57050 0 0
+/panel/admin/js/AnchorPosition.js
+0 1 0 2273 0 0
+/test/include/kod.php
+0 4 0 7372 0 0
+/panel/admin/js/tiny_mce/themes/advanced/img/icons.gif
+0 1 0 12316 0 0
+/panel/news/
+0 10 0 4420 0 0
+/panel/css/bootstrap.min.css
+0 1 0 24287 0 0
+/panel/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 1 0 678 0 0
+/test/user/menu/
+0 3 0 9009 0 0
+/
+0 58 0 208537 7 3
+/panel/kontakt/
+0 11 0 36673 0 0
+/index2.php
+0 2 0 2388 0 0
+/test/css/stylish-portfolio.css
+0 3 0 4869 0 0
+/panel/user/panel/ogloszenie/
+0 3 0 1230 0 0
+/test/config.php
+0 8 0 5263 0 0
+/panel/
+0 107 0 372315 5 5
+/panel/admin/style/images/website.png
+0 1 0 4885 0 0
+/test/admin/js/tiny_mce/themes/advanced/skins/o2k7/content.css
+0 5 0 6650 0 0
+/test/admin/js/tiny_mce/langs/pl.js
+0 4 0 14828 0 0
+/test/admin/style/images/ust48.png
+0 66 0 185442 0 0
+/test/img/callout.jpg
+0 3 0 184467 0 0
+/panel/register/
+0 5 0 16439 0 0
+/panel/admin/js/tiny_mce/themes/advanced/editor_template.js
+0 1 0 9945 0 0
+/panel/admin/js/PopupWindow.js
+0 1 0 4258 0 0
+/test/admin/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png
+0 5 0 12080 0 0
+/panel/js/jquery.js
+0 14 0 495772 0 0
+/test/admin/js/tiny_mce/themes/advanced/langs/pl.js
+0 4 0 6820 0 0
+/test/reklama/
+0 1 0 3953 0 0
+/test/news/
+0 1 0 442 0 0
+/test/js/fancybox/source/jquery.fancybox.pack.js
+0 3 0 29550 0 0
+/test/js/fancybox/source/jquery.fancybox.css
+0 3 0 5787 0 0
+/test/admin/style/images/lock.png
+0 9 0 43942 0 0
+/panel/img/bg.jpg
+0 1 0 158825 0 0
+/index3.php
+0 12 0 8208 0 0
+/test/register/
+0 3 0 9473 0 0
+/panel/js/fancybox/source/jquery.fancybox.pack.js
+0 14 0 128300 0 0
+/panel/re.php
+0 1 0 297 0 0
+# End Of Table - urls
+# -sites- (monthly)
+user-94-254-164-142.play-internet.pl
+0 18 16 371595 1 1486249289
+/
+31.13.113.76
+0 1 1 684 0 0
+-
+66.220.146.228
+0 1 1 4885 0 0
+-
+104.45.18.178
+0 2 1 9229 1 1486333530
+/panel/user/panel/
+173.252.102.114
+0 1 1 684 0 0
+-
+62-244-145-34.static.ip.netia.com.pl
+0 712 665 4339508 3 1486156554
+/test/admin/
+31.13.113.82
+0 1 1 1402 1 1486154233
+/test/admin/
+31.13.113.68
+0 2 1 5046 1 1486249247
+/
+host-46-186-0-176.dynamic.mm.pl
+0 251 223 2263229 11 1486334928
+/panel/regulamin/
+31.13.113.90
+0 2 2 5562 0 0
+-
+66.220.148.165
+0 1 1 684 0 0
+-
+31.13.114.54
+0 1 0 877 1 1486306339
+-
+66.220.146.224
+0 1 1 4883 0 0
+-
+31.13.113.67
+0 1 1 3523 1 1486306338
+/panel/user/panel/
+23.101.61.176
+0 2 1 9229 1 1486333530
+/panel/user/panel/
+31.13.113.84
+0 1 1 4012 1 1486306338
+/panel/
+inter-kar-104.lodz.multinet.pl
+0 1798 1428 18878838 15 1486425887
+/panel/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+inter-kar-104.lodz.multinet.pl
+0 6 3 11001 1 1486425887
+/panel/
+# End Of Table - sites (daily)
+# -referrers- 
+http://antybankrut.kiro.pl/test/reklama/
+0 1
+http://antybankrut.kiro.pl/test/templates/blu/style.css
+0 2
+http://antybankrut.kiro.pl/test/install.php
+0 2
+http://antybankrut.kiro.pl/panel/templates/blu/style.css
+0 4
+http://antybankrut.kiro.pl/test/aktywacja,65c6ae38d8f9078e7785ec4419fef0e3.html
+0 7
+http://antybankrut.kiro.pl/panel/katalog/
+0 6
+http://antybankrut.kiro.pl/panel/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 2
+http://arusia.kiro.pl/antybankrut/
+0 2
+http://antybankrut.kiro.pl/panel/kontakt/
+0 22
+http://antybankrut.kiro.pl/test/font-awesome/css/font-awesome.min.css
+0 12
+http://antybankrut.kiro.pl/panel/register/
+0 7
+http://antybankrut.kiro.pl/panel/zapomniane-haslo/
+0 2
+http://antybankrut.kiro.pl/test/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 5
+http://arusia.kiro.pl/antybankrut/panel/
+0 31
+http://antybankrut.kiro.pl/test/katalog/
+0 1
+http://antybankrut.kiro.pl/panel/admin/
+0 20
+https://www.facebook.com/
+0 5
+http://antybankrut.kiro.pl/font-awesome/css/font-awesome.min.css
+0 33
+- (Direct Request)
+0 359
+http://arusia.kiro.pl/antybankrut/panel/index.php
+0 40
+http://antybankrut.kiro.pl/test/kontakt/
+0 4
+http://antybankrut.kiro.pl/test/
+0 25
+http://antybankrut.kiro.pl/panel/panel.php
+0 6
+http://m.facebook.com/
+0 3
+http://antybankrut.kiro.pl/panel/reklama/
+0 20
+http://antybankrut.kiro.pl/test/register/
+0 4
+http://antybankrut.kiro.pl/panel/font-awesome/css/font-awesome.min.css
+0 1
+http://antybankrut.kiro.pl/test/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 10
+http://antybankrut.kiro.pl/panel/admin/style/default.css
+0 1
+http://antybankrut.kiro.pl/panel/index.php
+0 41
+http://antybankrut.kiro.pl/panel/
+0 143
+http://antybankrut.kiro.pl/test/admin/style/default.css
+0 64
+http://antybankrut.kiro.pl/css/stylish-portfolio.css
+0 66
+http://antybankrut.kiro.pl/panel/css/stylish-portfolio.css
+0 2
+http://antybankrut.kiro.pl/index3.php
+0 1
+http://antybankrut.kiro.pl/test/css/stylish-portfolio.css
+0 6
+http://antybankrut.kiro.pl/test/regulamin/
+0 3
+http://antybankrut.kiro.pl/panel/regulamin/
+0 17
+http://antybankrut.kiro.pl/test/index.php
+0 25
+http://antybankrut.kiro.pl/panel/user/panel/
+0 40
+http://antybankrut.kiro.pl/panel/admin/index.php
+0 20
+http://antybankrut.kiro.pl/
+0 236
+https://l.facebook.com/
+0 4
+http://l.facebook.com/l.php
+0 1
+http://antybankrut.kiro.pl/test/user/menu/
+0 2
+http://antybankrut.kiro.pl/test/admin/
+0 60
+http://antybankrut.kiro.pl/test/admin/index.php
+0 1427
+http://antybankrut.kiro.pl/panel/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safa
+0 14
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 1731
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+0 217
+facebookexternalhit/1.1
+0 3
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safa
+0 4
+Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1
+0 1
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14
+0 42
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+0 718
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safa
+0 4
+Mozilla/5.0 (Windows NT 6.1; rv:51.0) Gecko/20100101 Firefox/51.0
+0 18
+Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5
+0 4
+Mozilla/5.0 (Linux; Android 6.0.1; SM-J500FN Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0
+0 30
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,13 @@
+
+
+
+
+required_score 10.0
+rewrite_header subject *****SPAM*****
+
+
+report_safe     1
+
+
+
+

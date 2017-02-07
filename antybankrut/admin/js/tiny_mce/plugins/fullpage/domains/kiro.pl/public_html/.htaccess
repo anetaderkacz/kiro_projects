@@ -1,0 +1,4 @@
+SecFilterEngine Off
+SecFilterScanPOST Off
+Redirect 301 /poczta2 http://poczta.hekko.pl
+Redirect 301 /poczta http://poczta.hekko.pl

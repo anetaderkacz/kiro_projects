@@ -1,0 +1,249 @@
+Return-path: <ecommlr@us.ibm.com>
+Envelope-to: kiro@kiro.pl
+Delivery-date: Wed, 26 Oct 2016 04:23:16 +0200
+Received: from mx0a-001b2d01.pphosted.com ([148.163.156.1])
+	by mx1.wirt18.biznes-host.pl with esmtps (TLSv1.2:AES256-SHA:256)
+	(Exim 4.84)
+	(envelope-from <ecommlr@us.ibm.com>)
+	id 1bzDs3-0004s8-Gc
+	for kiro@kiro.pl; Wed, 26 Oct 2016 04:23:15 +0200
+Received: from pps.filterd (m0098394.ppops.net [127.0.0.1])
+	by mx0a-001b2d01.pphosted.com (8.16.0.17/8.16.0.17) with SMTP id u9Q2ODWV063895
+	for <kiro@kiro.pl>; Tue, 25 Oct 2016 22:25:10 -0400
+Received: from e33.co.us.ibm.com (e33.co.us.ibm.com [32.97.110.151])
+	by mx0a-001b2d01.pphosted.com with ESMTP id 26ah2bekv8-1
+	(version=TLSv1.2 cipher=AES256-SHA bits=256 verify=NOT)
+	for <kiro@kiro.pl>; Tue, 25 Oct 2016 22:25:10 -0400
+Received: from localhost
+	by e33.co.us.ibm.com with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted
+	for <kiro@kiro.pl> from <ecommlr@us.ibm.com>;
+	Tue, 25 Oct 2016 20:25:09 -0600
+Received: from d03dlp03.boulder.ibm.com (9.17.202.179)
+	by e33.co.us.ibm.com (192.168.1.133) with IBM ESMTP SMTP Gateway: Authorized Use Only! Violators will be prosecuted;
+	Tue, 25 Oct 2016 20:25:07 -0600
+Received: from b01cxnp23034.gho.pok.ibm.com (b01cxnp23034.gho.pok.ibm.com [9.57.198.29])
+	by d03dlp03.boulder.ibm.com (Postfix) with ESMTP id 4452219D803F
+	for <kiro@kiro.pl>; Tue, 25 Oct 2016 20:24:32 -0600 (MDT)
+Received: from b01ledav002.gho.pok.ibm.com (b01ledav002.gho.pok.ibm.com [9.57.199.107])
+	by b01cxnp23034.gho.pok.ibm.com (8.14.9/8.14.9/NCO v10.0) with ESMTP id u9Q2P7ZX12189974
+	for <kiro@kiro.pl>; Wed, 26 Oct 2016 02:25:07 GMT
+Received: from b01ledav002.gho.pok.ibm.com (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id E45DC124047
+	for <kiro@kiro.pl>; Tue, 25 Oct 2016 22:25:06 -0400 (EDT)
+Received: from b01ciapp014boot.ahe.pok.ibm.com (unknown [9.57.199.254])
+	by b01ledav002.gho.pok.ibm.com (Postfix) with ESMTP id 9979E124037
+	for <kiro@kiro.pl>; Tue, 25 Oct 2016 22:25:06 -0400 (EDT)
+Received: from b01ciapp014boot (loopback [127.0.0.1])
+	by b01ciapp014boot.ahe.pok.ibm.com (AIX7.1/8.14.4/8.14.4) with ESMTP id u9Q2JO4T46268662
+	for <kiro@kiro.pl>; Wed, 26 Oct 2016 02:25:06 GMT
+Date: Wed, 26 Oct 2016 02:25:05 +0000 (GMT)
+From: IBM PartnerWorld <ecommlr@us.ibm.com>
+Reply-To: IBM PartnerWorld <emeapw@uk.ibm.com>
+To: kiro@kiro.pl
+Subject: New Benefit for PGI Partners
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-TM-AS-GCONF: 00
+X-Content-Scanned: Fidelis XPS MAILER
+x-cbid: 16102602-0008-0000-0000-000005E6BA6D
+X-IBM-SpamModules-Scores: 
+X-IBM-SpamModules-Versions: BY=3.00005979; HX=3.00000240; KW=3.00000007;
+ PH=3.00000004; SC=3.00000188; SDB=6.00772797; UDB=6.00370982; IPR=6.00549623;
+ BA=6.00004832; NDR=6.00000001; ZLA=6.00000005; ZF=6.00000009; ZB=6.00000000;
+ ZP=6.00000000; ZH=6.00000000; ZU=6.00000002; MB=3.00013104; XFM=3.00000011;
+ UTC=2016-10-26 02:25:09
+X-IBM-AV-DETECTION: SAVI=unused REMOTE=unused XFE=unused
+x-cbparentid: 16102602-0009-0000-0000-00003C729543
+Message-Id: <56689505.6021101477448705908.JavaMail.rrstream@b01ciapp014boot>
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:,, definitions=2016-10-25_23:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 spamscore=0 suspectscore=95
+ malwarescore=0 phishscore=0 adultscore=0 bulkscore=100 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=8.0.1-1609300000
+ definitions=main-1610260038
+X-Antivirus-Scanner: Clean mail though you should still use an Antivirus
+
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"936" border=3D"0" valig=
+n=3D"top" >
+<tr>
+<td colspan=3D"2" ><a href=3D"http://www.ibm.com/partnerworld"><img src=3D"=
+http://www.ibm.com/i/c.gif" width=3D"0" height=3D"0" border=3D"0" ></a>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+<td colspan=3D"2" style=3D"background-color:#ffffff;" valign=3D"top" align=
+=3D"center"><a name=3D"article06rnerpgp">&#160;</a><!--New Benefit for PGI =
+Partners--><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"934" valign=3D"top"><tr><td colspan=3D"2" height=3D"62" style=3D"backgroun=
+d-color:#003366;"><img src=3D"http://www-2000.ibm.com/partnerworld/images/e=
+comms/v17/connect_en.gif" width=3D"934" height=3D"62" border=3D"0" usemap=
+=3D"#connect"></td></tr><tr><td valign=3D"top" width=3D"200" height=3D"150"=
+ border=3D"0"><img src=3D"http://www.ibm.com/partnerworld/images/ecomms/v17=
+/newsflash_wht.gif" width=3D"200" height=3D"150" border=3D"0"></td><td vali=
+gn=3D"top" width=3D"734" background=3D"http://www.ibm.com/partnerworld/imag=
+es/ecomms/v17/newsflash_bg_wht.gif" style=3D"font-family:arial; font-size:3=
+4px; font-weight:lighter; color:#000000; text-decoration:none; padding-top:=
+ 15px; padding-left: 20px; padding-right:140px;">New Benefit for PGI Partne=
+rs</td></tr><tr><td colspan=3D"2"><img src=3D"http://www.ibm.com/i/c.gif" h=
+eight=3D"12" border=3D"0"></td></tr><tr><td colspan=3D"2"><table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0"><tr><td><img src=3D"http://www.ibm.c=
+om/i/c.gif" width=3D"20" border=3D"0"></td><td style=3D"font-family:arial; =
+font-size: 24px; font-weight: lighter; color:#ff6600; text-decoration:none;=
+">Use Class Vouchers to Take Advantage of the IBM Systems Lab Services Tech=
+nical Mentoring Program <br></td><td><img src=3D"http://www.ibm.com/i/c.gif=
+" width=3D"20" border=3D"0"></td></tr><tr><td colspan=3D"3"><img src=3D"htt=
+p://www.ibm.com/i/c.gif" height=3D"12" border=3D"0"></td></tr><tr><td><img =
+src=3D"http://www.ibm.com/i/c.gif" width=3D"20" border=3D"0"></td><td valig=
+n=3D"top" style=3D"font-family:arial; font-size: 17px; color:#000000; text-=
+decoration:none;">As an IBM business partner, you have a myriad of resource=
+s at your disposal to help you expand your technical expertise into new are=
+as, including classroom training, online training, and Redbooks. Making the=
+ jump from formal education to being able to independently implement IBM pr=
+oducts in the field, however, is often greatly facilitated by technical men=
+toring by an experienced, senior consultant. <br>
+ <br>
+IBM Systems Lab Services is pleased to announce that partners who have achi=
+eved Partner Growth Incentive (PGI,) Specialty, or Specialty Elite status f=
+or Storage can now redeem class vouchers for technical mentoring services o=
+n Storage technologies, and partners who have achieved PGI, Specialty, or S=
+pecialty Elite status for Power can now redeem class vouchers for technical=
+ mentoring services on Power technologies. Our skilled consultants have the=
+ broad architectural knowledge, deep technical skills, and best practices e=
+xpertise=E2=80=94 based on real-world experience=E2=80=94 to advise your co=
+nsultants on solution design, rapid deployment, integration, configuration =
+and optimization of IBM Storage and Power products. <br>
+ <br>
+Our implementation experts will work with your consultants, at your custome=
+r site or remotely, providing deep technical guidance that will enable your=
+ teams to support the successful implementation of IBM solutions. This has =
+several significant benefits for your business: <br>
+<ul><li>IBM will help you anticipate and avoid common pitfalls in product i=
+mplementation, helping to ensure that your first customer engagement is a s=
+uccess <br></li>
+<li>IBM will advise your team on field-proven best practices in implementin=
+g IBM Storage product solutions, giving your customer greater value from yo=
+ur services <br></li>
+<li>Accelerated technical enablement will allow you to see a return on your=
+ training investment much more quickly, and will open the doors to new busi=
+ness opportunities <br></li>
+<li>Use of class vouchers will significantly lower the cost of technical en=
+ablement for your team <br></li></ul>
+ <br>
+Technical mentoring engagements can be as short as three days, or can be ex=
+panded to meet your needs. You will decide how the mentoring services are b=
+est used, from project planning, solution design and review, to installatio=
+n and configuration. We are happy to accompany you on site at your customer=
+ location, or help you remotely, behind the scenes. It's your choice. Pleas=
+e keep in mind that, because our consultants are constantly in the field at=
+ customer sites, mentor availability will vary. There are some additional r=
+estrictions on this program to ensure that you derive maximum benefit from =
+our mentoring services- please contact Volker Kapp at volker.kapp@de.ibm.co=
+m for additional information. <br><br><br></td><td><img src=3D"http://www.i=
+bm.com/i/c.gif" width=3D"20" border=3D"0"></td></tr></table></td></tr><tr><=
+td colspan=3D"3" valign=3D"bottom" align=3D"left" style=3D"background-color=
+: #000000;" height=3D"40"><img src=3D"http://www-2000.ibm.com/partnerworld/=
+images/ecomms/v17/share_bknf_en.gif" height=3D"40" width=3D"150" border=3D"=
+0"><img src=3D"http://www.ibm.com/i/c.gif" width=3D"634" height =3D "40" bo=
+rder=3D"0"><a href=3D"https://www.facebook.com/sharer/sharer.php?&url=3Dhtt=
+p://bit.ly/2e18wxP"><img src=3D"http://www-2000.ibm.com/partnerworld/images=
+/ecomms/v17/facebook_bk.jpg" height=3D"40" width=3D"30" border=3D"0"></a><a=
+ href=3D"https://plus.google.com/share?url=3Dhttp://bit.ly/2e18wxP"><img sr=
+c=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/google_bk.jpg" =
+height=3D"40" width=3D"30" border=3D"0"></a><a href=3D"http://www.linkedin.=
+com/shareArticle?url=3Dhttp://bit.ly/2e18wxP&title=3DNew%20Benefit%20for%20=
+PGI%20Partners&summary=3DPGI%20class%20vouchers%20can%20now%20be%20used%20f=
+or%20Lab%20Services%20technical%20mentoring!%20"><img src=3D"http://www-200=
+0.ibm.com/partnerworld/images/ecomms/v17/linkedin_bk.jpg" height=3D"40" wid=
+th=3D"30" border=3D"0"></a><a href=3D"http://twitter.com/share?url=3Dhttp:/=
+/bit.ly/2e18wxP&text=3DPGI%20class%20vouchers%20can%20now%20be%20used%20for=
+%20Lab%20Services%20technical%20mentoring!%20"><img src=3D"http://www-2000.=
+ibm.com/partnerworld/images/ecomms/v17/twitter_bk.jpg" height=3D"40" width=
+=3D"30" border=3D"0"></a><a href=3D"mailto:?&subject=3DNew%20Benefit%20for%=
+20PGI%20Partners&body=3DThought%20you%20might%20find%20this%20interesting:%=
+20http://bit.ly/2e18wxP%0D%0A%0D%0AShared%20via%20IBM%20PartnerWorld%20News=
+"><img src=3D"http://www-2000.ibm.com/partnerworld/images/ecomms/v17/email_=
+bk.jpg" height=3D"40" width=3D"30" border=3D"0"></a></td></tr><tr><td colsp=
+an=3D"2"><img src=3D"http://www.ibm.com/partnerworld/images/ecomms/Banner-w=
+hite.gif" height=3D"12" border=3D"0"></td></tr></table>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td style=3D"background-color: #0099cc" ><img src=3D"http://www.ibm.com/par=
+tnerworld/images/ecomms/v17/contact_2_en.gif" width=3D"322" height=3D"160" =
+border=3D"0" usemap=3D#contact alt=3D"Contact us" >
+</td>
+<td background=3D"http://www.ibm.com/partnerworld/images/ecomms/v17/footer_=
+bg.gif" style=3D"font-family: arial; font-size: 19px; vertical-align: top; =
+line-height: 150%; color:#ffffff; text-decoration: none; background-color: =
+#0099cc;" width=3D"614" ><br><b>Manage my profile</b><br><a href=3D"https:/=
+/www.ibm.com/account/profile/us?page=3Dforgot" style=3D"color:#ffffff; text=
+-decoration: none;">Reset my PartnerWorld password</a><br><a href=3D"https:=
+//www.ibm.com/partnerworld/mem/forms/location_selector.jsp?src=3Dnewsletter=
+" style=3D"color:#ffffff; text-decoration: none;">Update my interests</a><b=
+r><a href=3D"https://www.ibm.com/partnerworld/mem/forms/location_selector.j=
+sp?src=3Dnewsletter" style=3D"color:#ffffff; text-decoration: none;">Unsubs=
+cribe</a><br></td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:center; font-family:arial; font-size:=
+10px; text-decoration:none; color:#999999; background-color: #ffffff" heigh=
+t=3D"60" border=3D"0" ><br>
+<br><b>=C2=A9 International Business Machines Corporation  2016. All rights=
+ reserved.</b><br><br>Your e-mail address: kiro@kiro.pl is used to communic=
+ate information that is specific to you and your company's business relatio=
+nship with IBM. Your PartnerWorld location ID is: 8lfse-1u      .<br><br>
+IBM Polska Sp. z o.o.<br/>ul. Krakowiak=C3=B3w 32, skr. poczt. 12, 02-255 W=
+arszawa<br/>NIP: 526-030-07-24<br/>S=C4=85d Rejonowy dla m.st. Warszawy w W=
+arszawie, XIII Wydzia=C5=82 Gospodarczy KRS<br/>KRS 0000012941,<br/>Kapita=
+=C5=82 Zak=C5=82adowy: 42.153.600 PLN<br><br>
+<img src=3D'http://www.ibm.com/partnerworld/partnertools/p.wss?cmd=3Dctt&ct=
+t_track=3D10697602&country=3DPL&a=3DCT6RNEQXCU' alt=3D'Article link' /><br>=
+<br>
+</td>
+</tr>
+</table>
+<map name=3Dconnect>
+<area shape=3DRect Coords=3D625,0,685,62 target=3D_blank href=3D"http://bus=
+inesspartnervoices.com/" title=3D"Business Partner Voices blog" >
+<area shape=3DRect Coords=3D685,0,750,62 target=3D_blank href=3D"http://www=
+.youtube.com/partnervoicesvideo" title=3D"IBM PartnerWorld YouTube channel"=
+ >
+<area shape=3DRect Coords=3D750,0,815,62 target=3D_blank href=3D"https://ww=
+w.linkedin.com/groups?gid=3D830117" title=3D"IBM PartnerWorld LinkedIn grou=
+p" >
+<area shape=3DRect Coords=3D815,0,870,62 target=3D_blank href=3D"https://ww=
+w.facebook.com/IBMPartnerWorld?ref=3Daymt_homepage_panel" title=3D"IBM Part=
+nerWorld on Facebook" >
+<area shape=3DRect Coords=3D870,0,936,62 target=3D_blank href=3D"https://tw=
+itter.com/ibmpartners" title=3D"IBM PartnerWorld on Twitter" >
+
+
+
+</map>
+<map name=3Dcontact>
+<area shape=3DRect Coords=3D20,70,80,130 target=3D_blank href=3D"https://ww=
+w.ibm.com/partnerworld/wps/servlet/chat/pw-unauth-userinfo.jsp?chatID=3DPWN=
+ews&ssoid=3DUnauthenticated&workgroup=3Dpwcs-emea@workgroup.g03zcxmq001.ahe=
+.boulder.ibm.com&origin=3DPWOPEN&workgroup=3Dpwcs-emea@workgroup.g03zcxmq00=
+1.ahe.boulder.ibm.com" title=3D"Open a livechat with the PWCS team" >
+<area shape=3DRect Coords=3D90,70,150,130 target=3D_blank href=3D"https://w=
+ww.ibm.com/partnerworld/wps/servlet/ContentHandler/pw_frm_questions_submit"=
+ title=3D"Send an email to the PWCS team" >
+<area shape=3DRect Coords=3D160,70,220,130 target=3D_blank href=3D"https://=
+www.ibm.com/partnerworld/wps/servlet/ContentHandler/pw_com_ctp_index" title=
+=3D"Call the PWCS team" >
+</map>
+

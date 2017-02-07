@@ -1,0 +1,216 @@
+Return-path: <127-GRI-621.0.4517.0.0.7922.7.58549889-1@em-sj-77.mktomail.com>
+Envelope-to: kiro@kiro.pl
+Delivery-date: Sat, 22 Oct 2016 21:26:31 +0200
+Received: from corktree.mktdns.com ([199.15.214.22])
+	by mx2.wirt18.biznes-host.pl with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.84)
+	(envelope-from <127-GRI-621.0.4517.0.0.7922.7.58549889-1@em-sj-77.mktomail.com>)
+	id 1by1w7-0007Fx-AB
+	for kiro@kiro.pl; Sat, 22 Oct 2016 21:26:31 +0200
+X-MSFBL: a2lyb0BraXJvLnBsQGR2cC0xOTktMTUtMjE0LTIyQGJnLXNqZC0xMzFAMTI3LUdS
+	SS02MjE6MDo0NTE3OjM1MzEyOjM6NzkyMjo3OjU4NTQ5ODg5LTE=
+Received: from [10.0.87.249] ([10.0.87.249:60630] helo=sjmas03.marketo.org)
+	by sjmta06.marketo.org (envelope-from <ajay@zohocorp.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 39/5D-40569-ADDBB085; Sat, 22 Oct 2016 14:28:26 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1477164506;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=HbyoXDEQmAMKUr41jryOhAHkrm29FPE/0Z2QJfYqpec=;
+	b=XJPWRjKxCzt+ArIg93z6njbnnYMHkmbeR9r2dCMaaDvmqgagW20CyWhIktz8O6dm
+	9WU0hKeeiQQee0nI239JZZ0jnCXMiEFHEX8Wp2B2v18NKGg7XvsrhXt+hXLfEOnDaoF
+	30ZCWtTKK3gKWT1uvb4OJRntDLsuIm9wKmvaU7ng=
+Date: Sat, 22 Oct 2016 14:28:26 -0500 (CDT)
+From: Ajay From Zoho Creator <ajay@zohocorp.com>
+Reply-To: ajay@zohocorp.com
+To: kiro@kiro.pl
+Message-ID: <1898344333.-786679767.1477164506452.JavaMail.root@sjmas03.marketo.org>
+Subject: Get Started with Zoho Creator
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-786679769_1620195854.1477164506451"
+X-Binding: bg-sjd-131
+X-MarketoID: 127-GRI-621:0:4517:35312:3:7922:7:58549889-1
+X-MktArchive: false
+List-Unsubscribe: <mailto:NEWXSNTVN5KEI4JYJI2G6M22PBWHSRSJNFJXKUDVJNBVCY3FONLHGRCOIZKXM332GN4WGPI.4517.7922.7@unsub-sj.mktomail.com>
+X-Mailfrom: 127-GRI-621.0.4517.0.0.7922.7.58549889-1@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Antivirus-Scanner: Clean mail though you should still use an Antivirus
+
+------=_Part_-786679769_1620195854.1477164506451
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi kiro, 
+Let us explore Zoho Creator together! We'd love to walk you through building a simple application.  
+
+<http://mkto-o0086.com/dc/-IMMUzpYigLXSwHVsOucAI9oMviJf-Z5w2BAzlMLnyeTzZioMFSdB9ye7vMsIDtVb-qrlVg2BJW4ar91Ujv-b0fQxywR3ir1ctnxn28OGqQ=/VvRO300xvg0I000GpXF3tc0> 
+
+We're excited to help you begin building custom business applications. From floral designers to teachers, winemakers to business professionals, we constantly see determined non-programmers adding value to their businesses. You can get started by installing a pre-built application from our gallery, or by importing data from a spreadsheet. You can also create a test application from scratch to begin exploring.
+
+ Build Your Application <http://mkto-o0086.com/x0G0000w0Gg3pcR02xX3vIF>
+ Already know your requirements? Need your custom application built quickly? Contact one of our Certified Developers <http://mkto-o0086.com/wRvIcXxGp00003gP30F0u0v> 
+
+Warm regards,
+ Ajay A 
+Account Manager | Zoho Corp 
+Phone : +44 (203) 564 7678
+
+
+USA : +1 (888) 900 9646 | UK : +44 (20) 35647890 | Australia : +61-2-80662898 | India : +91-44-67447000 Zoho Corporation | 4141 Haceinda Drive | Pleasanton | California | USA Not Interested? Unsubscribe <http://mkto-o0086.com/O0v03XFI0030cGpw0R0xgvR>
+
+If you no longer wish to receive these emails, go to the following link to unsubscribe: %unsubscribe.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTjJWaE4yVXpPV1F4TXpNMiIsInQiOiJ1UVdaRkw5a2Y0UXlnTGRoZlBIc2VQSko0c2hqYm1mczlKcmVlV1JFZGkvdFlDb3hlakFuRXdobHJ1RG93a04xSk5vTmNiRGN4MGxmTXJxZ1QzYW4vaGFkUmpaRXRGYnFqZ1AzWi9FVi96QT0ifQ%3D%3D.
+
+------=_Part_-786679769_1620195854.1477164506451
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Zoho Creator</title>
+
+<style type="text/css">
+    span.preheader {
+        display: none !important;
+        text-align: center !important;
+    }
+
+    @font-face{
+            font-family:'Open Sans';
+            font-style:normal;
+            font-weight:400;
+            src:local('Open Sans'),
+                local('OpenSans'),
+                url('http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
+        }
+     @media only screen and (max-device-width: 480px) {
+    table[class="table"], td[class="cell"] {
+        width: 300px !important;
+        align: left;
+    }
+    table[class="table1"] {
+        margin: 0px auto 0px !important;
+        width: 300px !important;
+        align: left !important;
+    }
+    .headsmall {
+        font-size: 17px !important;
+        line-height: 24px !important;
+    }
+    .headsmall2 {
+        font-size: 22px !important;
+        font-weight: bold !important;
+        line-height: 28px !important;
+        padding-bottom: 10px !important;
+    }
+    .subsmall {
+        font-size: 15px !important;
+        line-height: 20px !important;
+        padding-left:20px !important;
+        padding-right:20px !important;
+    }
+    .download-link {
+        font-size: 12px !important;
+        padding: 10px 12px !important;
+    }
+
+    table[class="restable"] {
+        width: 300px !important;
+        align: left;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 20px !important;
+        display: block !important;
+    }
+    table[class="tblmrglft"] {
+        width: 300px !important;
+        align: left;
+    }
+    span[class="bordernone"] {
+        border-right: none !important;
+    }
+    span[class="ask"] {
+        padding: 0 20px !important;
+    }
+    img[class="resimg"] {
+        width: 300px !important;
+    }
+
+    img[class="resimg1"] {
+        width: 260px !important;
+    }
+    img[class="socialimg"] {
+        width: 250px !important;
+    }
+    }
+</style>
+</head>
+<body bgcolor="#F5F5F5" style="padding-bottom:0; padding-left:0; padding-right:0; padding-top:0; margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; font-family:'Open Sans', Helvetica Neue, Arial, sans-serif; background:#f5f5f5; " ><div ><div class="mktEditable" >
+<p><span class="preheader" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0; mso-hide: all;">Begin building your custom business app today.
+ We'd love to walk you through building a simple app.
+ Here is the list of resources which help you begin building your first application.</span></p>
+<table width="660" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;" bgcolor="" class="table">
+<tbody>
+<tr>
+<td class="cell">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="table" style="margin: 0 auto;">
+<tbody>
+<tr>
+<td class="cell" style="padding: 30px 0 20px; margin: 0;" align="left"><a href=
+"http://mkto-o0086.com/p0X00G0gNI0F3scRxp03vv0" target="_blank" title="Zoho" alt="Zoho"
+><img title="Zoho Creator" alt="Zoho Creator" src="https://go.manageengine.com/rs/127-GRI-621/images/zoho.png" /></a></td>
+<td style="padding: 30px 10px 20px; margin: 0; color: #2eace9;" align="right"><a href=
+"http://mkto-o0086.com/p0X00G0gNI0F3scRxp03vv0" title="Zoho" alt="Zoho" style="color: #2eace9;"
+>Access Zoho Creator</a></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="table" width="660" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto 25px; padding: 0px 0 30px 0; background: #FFF;">
+<tbody>
+<tr>
+<td class="cell" align="left"><span class="subsmall" style="padding: 0px 50px 15px; display: block; font-family: 'Open Sans', Helvetica Neue, Arial, sans-serif; font-size: 15px; color: #333; line-height: 28px;"><span style="display: block; padding-top: 40px; font-size: 17px; text-align: center;">Hi <span style="text-transform: capitalize;">kiro</span>,</span> <span class="headsmall2" 
+style="display: block; padding-top: 20px; color: #333; font-size: 28px; text-align: center;">Let us explore Zoho Creator together!</span> <span style="display: block; padding-top: 10px; font-size: 17px; color: #666; text-align: center;">We'd love to walk you through building a simple application.</span> <span style="display: block; padding-top: 25px;"><a  href=
+"http://mkto-o0086.com/dc/-IMMUzpYigLXSwHVsOucAI9oMviJf-Z5w2BAzlMLnyeTzZioMFSdB9ye7vMsIDtV9eHPYGuqYgYGwAm-gdqd-6Udvx6xUx3Yuy85HAI35syr3GN3kOJ0LoBcU8fWTlo4/VvRO300xvg0I000GpXF3tc0" target="_blank" title="Zoho Creator Build Your First App" alt="Build Your First App"
+><img class="resimg1" title="Zoho Creator Build Your First App" style="font-size: 28px; line-height: 35px; display: block;" alt="Zoho Creator Build Your First App" 
+src="https://go.manageengine.com/rs/127-GRI-621/images/First%20App%20Zcreator.jpg" /></a></span> <span style="display: block; padding-top: 30px;">We're excited to help you begin building custom business applications.</span> <span style="display: block; padding-top: 20px;">From floral designers to teachers, winemakers to business professionals, we constantly see determined non-programmers adding 
+value to their businesses.</span> <span style="display: block; padding-top: 20px;">You can get started by installing a pre-built application from our gallery, or by importing data from a spreadsheet.
+ You can also create a test application from scratch to begin exploring.</span> <span style="display: block; padding-top: 20px; text-align: center;"><a href=
+"http://mkto-o0086.com/x0G0000w0Gg3pcR02xX3vIF" title="Zoho" alt="Zoho" style="color: #fff; padding: 10px 15px; background: #00add5; border: 1px solid #eeeeee; text-decoration: none;"
+>Build Your Application</a></span> <span style="display: block; 
+padding-top: 20px;">Already know your requirements? Need your custom application built quickly?</span> <span style="display: block; padding-top: 20px;"><a style="color: #2eace9; text-decoration: none;" href=
+"http://mkto-o0086.com/wRvIcXxGp00003gP30F0u0v" target="_blank"
+>Contact one of our Certified Developers</a></span> <span style="display: block; padding-top: 35px; color: #888;">Warm 
+regards,</span> <span style="display: block; padding-top: 5px; color: #888;">Ajay A</span> <span style="display: block; padding-top: 5px; color: #888;">Account Manager | Zoho Corp</span> <span style="display: block; padding-top: 5px; color: #888;">Phone :&nbsp;+44 (203) 564 7678</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" width="100%" style="font-family: 'Open Sans', Helvetica Neue, Arial, sans-serif; font-size: 14px; color: #666; text-align: center;" class="table">
+<tbody>
+<tr>
+<td valign="middle"><span class="subsmall" style="display: block; text-align: center; padding: 10px 0px; font-size: 12px;"><a style="color: #2eace9; text-decoration: none;">USA : +1 (888) 900 9646</a> | <a style="color: #2eace9; text-decoration: none;">UK : +44 (20) 35647890</a> | <a style="color: #2eace9; text-decoration: none;">Australia : +61-2-80662898</a> | <a style="color: #2eace9; 
+text-decoration: none;">India : +91-44-67447000</a></span> <span class="subsmall" style="display: block; text-align: center; padding: 0px; font-size: 12px;">Zoho Corporation | 4141 Haceinda Drive | Pleasanton | California | USA</span> <span style="display: block; text-align: center; padding: 10px 0px 30px; font-size: 11px; text-transform: uppercase;">Not Interested? <a  href=
+"http://mkto-o0086.com/O0v03XFI0030cGpw0R0xgvR" target="_blank" style="color: #2eace9;"
+>Unsubscribe</a></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<img src="http://mkto-o0086.com/trk?t=1&mid=MTI3LUdSSS02MjE6MDo0NTE3OjM1MzEyOjM6NzkyMjo3OjU4NTQ5ODg5LTE6bnVsbA%3D%3D" width="1" height="1" style="display:none !important;" alt="" />
+
+<p align="left"><font face="Verdana" size="1"><br/></font></p>
+</body>
+</html>
+------=_Part_-786679769_1620195854.1477164506451--

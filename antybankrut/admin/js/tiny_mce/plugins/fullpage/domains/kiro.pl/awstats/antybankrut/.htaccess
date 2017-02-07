@@ -1,0 +1,7 @@
+Options -Indexes +ExecCGI
+AddHandler cgi-script .pl
+DirectoryIndex awstats.pl
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.antybankrut.kiro.pl$ [NC]
+RewriteRule ^(.*)$ http://antybankrut.kiro.pl/awstats/$1 [R=301,L]

@@ -1,0 +1,301 @@
+AWSTATS DATA FILE 7.5 (build 20160127)
+# If you remove this file, all statistics for date 201701 will be lost/reset.
+# Last config file used to build this data file was /home/mergi/domains/emardrewno.pl/awstats/.data/awstats.emardrewno.pl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2101                
+POS_TIME 2759                
+POS_VISITOR 6875                
+POS_DAY 7655                
+POS_DOMAIN 3368                
+POS_LOGIN 3594                
+POS_ROBOT 3749                
+POS_WORMS 4179                
+POS_EMAILSENDER 4310                
+POS_EMAILRECEIVER 4453                
+POS_SESSION 7910                
+POS_SIDER 8057                
+POS_FILETYPES 4588                
+POS_DOWNLOADS 4669                
+POS_OS 4717                
+POS_BROWSER 4884                
+POS_SCREENSIZE 5146                
+POS_UNKNOWNREFERER 5220                
+POS_UNKNOWNREFERERBROWSER 5330                
+POS_ORIGIN 5412                
+POS_SEREFERRALS 5546                
+POS_PAGEREFS 5701                
+POS_SEARCHWORDS 5973                
+POS_KEYWORDS 6125                
+POS_MISC 2423                
+POS_ERRORS 6184                
+POS_CLUSTER 3450                
+POS_SIDER_403 6286                
+POS_SIDER_400 6431                
+POS_SIDER_404 6513                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170201011149 1 0 9750428326078
+FirstTime 0
+LastTime 20170131232837
+LastUpdate 20170201042252 1 0 0 0 0
+TotalVisits 23                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 5 6 2612
+1 1 1 867 11 19 11404
+2 0 0 0 5 5 2191
+3 3 3 3565 5 8 4354
+4 1 1 867 8 9 3989
+5 0 0 0 5 7 3068
+6 1 1 867 4 8 3909
+7 1 1 1349 7 10 5676
+8 2 2 1115 10 15 8987
+9 1 1 867 5 6 3096
+10 0 0 0 2 2 864
+11 2 2 1115 3 5 1751
+12 2 2 2216 9 27 13640
+13 0 0 0 6 12 6339
+14 2 2 1734 15 17 10876
+15 1 1 867 3 30 13835
+16 0 0 0 8 12 6954
+17 0 0 0 13 55 25261
+18 3 3 1982 2 4 1762
+19 1 1 248 7 9 6084
+20 1 1 867 6 11 6312
+21 1 1 248 4 4 1766
+22 0 0 0 66 67 43199
+23 1 1 867 1 2 1300
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 24 24 19641
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 21 18207 20170131194128 0
+baiduspider 4 1734 20170130213833 0
+seokicks\.de 1 1349 20170126145512 0
+spbot 1 867 20170131035131 0
+yeti 1 867 20170126131908 0
+bingbot 1 867 20170123082743 0
+ips\-agent 1 1349 20170124070938 0
+ahrefsbot 1 867 20170130063309 0
+memorybot 1 867 20170130173707 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+php 24 19641 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxandroid 1 1
+winxp 1 1
+win2000 5 5
+linux 9 9
+win7 3 3
+win8 1 1
+macosx10 1 1
+win10 1 1
+Unknown 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+chrome40.0.2214.115 1 1
+chrome52.0.2743.116 1 1
+chrome55.0.2883.87 2 2
+msie5.01 5 5
+chrome49.0.2623.110 1 1
+chrome37.0.2062.120 9 9
+chrome52.0.2743.98 1 1
+chrome39.0.2171.95 1 1
+netscape 2 2
+firefox2.0.0.13 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla 20170120031111
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 13 13
+From1 0 0
+From2 1 1
+From3 10 10
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://pizza-tycoon.com 4 4
+http://hvd-store.com 2 2
+http://hundejo.com 2 2
+http://pizza-imperia.com 1 1
+http://kiro.pl 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 2 1054
+404 313 161201
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 2
+/ 1 http://whois.domaintools.com/emardrewno.pl
+/robots.txt 1 -
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/webservice/GetDeviceInterface 61 -
+/wyroby.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+188.165.200.217 5 5 1240 20170130183437
+14.142.64.3 2 2 2698 20170120031111
+109.173.155.110 1 1 867 20170122034324
+46.105.31.30 1 1 867 20170123090331
+65.19.167.132 1 1 867 20170131040049
+5.2.75.199 1 1 867 20170121182725
+83.6.108.30 1 1 867 20170130201500
+62.244.145.34 1 1 867 20170131232837
+104.238.180.234 1 1 1349 20170131074245
+94.23.252.175 1 1 1349 20170124120854
+178.217.187.39 1 1 867 20170118123322
+46.186.0.176 1 1 867 20170118114652
+192.36.27.4 1 1 867 20170123085208
+149.56.229.16 1 1 867 20170126065316
+85.248.227.165 1 1 867 20170121140456
+85.248.227.164 1 1 867 20170127180314
+199.127.226.150 1 1 867 20170121150048
+109.126.9.228 1 1 867 20170121140445
+91.198.89.226 1 1 867 20170127011223
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20170118 3 3 1982 3
+20170120 2 2 2698 1
+20170121 5 5 3716 5
+20170122 1 1 867 1
+20170123 2 2 1734 2
+20170124 2 2 1597 2
+20170126 1 1 867 1
+20170127 3 3 1982 3
+20170130 2 2 1115 2
+20170131 3 3 3083 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 24 19641 23 23
+END_SIDER

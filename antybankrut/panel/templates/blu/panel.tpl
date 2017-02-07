@@ -24,7 +24,7 @@
 <input type="submit" value="{$lang[178]}" name="zh">
 </form>
 <br>
-<h3  style="color:black;">{$lang[179]}</h3>
+
 {if $stan==7}<div id="ukryj"><center><b style="color:red;">{$lang[180]}</b></center>
     </div>{/if} {if $stan==6}
     <div id="ukryj">
@@ -33,21 +33,6 @@
     <div id="ukryj">
         <center><b style="color:lime;">{$lang[182]}</b></center>
     </div>{/if}
-    <form action="" method="POST" enctype="multipart/form-data" name="upf">
-        <table>
-            <tr>
-                <td></td>
-                <td> {if $img!=""} <img src="upload/user/{$img}">
-                    <input type="checkbox" name="del" value="1"> {$lang[183]} {else} <b>{$lang[184]}</b> {/if} </td>
-            </tr>
-            <tr>
-                <td valign="top">{$lang[185]}:</td>
-                <td>
-                    <input name="plik1" type="file" class="textbox" />
-                    <br><small>(JPEG, GIF, PNG)</small></td>
-            </tr>
-        </table>
-        <input type="submit" value="{$lang[178]}" name="upf"> </form>
     <br>
     <h3 style="color:black;">{$lang[186]}</h3> {if $stan==3}
     <div id="ukryj">
@@ -61,8 +46,7 @@
             <tr>
                 <td><b>{$lang[189]}:</b></td>
                 <td>
-                    <input type="text" name="email" value="{$email}">
-                </td>
+                    <input type="text" name="email" value="{$email}"> </td>
             </tr>
             <tr>
                 <td><b>{$lang[190]}:</b></td>
@@ -95,16 +79,9 @@
                 </td>
             </tr>
             <tr>
-                <td><b>{$lang[197]}:</b></td>
-                <td>
-                    <input type="text" name="gg" value="{$gg}">
-                </td>
-            </tr>
-            <tr>
                 <td><b>{$lang[198]}:</b></td>
                 <td>
-                    <input type="text" name="www" value="{$www}">
-                </td>
+                    <input type="text" name="www" value="{$www}"> </td>
             </tr>
             <tr>
                 <td><b>{$lang[199]}:</b></td>

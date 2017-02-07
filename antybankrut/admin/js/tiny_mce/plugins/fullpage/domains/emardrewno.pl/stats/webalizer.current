@@ -1,0 +1,373 @@
+# Webalizer V2.23-08 Incremental Data - 02/06/2017 23:23:49
+2017 2 6 23 23 49
+84 30 53 2 2 19 86434 45 41 0
+18 3 5 1 6
+7 3 4394 6 3 3
+15 5 9609 11 7 7
+11 3 5188 10 6 6
+12 3 42006 10 4 4
+14 3 7643 9 6 5
+25 13 17594 18 19 16
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+8 2 4126 3
+1 0 432 0
+1 0 432 0
+5 1 3298 2
+2 0 866 0
+5 3 3529 3
+0 0 0 0
+7 4 6602 4
+1 1 1349 1
+5 1 2608 3
+0 0 0 0
+1 1 248 1
+5 2 2765 3
+2 1 35248 1
+4 0 1748 2
+6 0 2804 2
+8 3 4849 4
+3 3 2214 3
+1 0 165 1
+4 3 3034 3
+1 1 867 1
+5 3 3104 3
+1 0 439 0
+8 1 5707 5
+0
+0
+0
+30
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+51
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/roundcube/skins/larry/images/favicon.ico
+0 1 0 34816 0 0
+/
+0 32 0 24875 30 5
+# End Of Table - urls
+# -sites- (monthly)
+159.203.112.71
+0 1 1 1349 1 1486369807
+/
+boron018.a.ahrefs.com
+0 2 0 866 0 0
+-
+62-210-103-36.rev.poneytelecom.eu
+0 2 1 1362 1 1485965507
+/
+113.ip-144-217-80.net
+0 1 1 867 1 1486063768
+/
+46.229.164.100
+0 1 0 433 0 0
+-
+46.229.164.98
+0 1 0 433 0 0
+-
+163-172-66-133.rev.poneytelecom.eu
+0 1 0 442 1 1486423429
+-
+msnbot-40-77-167-54.search.msn.com
+0 2 0 870 1 1486422297
+-
+astra5127.startdedicated.de
+0 2 1 1976 1 1486004467
+/
+msnbot-207-46-13-228.search.msn.com
+0 1 0 433 0 0
+-
+c7.ib83js.me
+0 1 1 867 1 1486416857
+/
+crawl-66-249-66-221.googlebot.com
+0 2 2 1734 2 1486410514
+/
+163-172-64-177.rev.poneytelecom.eu
+0 1 0 435 1 1486094250
+-
+crawl-66-249-73-247.googlebot.com
+0 1 0 433 0 0
+-
+msnbot-207-46-13-116.search.msn.com
+0 1 1 867 1 1486402212
+/
+msnbot-207-46-13-164.search.msn.com
+0 1 0 439 0 0
+-
+msnbot-40-77-167-3.search.msn.com
+0 3 1 1745 1 1486359705
+/
+msnbot-207-46-13-152.search.msn.com
+0 2 2 960 2 1486401928
+/
+msnbot-207-46-13-94.search.msn.com
+0 1 0 435 1 1486113669
+-
+163-172-66-168.rev.poneytelecom.eu
+0 1 0 434 1 1486285540
+-
+146.185.147.54
+0 3 0 1315 1 1486303963
+-
+crawl-66-249-66-212.googlebot.com
+0 3 1 1733 1 1486270817
+/
+crawl-66-249-64-90.googlebot.com
+0 1 0 432 1 1486049257
+-
+195-154-181-168.rev.poneytelecom.eu
+0 2 2 1734 2 1486230054
+/
+msnbot-157-55-39-46.search.msn.com
+0 1 0 433 0 0
+-
+163-172-65-58.rev.poneytelecom.eu
+0 1 0 454 0 0
+-
+baiduspider-180-76-15-17.crawl.baidu.com
+0 1 0 165 1 1486081430
+/
+163-172-65-44.rev.poneytelecom.eu
+0 1 0 432 1 1486386502
+-
+b118806.yse.yahoo.net
+0 5 1 3056 2 1486330661
+/
+crawl-66-249-73-250.googlebot.com
+0 1 1 867 1 1485965821
+/
+crawl-66-249-66-204.googlebot.com
+0 2 1 1300 1 1486384076
+/
+user-94-254-243-249.play-internet.pl
+0 3 1 1733 1 1485993679
+/
+msnbot-207-46-13-233.search.msn.com
+0 1 0 882 0 0
+-
+crawl-66-249-64-76.googlebot.com
+0 2 2 1347 2 1485994506
+/
+163-172-64-185.rev.poneytelecom.eu
+0 1 0 444 0 0
+-
+ns309394.ip-188-165-200.eu
+0 2 2 496 2 1486415786
+/
+crawl-66-249-66-238.googlebot.com
+0 1 0 882 1 1486251589
+-
+crawl-66-249-64-66.googlebot.com
+0 1 0 882 0 0
+-
+crawl-66-249-65-21.googlebot.com
+0 1 0 432 0 0
+-
+baiduspider-180-76-15-152.crawl.baidu.com
+0 1 0 433 0 0
+-
+spider-2.lipperhey.com
+0 5 3 5302 1 1486367913
+/
+crawl-66-249-64-94.googlebot.com
+0 1 0 433 0 0
+-
+185.125.4.5
+0 1 1 34816 0 0
+-
+baiduspider-180-76-15-13.crawl.baidu.com
+0 1 0 433 0 0
+-
+crawl-66-249-66-183.googlebot.com
+0 1 1 867 1 1486151313
+/
+baiduspider-180-76-15-16.crawl.baidu.com
+0 1 0 165 1 1486212281
+/
+baiduspider-180-76-15-162.crawl.baidu.com
+0 1 0 165 1 1486405477
+/
+163-172-65-222.rev.poneytelecom.eu
+0 1 0 432 0 0
+-
+crawl-66-249-66-180.googlebot.com
+0 2 1 1300 1 1486166215
+/
+crawl-66-249-66-225.googlebot.com
+0 3 1 1733 1 1486384159
+/
+crawl-66-249-66-208.googlebot.com
+0 1 1 867 1 1486225022
+/
+163-172-65-232.rev.poneytelecom.eu
+0 1 0 443 1 1486398054
+-
+crawl-66-249-66-234.googlebot.com
+0 3 0 2646 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+159.203.112.71
+0 1 1 1349 1 1486369807
+/
+46.229.164.98
+0 1 0 433 0 0
+-
+163-172-66-133.rev.poneytelecom.eu
+0 1 0 442 1 1486423429
+-
+msnbot-40-77-167-54.search.msn.com
+0 2 0 870 1 1486422297
+-
+c7.ib83js.me
+0 1 1 867 1 1486416857
+/
+crawl-66-249-66-221.googlebot.com
+0 1 1 867 1 1486410514
+/
+msnbot-207-46-13-116.search.msn.com
+0 1 1 867 1 1486402212
+/
+msnbot-40-77-167-3.search.msn.com
+0 1 1 867 1 1486359705
+/
+msnbot-207-46-13-152.search.msn.com
+0 2 2 960 2 1486401928
+/
+crawl-66-249-66-212.googlebot.com
+0 1 0 433 0 0
+-
+163-172-65-44.rev.poneytelecom.eu
+0 1 0 432 1 1486386502
+-
+crawl-66-249-66-204.googlebot.com
+0 1 1 867 1 1486384076
+/
+msnbot-207-46-13-233.search.msn.com
+0 1 0 882 0 0
+-
+ns309394.ip-188-165-200.eu
+0 1 1 248 1 1486415786
+/
+spider-2.lipperhey.com
+0 5 3 5302 1 1486367913
+/
+baiduspider-180-76-15-162.crawl.baidu.com
+0 1 0 165 1 1486405477
+/
+crawl-66-249-66-225.googlebot.com
+0 2 1 1300 1 1486384159
+/
+163-172-65-232.rev.poneytelecom.eu
+0 1 0 443 1 1486398054
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 83
+https://www.google.pl/
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+0 2
+SafeDNSBot (https://www.safedns.com/searchbot)
+0 3
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+0 3
+Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)
+0 4
+Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 21
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 7
+Mozilla/5.0 (compatible; SemrushBot/1.2~bl; +http://www.semrush.com/bot.html)
+0 2
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+0 2
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)
+0 2
+Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)
+0 10
+Mozilla/5.0 (Linux; Android 5.1.1; SM-G925F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile S
+0 1
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+0 5
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+0 3
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
+0 5
+Mozilla/5.0 (compatible; Dataprovider.com;)
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safa
+0 6
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

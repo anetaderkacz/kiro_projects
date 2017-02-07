@@ -1,0 +1,313 @@
+AWSTATS DATA FILE 7.5 (build 20160127)
+# If you remove this file, all statistics for date 201702 will be lost/reset.
+# Last config file used to build this data file was /home/mergi/domains/nawozorganiczny.com.pl/awstats/.data/awstats.nawozorganiczny.com.pl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2119                
+POS_TIME 2802                
+POS_VISITOR 7138                
+POS_DAY 8015                
+POS_DOMAIN 3432                
+POS_LOGIN 3663                
+POS_ROBOT 3818                
+POS_WORMS 4222                
+POS_EMAILSENDER 4353                
+POS_EMAILRECEIVER 4496                
+POS_SESSION 8201                
+POS_SIDER 8391                
+POS_FILETYPES 4631                
+POS_DOWNLOADS 4919                
+POS_OS 5110                
+POS_BROWSER 5311                
+POS_SCREENSIZE 5568                
+POS_UNKNOWNREFERER 5642                
+POS_UNKNOWNREFERERBROWSER 5729                
+POS_ORIGIN 5811                
+POS_SEREFERRALS 5946                
+POS_PAGEREFS 6101                
+POS_SEARCHWORDS 6283                
+POS_KEYWORDS 6435                
+POS_MISC 2465                
+POS_ERRORS 6494                
+POS_CLUSTER 3519                
+POS_SIDER_403 6593                
+POS_SIDER_400 6747                
+POS_SIDER_404 6829                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170206230540 257 58436 15247185901322
+FirstTime 20170201110634
+LastTime 20170206230540
+LastUpdate 20170207001320 257 0 257 0 0
+TotalVisits 23                  
+TotalUnique 18                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 13 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 6 12882476 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 1 22 222298
+3 0 0 0 0 0 0
+4 0 0 0 1 11 76326
+5 0 0 0 0 0 0
+6 0 0 0 2 7 27919979
+7 3 30 2441734 1 1 5783
+8 1 1 22623 11 14 439791
+9 2 29 2699954 0 1 1485
+10 0 0 0 0 1 14053
+11 10 94 28806121 5 7 53447
+12 1 6 14473825 0 1 1485
+13 0 0 0 2 4 100850
+14 23 208 42295286 0 1 1485
+15 0 0 0 0 0 0
+16 0 0 0 1 2 1054
+17 12 95 8352615 6 38 2827637
+18 2 25 2697831 0 0 0
+19 0 0 0 0 0 0
+20 3 31 2312228 1 5 57598
+21 0 0 0 0 0 0
+22 15 119 36549962 0 4 5940
+23 4 4 0 0 4 5940
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 79 648 153534655
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 39 28176919 20170206111618 0
+phantom 29 2720817 20170202174021 0
+dataprovider\.com 11 200666 20170206081920 0
+googlebot\-image 7 542606 20170206170752 0
+spbot 4 16237 20170205172057 0
+bot[\s_+:,\.\;\/\\-] 4 45746 20170206115422 0
+bingbot 1 5783 20170206203111 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 6 332038 0 0
+css 171 939960 0 0
+png 83 9008074 0 0
+ttf 1 165818 0 0
+pdf 14 110049329 0 0
+woff 6 589764 0 0
+woff2 11 851741 0 0
+php 29 155615 0 0
+html 26 62795 0 0
+js 116 982341 0 0
+jpg 126 30366323 0 0
+svg 59 30857 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/download/referencje.pdf 6 0 36521460
+/download/maxcalc.pdf 5 0 59686226
+/download/badania.pdf 5 0 40338725
+/download/maxcalc1.pdf 1 0 1398786
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 1 1
+winlong 172 19
+winxp 36 5
+ios_iphone 59 5
+win7 105 16
+macosx9 68 7
+win10 62 14
+win8.1 32 3
+macosx8 30 3
+ios_ipad 83 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+safari6.0.5 30 3
+msie11.0 36 5
+chrome45.0.2454.94 1 1
+safari9.0 54 4
+chrome55.0.2883.87 94 17
+firefox51.0 36 5
+safari10.0 30 3
+chrome55.0.2883.95 68 7
+safari6.0 58 4
+chrome56.0.2924.87 69 11
+msie9.0 172 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 29 39
+From1 0 0
+From2 1 1
+From3 2 2
+From4 47 606
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://65.55.108.4/proxy.ashx 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 2 1054
+404 13 6018
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 2
+/ 1 http://whois.domaintools.com/nawozorganiczny.com.pl
+/robots.txt 1 -
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+91.114.220.36 14 167 3566015 20170205145058
+46.186.0.176 8 37 8797007 20170206230540 20170206223707 /download.html
+46.215.36.64 8 68 39171100 20170206120154
+62.244.145.34 8 13 13066857 20170202175519
+91.195.93.166 7 68 42788339 20170206140927
+62.244.155.104 6 49 12292946 20170206223646 20170206223644 /download.html
+83.9.235.30 5 36 14976899 20170205220518
+87.119.23.157 4 54 5418648 20170202180426
+40.77.170.91 3 3 17349 20170205145506
+213.147.161.105 3 30 2441734 20170203073422
+54.221.156.142 2 29 2720817 20170202174020
+65.55.209.187 1 1 5783 20170205145057
+40.77.170.88 1 1 5783 20170205145318
+54.163.128.216 1 1 5783 20170202174017
+54.167.1.157 2 29 2720817 20170202174021
+54.162.96.87 2 29 2720817 20170202174018
+185.22.138.43 3 32 2795338 20170206220100
+167.114.172.225 1 1 22623 20170206081921
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20170201 3 32 4108846 1
+20170202 19 155 26653739 8
+20170203 3 30 2441734 1
+20170205 24 208 18571829 5
+20170206 30 223 101758507 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+2mn-5mn 1
+30s-2mn 7
+15mn-30mn 1
+0s-30s 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 34 184530 22 6
+/download.html 15 17602 1 6
+/fonts/fontawesome-webfont.woff2 11 851741 0 1
+/contact-us.html 6 16278 0 2
+/fonts/fontawesome-webfont.woff 6 589764 0 5
+/fonts/fontawesome-webfont.eot 6 332038 0 0
+/fonts/fontawesome-webfont.ttf 1 165818 0 1
+END_SIDER

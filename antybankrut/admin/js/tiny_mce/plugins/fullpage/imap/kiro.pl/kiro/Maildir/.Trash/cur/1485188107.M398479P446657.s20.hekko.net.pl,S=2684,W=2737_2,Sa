@@ -1,0 +1,53 @@
+Return-Path: <esklepyi@wirt23.biznes-host.pl>
+Delivered-To: kiro@kiro.pl
+Received: from s20.hekko.net.pl
+	by s20.hekko.net.pl (Dovecot) with LMTP id q8B8FwsshljB0AYAb9fnRQ
+	for <kiro@kiro.pl>; Mon, 23 Jan 2017 17:15:07 +0100
+Return-path: <esklepyi@wirt23.biznes-host.pl>
+Received: from wirt23a.biznes-host.pl ([91.228.198.63])
+	by s20.hekko.net.pl with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.87)
+	(envelope-from <esklepyi@wirt23.biznes-host.pl>)
+	id 1cVhGt-001vno-9L
+	for kiro@kiro.pl; Mon, 23 Jan 2017 17:15:07 +0100
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=wirt23.biznes-host.pl; s=x; h=Date:Message-Id:Content-Type:Subject:To:From:
+	Sender:Reply-To:Cc:MIME-Version:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=cY4iTGiawxmowTkhV2wr3Ci6X/PHITzj3v86Yp4Oq2c=; b=B50HG/ntQ8XfyWv1zJvir0zgKo
+	jSujvoIsFio0+ed7P76u05OR5x3WLjY6aVAWcy604rMvkXbsc6Ma6+ZizJiLSAnvuaSYoeBmTLCK+
+	vzLcR4idl2RfMT5NsTu8xCxLe4Kbx5CExuTIp8w9UKfsuN906HK8Q13sXDSf4gAJ0pW8fUwaqnbFl
+	J7viOj8ndG98EJM9quxAk2bV/IqCESyj0i/5nMkd2y9WPjmufHfhK6qZLksTWGRLEgEJRCzxefNkX
+	9x0YDZPcr+SUH4i8qjL2gP+qlH7/pZFRGq6Foesu0UPpmOcBqoA2ILJQF0x83QMCAEJHY71yHa4t0
+	Ap/55GzA==;
+Received: from esklepyi by wirt23.biznes-host.pl with local (Exim 4.87)
+	(envelope-from <esklepyi@wirt23.biznes-host.pl>)
+	id 1cVhGn-0003gT-Pc
+	for kiro@kiro.pl; Mon, 23 Jan 2017 17:15:01 +0100
+From: "(Cron Daemon)" <esklepyi@wirt23.biznes-host.pl>
+To: kiro@kiro.pl
+Subject: Cron <esklepyi@wirt23> /home/esklepyi/domains/esklepy.info/public_html/EB/kill2.php
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+Precedence: bulk
+X-Cron-Env: <XDG_SESSION_ID=1726919>
+X-Cron-Env: <XDG_RUNTIME_DIR=/run/user/1159>
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <MAILTO=kiro@kiro.pl>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/esklepyi>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=esklepyi>
+X-Cron-Env: <USER=esklepyi>
+Message-Id: <E1cVhGn-0003gT-Pc@wirt23.biznes-host.pl>
+Date: Mon, 23 Jan 2017 17:15:01 +0100
+X-Authenticated-Id: esklepyi
+Forward-Confirmed-ReverseDNS: Reverse and forward lookup success on 91.228.198.63, -10 Spam score
+X-DKIM: signer='wirt23.biznes-host.pl' status='invalid' reason='pubkey_unavailable'
+DKIMCheck: Invalid DKIM, 100 Spam score. May be a temporary problem.
+SpamTally: Final spam score: 90
+X-Antivirus-Scanner: Clean mail though you should still use an Antivirus
+
+/bin/sh: /home/esklepyi/domains/esklepy.info/public_html/EB/kill2.php: Permission denied

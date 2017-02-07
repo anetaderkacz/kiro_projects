@@ -1,0 +1,420 @@
+# Webalizer V2.23-08 Incremental Data - 02/06/2017 23:05:40
+2017 2 6 23 5 40
+771 620 33 48 17 22 185301828 85 35 0
+11 8 173 1 6
+34 32 4109900 2 3 2
+207 203 29553772 10 15 11
+41 40 30663533 4 4 2
+2 1 89284 2 0 0
+230 96 18754934 9 22 8
+257 248 102130405 11 41 12
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+6 6 12882476 2
+0 0 0 0
+22 20 222298 1
+0 0 0 0
+11 10 76326 1
+0 0 0 0
+7 7 27919979 2
+31 31 2447517 3
+15 13 462414 12
+30 30 2701439 1
+1 1 14053 0
+100 99 28142518 12
+8 8 15192360 1
+4 3 100850 2
+209 79 42327797 15
+0 0 0 0
+2 0 1054 1
+133 128 11180418 13
+25 25 2697831 1
+0 0 0 0
+36 34 2369826 3
+0 0 0 0
+123 122 36556068 11
+8 4 6604 4
+0
+0
+0
+620
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+133
+0
+0
+0
+0
+0
+2
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/css/font-awesome.min.css
+0 15 0 122775 0 0
+/css/flag-icon.css
+0 23 0 60632 0 0
+/pricing.html
+0 1 21324336 15438 0 0
+/download/badania.pdf
+0 5 0 40338725 0 0
+/shortcodes.html
+0 1 21324000 26825 0 0
+/images/worek.jpg
+0 24 0 1715202 0 0
+/images/slider/slider1.jpg
+0 21 0 6503675 0 0
+/contact-us.html
+0 8 0 27515 0 0
+/flags/4x3/gb.svg
+0 20 0 14932 0 0
+/download.html
+0 18 0 28449 1 3
+/download/maxcalc.pdf
+0 5 0 59686226 0 0
+/images/slider/slider2.jpg
+0 21 0 11765386 0 0
+/fonts/fontawesome-webfont.woff
+0 7 0 688058 0 0
+/js/bootstrap.min.js
+0 22 0 158266 0 0
+/js/jquery.js
+0 23 0 708925 0 0
+/fonts/fontawesome-webfont.eot
+0 6 0 332726 0 0
+/about-us.html
+0 1 21324112 18117 0 0
+/download/referencje.pdf
+0 6 0 36521460 0 0
+/js/jquery.isotope.min.js
+0 21 0 102677 0 0
+/images/tlo2.jpg
+0 20 0 2991196 0 0
+/images/logo.png
+0 24 0 268257 0 0
+/flags/4x3/de.svg
+0 21 0 10410 0 0
+/js/jquery.prettyPhoto.js
+0 22 0 128152 0 0
+/flags/4x3/pl.svg
+0 21 0 10474 0 0
+/fonts/fontawesome-webfont.woff2
+0 11 0 851741 0 0
+/download/maxcalc1.pdf
+0 1 0 1398786 0 0
+/fonts/fontawesome-webfont.ttf
+0 1 0 165818 0 0
+/images/slider/bg3.jpg
+0 21 0 3129829 0 0
+/js/main.js
+0 22 0 22362 0 0
+/css/bootstrap.min.css
+0 23 0 370597 0 0
+/css/animate.min.css
+0 23 0 115892 0 0
+/images/slider/img2.png
+0 24 0 941066 0 0
+/images/ico/favicon.ico
+0 13 0 19305 0 0
+/blog-item.html
+0 1 21324448 23655 0 0
+/css/prettyPhoto.css
+0 22 0 62297 0 0
+/
+0 52 0 362588 34 4
+/css/main.css
+0 22 0 182793 0 0
+/images/slider/img1.png
+0 22 0 5941703 0 0
+/images/map.jpg
+0 6 0 506916 0 0
+/images/worek.png
+0 1 0 237870 0 0
+/images/dziki.png
+0 21 0 2544863 0 0
+/css/font-awesome.css
+0 24 0 165068 0 0
+/images/gleba.jpg
+0 21 0 5877849 0 0
+/blog.html
+0 1 21324560 19630 0 0
+/js/wow.min.js
+0 22 0 40510 0 0
+/css/responsive.css
+0 22 0 29334 0 0
+/assets/docs.css
+0 23 0 25113 0 0
+/services.html
+0 1 21324224 14673 0 0
+# End Of Table - urls
+# -sites- (monthly)
+crawl-66-249-66-168.googlebot.com
+0 8 8 178616 2 1486366410
+/
+msnbot-65-55-209-187.search.msn.com
+0 1 1 5783 1 1486306257
+/
+119-023-157.adsl.szeptel.net.pl
+0 54 54 5418648 2 1486058622
+/
+apn-46-215-36-64.dynamic.gprs.plus.pl
+0 70 70 39174070 1 1486382514
+/download.html
+ip-91-197-15-34.gadu-gadu.pl
+0 4 4 45746 1 1486382062
+/
+ec2-54-162-96-87.compute-1.amazonaws.com
+0 29 29 2720817 1 1486057217
+/
+crawl-66-249-66-11.googlebot.com
+0 2 2 19828123 0 0
+-
+ec2-54-167-1-157.compute-1.amazonaws.com
+0 29 29 2720817 1 1486057219
+/
+host-91-195-93-166.wieszowanet.pl
+0 69 69 42789824 3 1486390167
+/
+40.77.170.91
+0 3 3 17349 1 1486306506
+/
+crawl-66-249-64-19.googlebot.com
+0 6 6 44330 0 0
+-
+acgh30.neoplus.adsl.tpnet.pl
+0 37 37 14978384 1 1486332318
+/download.html
+62-244-145-34.static.ip.netia.com.pl
+0 13 12 13067023 2 1486058119
+/download.html
+104.236.235.185
+0 6 4 17103 1 1486315257
+/contact-us.html
+ec2-54-221-156-142.compute-1.amazonaws.com
+0 29 29 2720817 1 1486057219
+/
+msnbot-157-55-39-49.search.msn.com
+0 1 1 5783 1 1486413071
+/
+ec2-54-163-128-216.compute-1.amazonaws.com
+0 3 1 6649 1 1486057217
+/
+91-114-220-36.adsl.highway.telekom.at
+0 168 41 3598526 1 1486306235
+/
+host-46-186-0-176.dynamic.mm.pl
+0 43 38 8806747 1 1486422340
+/download.html
+msnbot-207-46-13-204.search.msn.com
+0 1 0 433 0 0
+-
+crawl-66-249-66-174.googlebot.com
+0 1 1 14053 0 0
+-
+crawl-66-249-64-16.googlebot.com
+0 12 12 124047 1 1486043857
+/
+spider-7.lipperhey.com
+0 14 12 224544 1 1486369161
+/
+crawl-66-249-66-3.googlebot.com
+0 4 4 8089539 1 1486102498
+/download.html
+crawl-66-249-66-171.googlebot.com
+0 11 7 129471 2 1486379778
+/
+40.77.170.88
+0 1 1 5783 1 1486306398
+/
+www.whois.sc
+0 2 0 1054 1 1485965930
+/
+ec2-54-161-218-2.compute-1.amazonaws.com
+0 29 29 2720817 1 1486057219
+/
+crawl-66-249-66-7.googlebot.com
+0 5 4 304137 0 0
+-
+138amplus43.amplus.net.pl
+0 33 33 2796823 1 1486418460
+/contact-us.html
+213-147-161-105.nat.highway.bob.at
+0 30 30 2441734 1 1486107262
+/contact-us.html
+crawl-66-249-64-22.googlebot.com
+0 3 2 9807 1 1486001424
+/
+inter-kar-104.lodz.multinet.pl
+0 50 50 12294431 2 1486420606
+/download.html
+# End Of Table - sites (monthly)
+# -sites- (daily)
+crawl-66-249-66-168.googlebot.com
+0 1 1 5783 1 1486366410
+/
+apn-46-215-36-64.dynamic.gprs.plus.pl
+0 70 70 39174070 1 1486382514
+/download.html
+ip-91-197-15-34.gadu-gadu.pl
+0 4 4 45746 1 1486382062
+/
+host-91-195-93-166.wieszowanet.pl
+0 37 37 38680978 2 1486390167
+/
+msnbot-157-55-39-49.search.msn.com
+0 1 1 5783 1 1486413071
+/
+host-46-186-0-176.dynamic.mm.pl
+0 43 38 8806747 1 1486422340
+/download.html
+msnbot-207-46-13-204.search.msn.com
+0 1 0 433 0 0
+-
+spider-7.lipperhey.com
+0 14 12 224544 1 1486369161
+/
+crawl-66-249-66-171.googlebot.com
+0 3 2 95067 1 1486379778
+/
+138amplus43.amplus.net.pl
+0 33 33 2796823 1 1486418460
+/contact-us.html
+inter-kar-104.lodz.multinet.pl
+0 50 50 12294431 2 1486420606
+/download.html
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.nawozorganiczny.com.pl/css/font-awesome.css
+0 3
+http://nawozorganiczny.com.pl/css/flag-icon.css
+0 14
+http://65.55.108.4/proxy.ashx
+0 2
+http://nawozorganiczny.com.pl/contact-us.html
+0 6
+http://nawozorganiczny.com.pl/css/font-awesome.css
+0 7
+http://nawozorganiczny.com.pl/
+0 326
+http://www.nawozorganiczny.com.pl/css/main.css
+0 6
+- (Direct Request)
+0 96
+http://nawozorganiczny.com.pl/download.html
+0 18
+http://www.nawozorganiczny.com.pl/download.html
+0 4
+http://nawozorganiczny.com.pl/css/main.css
+0 13
+http://www.google.pl/url
+0 1
+http://whois.domaintools.com/nawozorganiczny.com.pl
+0 1
+http://www.nawozorganiczny.com.pl/css/flag-icon.css
+0 9
+http://www.nawozorganiczny.com.pl/contact-us.html
+0 4
+http://nawozorganiczny.com.pl/index.html
+0 3
+http://www.nawozorganiczny.com.pl/
+0 258
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1
+0 54
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 63
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+0 76
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1
+0 32
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 42
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 2
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 2
+Googlebot-Image/1.0
+0 7
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 33
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 37
+Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1
+0 29
+GG PeekBot 2.0 ( http://gg.pl/ http://info.gadu-gadu.pl/praca )
+0 4
+Mozilla/5.0 (compatible; spbot/5.0.3; +http://OpenLinkProfiler.org/bot )
+0 6
+Mozilla/5.0 (Linux; Android 5.1.1; SM-G925F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile S
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:51.0) Gecko/20100101 Firefox/51.0
+0 37
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.40 (KHTML, like Gecko) Version/6.0 Mobile/11A4400e Safa
+0 29
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+0 69
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
+0 3
+Mozilla/5.0 (compatible; Dataprovider.com;)
+0 13
+Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.40 (KHTML, like Gecko) Version/6.0 Mobile/11A4400e Safari/8536.2
+0 29
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0 Mobile/14B100 
+0 30
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)
+0 173
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

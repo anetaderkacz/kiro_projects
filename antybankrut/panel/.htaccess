@@ -134,6 +134,7 @@ RewriteRule ^reklama/$ reklama.php
 
 RewriteRule ^katalog/$ katalog.php
 
+
 <Files ~ "\.tpl$">
 	Order allow,deny
 	Deny from all

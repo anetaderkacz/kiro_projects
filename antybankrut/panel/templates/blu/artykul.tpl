@@ -1,124 +1,213 @@
-{include file="$templa/subheader.tpl"}
-{if $druk!="tak"}
-{include file="$templa/top.tpl"}
-{include file="$templa/left.tpl"}
-{/if}
-			<div class="post">
-			<h1 class="title">{$art_tytul}</h1><div class="entry">
-		<p>
-<center>
-<div id="gallery" class="mob_on">
-<img src="upload/ogloszenie/{$art_imgg}" width="100%"  key="foto"  title="{$lang[17]}">
-</div>
-<table width="100%"   cellspacing="0">
-<tr>
-<tr>
-{if  $art_img<>""}
-<td width="10%" align="left" valign="top" class="mob_off">
-<div id="gallery"><img src="upload/ogloszenie/{$art_img}" class="img_mini"  key="foto"  title="{$lang[17]}">
-</div>
-</td>
-{else}
-<td width="10%" align="left" style="margin-right:10px;" valign="top">
-<img src="images/bf.jpg"  key="foto"  title="{$lang[18]}">
-</td>
-{/if}
-<td width="60%" style="padding-left:10px;" align="left" valign="top">
-
-<!------------------Info------------------->
-
-{$lang[19]}: <a href="user/{$art_autorn}/{$art_autorid}">{$art_autor}</a><br/>
-<br/>
-{if $art_cena>=1}<div id="cena">{$lang[22]}:<b> {$art_cena} </b>{$lang[23]}</div><br/>{/if}
-{if $art_bitcoin=="1"}<div id="bitcoin"><img src="../../images/bitcoin.png"></div>{/if}<br />
-{if $art_woj<>""}{$lang[24]}:  {$art_woj}<br/>{/if}
-{if $art_miasto<>""}{$lang[25]}:  {$art_miasto}<br/>{/if}
-<br>{$lang[27]}:  {$art_view}
-<br />
-<br/>{if $user_nick!=""}<a id ="wiadomosc1" href="pw/send/{$id}">{$lang[244]}</a><br />{/if}
-<br/>{if $user_nick==""}<a id ="wiadomosc1" href="pw/send/{$id}">{$lang[244]}</a><br /><br />{/if}
-<br/ >
-{if $art_tel<>""}<a id="telefon" onclick="fn1()">Pokaż telefon</a>{/if}
-<div id="telefon_pok" style="display:none;">{$art_tel}</div><br/>
-
-{literal}
-<script>
-            function fn1(){
-                document.getElementById('telefon').style.display = "none";
-                document.getElementById('telefon_pok').style.display = "inline";
-            }
-        </script>
-{/literal}
-
-<!------------------Info------------------->
-
-</td>
-<td width="40%" align="left" height="100%">
-
-
-<!------------------Ocenienie------------------->
-
-<table height="100%">
-<tr><td valign="bottom" align="center">
-{if $druk!="tak"}
-{if $ocenianie==1 or ($ocenianie==2 and $user_nick!="")}
-
-{include file="$templa/ocenianie.tpl"}
-<b>{$lang[28]}: {$ocena} {$lang[29]}: {$glosy}</b>
-
-{/if}
-
-{if $ocenianie==2 and $user_nick==""}
-<b>{$lang[30]}</b>
-{/if}{/if}
-</td></tr></table>
-<!------------------Ocenienie------------------->
-
-</td>
-</tr>
-</table>
-
-<div style="margin-top:10px;color:black;width:100%;z-index:2001;font-weight:normal;">{if $reklama_d<>""}{$reklama_d}{/if}</div>
-
-</center>
-
-{$art_tresc}
-{if $druk!="tak"}
-<div style="margin-top:25px;height:60px;">
-	<div style="float:left;">
-	<table >
-<tr>
-
-{if $druk!="tak"}
-{if $gp_like=="1"}
-<td width="62">
-<g:plusone size="tall" ></g:plusone>
-</td>
-{/if}
-
-{if $fb_like=="1"}
-<td width="80" valiggn="top">
-{literal}
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-send="false" data-layout="box_count"  data-show-faces="false"></div>
-{/literal}
-</td>
-{/if}
+{include file="$templa/subheader.tpl"} {if $druk!="tak"} {include file="$templa/top.tpl"} {include file="$templa/left.tpl"} {/if}
+<div class="post">
+    <h1 class="title">{$art_tytul}</h1>
+    <div class="entry">
+        <p>
+            <center>
+                <div id="gallery" class="mob_on"> <img src="upload/ogloszenie/{$art_imgg}" width="100%" key="foto" title="{$lang[17]}"> </div>
+                <table width="100%" cellspacing="0">
+                    <tr>
+                        <tr> {if $art_img
+                            <>""}
+                                <td width="10%" align="left" valign="top" class="mob_off">
+                                    <div id="gallery"><img src="upload/ogloszenie/{$art_img}" class="img_mini" key="foto" title="{$lang[17]}"> </div>
+                                </td> {else}
+                                <td width="10%" align="left" style="margin-right:10px;" valign="top"> <img src="images/bf.jpg" key="foto" title="{$lang[18]}"> </td> {/if}
+                                <td width="60%" style="padding-left:10px;" align="left" valign="top">
+                                    <!------------------Info------------------->{$lang[19]}: <a href="user/{$art_autorn}/{$art_autorid}">{$art_autor}</a>
+                                    <br/>
+                                    <br/> {if $art_cena>=1}
+                                    <div id="cena">{$lang[22]}:<b> {$art_cena} </b>{$lang[23]}</div>
+                                    <br/>{/if} {if $art_bitcoin=="1"}
+                                    <div id="bitcoin"><img src="../../images/bitcoin.png"></div>{/if}
+                                    <br /> {if $art_woj
+                                    <>""}{$lang[24]}: {$art_woj}
+                                        <br/>{/if} {if $art_miasto
+                                        <>""}{$lang[25]}: {$art_miasto}
+                                            <br/>{/if}
+                                            <br>{$lang[27]}: {$art_view}
+                                            <br />
+                                            <br/>{if $user_nick!=""}<a id="wiadomosc1" href="pw/send/{$id}">{$lang[244]}</a>
+                                            <br />{/if}
+                                            <br/>{if $user_nick==""}<a id="wiadomosc1" href="pw/send/{$id}">{$lang[244]}</a>
+                                            <br />
+                                            <br />{/if}
+                                            <br/> {if $art_tel
+                                            <>""}<a id="telefon" onclick="fn1()">Pokaż telefon</a>{/if}
+                                                <div id="telefon_pok" style="display:none;">{$art_tel}</div>
+                                                <br/> {literal}
+                                                <script>
+                                                    function fn1() {
+                                                        document.getElementById('telefon').style.display = "none";
+                                                        document.getElementById('telefon_pok').style.display = "inline";
+                                                    }
+                                                </script> {/literal}
+                                                <!------------------Info------------------->
+                                </td>
+                                <td width="40%" align="left" height="100%">
+                                    <!------------------Ocenienie------------------->
+                                    <table height="100%">
+                                        <tr>
+                                            <td valign="bottom" align="center"> {if $druk!="tak"} {if $ocenianie==1 or ($ocenianie==2 and $user_nick!="")} {include file="$templa/ocenianie.tpl"} <b>{$lang[28]}: {$ocena} {$lang[29]}: {$glosy}</b> {/if} {if $ocenianie==2 and $user_nick==""} <b>{$lang[30]}</b> {/if}{/if} </td>
+                                        </tr>
+                                    </table>
+                                    <!------------------Ocenienie------------------->
+                                </td>
+                        </tr>
+                </table>
+                <div style="margin-top:10px;color:black;width:100%;z-index:2001;font-weight:normal;">{if $reklama_d
+                    <>""}{$reklama_d}{/if}</div>
+            </center> {$art_tresc} {if $druk!="tak"}
+            <div style="margin-top:25px;height:60px;">
+                <div style="float:left;">
+                    <table>
+                        <tr> {if $druk!="tak"} {if $gp_like=="1"}
+                            <td width="62">
+                                <g:plusone size="tall"></g:plusone>
+                            </td> {/if} {if $fb_like=="1"}
+                            <td width="80" valiggn="top"> {literal}
+                                <div id="fb-root"></div>
+                                <script>
+                                    (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) {
+                                            return;
+                                        }
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                                </script>
+                                <div class="fb-like" data-send="false" data-layout="box_count" data-show-faces="false"></div> {/literal} </td> {/if} {if $nk_like=="1"}
+                            <td width="80"> {literal}
+                                <?php
+    include("subheader.php");
+    $smarty->display($ust['templates'].'/artykul.tpl');
 
 
-{if $nk_like=="1"}
-<td width="80">
-{literal}
-    <a href="https://twitter.com/share" class="twitter-share-button"  data-lang="pl" data-related="anywhereTheJavascriptAPI" data-count="vertical">Tweetnij</a>
+    
+        
+    $UZAO =($_GET['ZAP']/$_GET['AO'])*100;
+    $UKOM =($_GET['KW']+$_GET['ZD']-$_GET['AT'])/$_GET['AO'];
+    $NKON =($_GET['ZAP']+$_GET['NKT'])/2-($_GET['KW']+$_GET['ZD']-$_GET['AT']);
+        //zm pomocnicza srednia
+        $SRA=($_GET['AO-1']+$_GET['AO'])/2;
+        
+    $PRMA =($_GET['PN']/$SRA)*100;
+    $WFIB =$_GET['WFB']/1000;
+    $SZSP=($_GET['PN']-$_GET['PN-1'])/$_GET['PN-1'];
+    $SZZA=($_GET['ZO']-$_GET['ZO-1'])/$_GET['ZO-1'];    
+        
+$wartosci_zmiennych_uzyszkodnika = array
+										(
+											"UZAO" => $UZAO,
+											"UKOM" => $UKOM,
+											"NKON" => $NKON,
+											"PRMA" => $PRMA,
+											"WFIB" => $WFIB,
+											"SZSP" => $SZSP,
+											"SZZA" => $SZZA,
+										);
 
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+echo '<pre>';
+//print_r( $wartosci_zmiennych_uzyszkodnika );
+       
+       
+        echo 'UZAO='.$UZAO;
+         echo("<br>");
+        echo 'UKOM='.$UKOM;
+         echo("<br>");
+        echo 'NKON='.$NKON;
+         echo("<br>");
+        echo 'PRMA='.$PRMA;
+         echo("<br>");
+         echo 'WFIB='.$WFIB;
+        echo("<br>");
+        echo 'SZSP='.$SZSP;
+         echo("<br>");
+        echo 'SZZA='.$SZZA;
+echo '</pre>';
+
+
+//ponieważ wartości parametrów należy podac po pliku wykonywalnym odzielone spacją musimy zmienić tablicę na ciąg znaków oddzielony znakiem spacji;
+
+$parametry = implode(' ', $wartosci_zmiennych_uzyszkodnika);
+
+
+
+
+//tak wygląda wywolanie skompilowanego programu z parametrami:
+
+echo $polecenie = 'upload/kodl.out '.$parametry;
+
+echo '<br />';
+
+    
+echo $polecenie1 = 'upload/kodm3.out '.$parametry;
+
+echo '<br />';
+    
+    echo $polecenie2 = 'upload/kodm4.out '.$parametry;
+
+echo '<br />';
+
+    echo $polecenie3 = 'upload/kod_rbf.out '.$parametry;
+
+echo '<br />';
+
+
+// uruchomimy sobie buforowanie wyników do przechwycenia całego wyniku działania polecenia
+ob_start();
+
+system( $polecenie );
+
+$wynik = ob_get_contents();
+    ob_end_clean();
+  
+    ob_start();    
+system( $polecenie1 );
+$wynik1 = ob_get_contents();
+    ob_end_clean();
+    
+    ob_start();
+system( $polecenie2 );
+
+$wynik2 = ob_get_contents();
+    ob_end_clean();
+    
+        ob_start();
+system( $polecenie3 );
+
+$wynik3 = ob_get_contents();
+    
+
+//zwolnienie bufora
+ob_end_clean();
+   echo("<br>");
+        echo 'Wynik prognozy LIN: '.$wynik.'<br />';
+if ($wynik==1){echo 'BANKRUT';}
+if ($wynik==2){echo 'NIE-BANKRUT';}
+    
+       echo("<br>");
+        echo 'Wynik prognozy MLP3: <br />';
+if ($wynik1==1){echo 'BANKRUT';}
+if ($wynik1==2){echo 'NIE-BANKRUT';}
+    
+    echo("<br>");
+        echo 'Wynik prognozy MLP4: <br />';
+if ($wynik2==1){echo 'BANKRUT';}
+if ($wynik2==2){echo 'NIE-BANKRUT';}
+    
+      echo("<br>");
+        echo 'Wynik prognozy RBF: <br />';
+if ($wynik3==1){echo 'BANKRUT';}
+if ($wynik3==2){echo 'NIE-BANKRUT';}
+
+<?
 	
 {/literal}
 </td>

@@ -338,14 +338,7 @@ echo'
 <tr>
 <td valign="top">Cena za<br>promowane ogłoszenie:</td><td valign="top"><input type="text" name="procena" value="'.$ust['procena'].'" style="width:50px;">zł</td>
 </tr>
-<tr>
-<td valign="top">Płatność przelew:</td>
-<td valign="top">
-<select name="pay_typ" onchange="this.form.submit()">
-'.$pay_set['pay_typ'].'
-</select>
-</td>
-</tr>
+
 <tr>
 <td valign="top">Płatność sms:</td>
 <td valign="top">
@@ -354,12 +347,9 @@ echo'
 </select>
 </td>
 </tr>
+
 <tr>
-<td valign="top">'.$pay_set['lang_pin'].':</td><td><input type="text" name="dotpay_pin" value="'.$ust['dotpay_pin'].'" style="width:200px;"> <br>
-</td>
-</tr>
-<tr>
-<td valign="top">'.$pay_set['lang_dotpay'].':</td><td><input type="text" name="dotpay" value="'.$ust['dotpay'].'" style="width:200px;"> <br>
+<td valign="top">'.$pay_set['lang_dotpay'].':</td><td><input type="text" name="wag1" value="'.$ust['wag1'].'" style="width:200px;"> <br>
 </td>
 </tr>'.$pay_set['dod'].'';
 if($pay_set['lang_dotpay_sms']<>"")
@@ -374,6 +364,39 @@ echo'
 </table>
 <input type="submit" value="Zapisz"></form>
 <br><br>
+
+
+
+<br><b>Czas trwania ogłoszenia:</b><br>
+<form action="dodaj_dni.php" method="POST">
+<table>
+<tr>
+<td><b>Dni:</b></td> 
+<td><input type="text" name="dni"></td>
+</tr>
+<tr>
+<td><b>Cena przelew:</b></td> 
+<td><input type="text" name="cena"><br><small>Pozostawiajac pole puste ogloszenie bedzie darmowe.</small></td>
+</tr>
+<tr>
+<td><b>Cena sms:</b></td> 
+<td><input type="text" name="cenasms"><br><small>Pozostawiajac pole puste ogloszenie bedzie darmowe.</small></td>
+</tr>
+<tr>
+<td><b>'.$pay_set['lang_kod'].':</b></td> 
+<td><input type="text" name="kod"><br><small>np: asdf</small></td>
+</tr>
+<tr>
+<td><b>Numer:</b></td> 
+<td><input type="text" name="numer"><br><small>np: 7123</small></td>
+</tr>
+<tr>
+<td><b>Tresc SMS:</b></td> 
+<td><input type="text" name="tresc"><br><small>np: ap.asdf</small></td>
+</tr>
+</table>
+<input type="submit" name="ddd" value="Dodaj"></form>
+
 
 
 

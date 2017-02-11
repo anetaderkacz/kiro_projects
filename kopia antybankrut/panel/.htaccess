@@ -1,0 +1,143 @@
+AddHandler application/x-httpd-php54 php
+Options FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^usun/(.*)/ok$ panel_skrypt_del.php?pod=2&v=$1
+
+RewriteRule ^usun/(.*)$ panel_skrypt_del.php?pod=1&v=$1
+
+RewriteRule ^przedluz/(.*)/bez$ przedluz.php?pod=3&v=$1
+
+RewriteRule ^przedluz/(.*)/ok$ przedluz.php?pod=2&v=$1
+
+RewriteRule ^przedluz/(.*)$ przedluz.php?pod=1&v=$1
+
+RewriteRule ^images/([0-9]*).jpg$ images.php?id=$1
+
+ErrorDocument 404 /index.php?page=404
+
+RewriteRule ^shoutbox/$ shoutbox.php
+
+RewriteRule ^szukaj/$ szukaj.php
+
+RewriteRule ^re/(.*)/([0-9]*)$ re.php?v=$1&id=$2
+
+RewriteRule ^shoutbox/([0-9]*)$ shoutbox.php?strona=$1
+
+RewriteRule ^artykuly/$ kategorie_art.php
+
+RewriteRule ^faq/$ faq.php
+
+RewriteRule ^ulubione/$ ulubione.php
+
+RewriteRule ^ulubione/s([0-9]*)$ ulubione.php?strona=$1
+
+RewriteRule ^news/([0-9]*)/(.*)$ news.php?id=$1
+
+RewriteRule ^news/s-([0-9]*)$ news_index.php?strona=$1
+
+RewriteRule ^news/$ news_index.php
+
+RewriteRule ^images/ogloszenie/big/([0-9]*)/(.*)$ upload/ogloszenie/$1/$2
+
+RewriteRule ^szukaj/([0-9]*)/([0-9]*)/([0-9]*)/(.*)/$ szukaj.php?od=$1&doo=$2&cat=$3&q=$4&szukaj_on=1
+
+RewriteRule ^szukaj/([0-9]*)/([0-9]*)/([0-9]*)/(.*)/s([0-9]*)$ szukaj.php?od=$1&doo=$2&cat=$3&q=$4&strona=$5&szukaj_on=1
+
+RewriteRule ^dodaj/$ dodaj_skrypt.php
+
+RewriteRule ^dodaj/pay:([0-9]*)$ dodaj_skrypt.php?ok=2&id=$1
+
+RewriteRule ^dodaj/ok$ dodaj_skrypt.php?ok=1
+
+RewriteRule ^page/([0-9]*)/(.*)$ page.php?id=$1
+
+RewriteRule ^kategoria/([0-9]*)/(.*)/s([0-9]*)$ kategorie_art.php?id=$1&strona=$3&id_cat=$1
+
+RewriteRule ^kategoria/([0-9]*)/([0-9]*)/(.*)$ kategorie_art.php?id=$1&pod=$2&id_cat=$1
+
+RewriteRule ^kategoria/([0-9]*)/(.*)$ kategorie_art.php?id=$1&id_cat=$1
+
+RewriteRule ^wojewodztwo/([0-9]*)/(.*)$ woj_art.php?id=$1
+
+RewriteRule ^wojewodztwo/([0-9]*)/(.*)/s([0-9]*)$ woj_art.php?id=$1&strona=$3
+
+RewriteRule ^ogloszenie/([0-9]*)/(.*)$ artykul.php?id=$1
+
+RewriteRule ^galeria/([0-9]*)/(.*)/img([0-9]*)$ galeria_view.php?id=$1&img=$3
+
+RewriteRule ^galeria/([0-9]*)/(.*)$ galeria_view.php?id=$1
+
+RewriteRule ^galerie/$ galeria.php
+
+RewriteRule ^pw/(.*)/([0-9]*)/(.*)$ pw.php?action=$1&id=$2&v=$3
+
+RewriteRule ^pw/([0-9]*)/(.*)$ pw.php?action=&id=$1&v=$2
+
+RewriteRule ^pw/(.*)/([0-9]*)$ pw.php?action=$1&id=$2
+
+RewriteRule ^pw/(.*)/$ pw.php?action=$1
+
+RewriteRule ^edit-lang/(.*)/$ get_lang.php?lang=$1
+
+RewriteRule ^pw/$ pw.php
+
+RewriteRule ^register/$ register.php
+
+RewriteRule ^zapomniane-haslo/(.*)/$ zapomniane.haslo.php?knh=$1
+
+RewriteRule ^zapomniane-haslo/$ zapomniane.haslo.php
+
+RewriteRule ^regulamin/$ regulamin.php
+
+RewriteRule ^user/menu/$ user_menu.php
+
+RewriteRule ^user/panel/$ panel.php
+
+RewriteRule ^user/panel/ogloszenie/pay$ panel_skrypt.php?pay=pay
+
+RewriteRule ^user/panel/ogloszenie/$ panel_skrypt.php
+
+RewriteRule ^user/panel/del/([0-9]*)$ panel_skrypt_del.php?id=$1
+
+RewriteRule ^user/panel/images/([0-9]*)$ panel_skrypt_images.php?id=$1
+
+RewriteRule ^user/panel/images/([0-9]*)/([0-9*])$ panel_skrypt_images.php?id=$1&stan=$2
+
+RewriteRule ^user/panel/edit/([0-9]*)$ panel_skrypt_edit.php?id=$1
+
+RewriteRule ^user/panel/edit/([0-9]*)/ef$ panel_skrypt_edit.php?id=$1&stan=ef
+
+RewriteRule ^user/panel/([0-9]*)$ panel.php?stan=$1
+
+RewriteRule ^inf/(.*)/([0-9]*)$ stan.php?stan=$1&id=$2
+
+RewriteRule ^inf/(.*)$ stan.php?stan=$1
+
+RewriteRule ^druk/([0-9]*)$ artykul.php?id=$1&druk=tak
+
+RewriteRule ^user/(.*)/([0-9]*)$ profil.php?id=$2
+
+RewriteRule ^kontakt/$ kontakt.php
+
+RewriteRule ^s([0-9]*)$ index.php?strona=$1
+
+RewriteRule ^galerie/s([0-9]*)$ galeria.php?strona=$1
+
+RewriteRule ^page/([0-9]*)/(.*)$ page.php?id=$1
+
+RewriteRule aktywacja,(.*).html aktywacja.php?kod=$1
+
+RewriteRule index.html index.php
+
+RewriteRule ^reklama/$ reklama.php
+
+RewriteRule ^katalog/$ katalog.php
+
+
+<Files ~ "\.tpl$">
+	Order allow,deny
+	Deny from all
+</Files>
+
+

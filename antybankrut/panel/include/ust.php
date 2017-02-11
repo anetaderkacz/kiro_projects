@@ -187,6 +187,7 @@ $ust['wag2']=$row['ust_wag2'];
 $ust['wag3']=$row['ust_wag3'];
 $ust['wag4']=$row['ust_wag4'];
 $ust['wag5']=$row['ust_wag5'];
+$ust['granica']=$row['ust_granica'];
 
 }
 

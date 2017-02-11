@@ -229,7 +229,7 @@ echo'<form action="ust_up_a.php" method="POST">
 
 <a name="artykuly"></a>
 <br><b>Ust. WAG dla modeli:</b><br>
-<br><font color="red"> Uzyj kropki zamiast przecinka np.1.01!!!  zakres od 0 do 100</font><br>
+<br><font color="red"> Uzyj kropki zamiast przecinka np.1.01!!!  zakres od 0 do 500</font><br>
 ';
 if($_GET['e']==3)
 {
@@ -260,11 +260,55 @@ echo'
 <td valign="top">'.$pay_set['lang_wag5'].':</td><td><input type="text" name="wag5" value="'.$ust['wag5'].'" style="width:200px;"> <br>
 </td>
 </tr>
-</table>';
+</table>
+<br />
+<table>
+<tr>
+<td valign="top">'.$pay_set['lang_granica'].':</td><td><input type="text" name="granica" value="'.$ust['granica'].'" style="width:200px;"> <br>
+</td>
+</tr>
+</table>
+';
+    
+    
+      echo'
+
+<input type="submit" value="Zapisz"></form>
+<br><br>
+';
+    
     
     // *****************koniec ustawiania wag *********************
+        $suma_wag=$ust['wag5']+$ust['wag4']+$ust['wag3']+$ust['wag2']+$ust['wag1'];
+ echo' <font color="red"> Suma wag musi wynieść<b> 500 </b></font> <br/>
+ Twoja suma wynosi:';
+        echo $suma_wag;
+    if ($suma_wag<500)
+    {
+        $zamala_waga=500-$suma_wag;
+        echo' <br /><font color="red"> Trzeba dodać jeszcze <b>'.$zamala_waga.' </b></font> <br/>
+    
+ ';
+    }
+    
+    if ($suma_wag>500)
+    {
+        $zaduza_waga=$suma_wag-500;
+        echo' <br /> <font color="red"> Trzeba odjąc jeszcze <b>'.$zaduza_waga.' </b></font> <br/>
+    
+';
+    }
+        if ($suma_wag==500)
+    {
+
+        echo'<br /> <font color="green"> Wagi wpisane prawidłowo<b> </b></font> <br/>
+    
+';
+    }
     
     
+    
+  
     // ****************wczytywanie plikow modeli ***************
     
     
@@ -462,6 +506,47 @@ echo'
         echo "Nie wybrano pliku <br />";
 
     }
+    
+    
+    
+     // plik ****bbn********
+    if(isset($_FILES["plik_BBN"]["error"])){
+
+        if($_FILES["plik_BBN"]["error"] > 0){
+
+            echo "Błąd: " . $_FILES["plik_BBN"]["error"] . "<br />";
+
+        } else{
+
+                // Sprawdzenie czy plik folder upload jest dostępny do zapisu 
+				// warto byłoby dodać sprawdzenie czy na serwerze nie istnieje plik o takiej nazwie
+
+                if( !is_writable('upload') ) {
+
+                    echo 'Brak prawa zapisu <br />';
+
+                } else{
+
+					//przeniesienie przeslanego pliku z folderu tymczasowego do pliku w folderze upload pod nazwą "kodl.c"
+                    if ( move_uploaded_file($_FILES["plik_BBN"]["tmp_name"], 'upload/bbn.php' ) ) {
+
+                    echo' <font color="red"> Plik przesłany poprawnie. </font> <br/>';
+
+					} else {
+					
+                    echo "Błąd przeniesienia pliku <br />";
+
+					}
+
+                } 
+
+        }
+
+    } else{
+
+        echo "Nie wybrano pliku <br />";
+
+    }
 
 
 //Plik z kodem mamy na serwerze teraz musimy w nim znaleźć jakich parametrów (zmiennych) będzie oczekiwał skompilowany program 
@@ -579,150 +664,25 @@ if ( $bledy_kompilacji == 0 ) {
     // ************* koniec wczytywania modeli ***************
 
 
-if($_GET['v']=="dodane")
-{
+ /*
+     ******************* tresc na dole mozna uzupełnic uwagami**********
+     
+     */
 
-echo'<div id="ukryj" ><div id="green" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#e9ffd3;"><center><b>Dodane.</b></center></div></div><br>';
-}
-if($_GET['v']=="delete")
-{
-$del="DELETE FROM ".$pre."dni WHERE dni_id='".db_real_escape_string($_GET['id'])."'";
-db_query($del);
-echo'<div id="ukryj" ><div id="red" style="border-style:solid;border-width:thin;width:400px;height:30px;text-align:center;display:table-cell;vertical-align:middle;border-color:black;background-color:#fde1e1;"><center><b>Usunięte.</b></center></div></div><br>';
-}
-
-echo'<br><br>
-<table width="70%" cellspacing="0" cellpadding="0" style="border: 1px solid #cccccc;">
-<tr>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b></b></td>
-<td width="10%" background="style/images/belka.gif" height="24" align="center"><b>Dni</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Cena SMS</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Numer</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Kod</b></td>
-<td width="15%" background="style/images/belka.gif" height="24" align="center"><b>Tresc SMS</b></td>
-<td width="5%" background="style/images/belka.gif" height="24" align="center"><b>Usuń</b></td>
-</tr>';
-
-$i=1;
-$Query='SELECT * FROM '.$pre.'dni  ORDER by dni_id DESC '; 
-$result = db_query($Query) or die(db_error());
-while($row=db_fetch($result))
-{
-echo'<tr>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$i.'</td>
-<td width="10%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_dni'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cena'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_cenasms'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_numer'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_kod'].'</td>
-<td width="15%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center">'.$row['dni_tresc'].'</td>
-<td width="5%"'; if($i%2==0){echo' bgcolor="#dddddd" ';} echo' align="center"><a href="index.php?page=ustawienia&action=artykuly&v=delete&id='.$row['dni_id'].'" onclick="return(potwierdz())"><img src="style/images/delete.png" title="Usuń"></a></td>
-</tr>';
-$i++;
-}
-echo'</table>
-<br><br>
-<a href="index.php?page=ustawienia&action=artykuly&d=del"><b  style="color:red;">Usuń stare ogłoszenia</b></a>
-
-';
-
-}
-if($_GET['d']=="del")
-{
 echo'
 <a name="artykuly"></a>
-<br><b>Ogłoszenia:</b><br>
+<br><b>Uwagi:</b><br>
 <br>
 
-<center><a href="index.php?page=ustawienia&action=artykuly&d=del&go=go"><b>Rozpocznij usuwanie</b></a><br><br>
 ';
 
-if($_GET['go']=="go"){include("../del_old.php");}
+
 
 echo'</center>';
 }
 }
-if($_GET['action']=="galerie")
-{
-echo'
-<form action="ust_up_g.php" method="POST" name="aform">
 
-<a name="galeria"></a>
-<br><b>Galerie:</b><br>
-';
-if($_GET['e']==4)
-{
-echo'<div id="ukryj" style="color:green"><b>Zapisano.</b></div>';
-}
-echo'
-<table>
-<tr>
-<td valign="top">Ocenianie:</td>
-<td valign="top">
-<select name="gocena">
-<option value="0" '; if($ust['gocena']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['gocena']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['gocena']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</td>
-</tr>
-<tr>
-<td valign="top">Komentowanie:</td>
-<td valign="top">
-<select name="gkomentowanie">
-<option value="0" '; if($ust['gkomentowanie']==0){echo' selected="selected"';} echo'>Brak</option>
-<option value="1" '; if($ust['gkomentowanie']==1){echo' selected="selected"';} echo'>Dla wszystkich</option>
-<option value="2" '; if($ust['gkomentowanie']==2){echo' selected="selected"';} echo'>Dla zarejestrowanych</option>
-</select>
-</tr>
-<tr>
-<td valign="top">Token:</td><td valign="top"><input type="radio" name="gtt" value="1"'; if($ust['token_ga']==1){echo' checked';} echo'>Tak <input type="radio" name="gtt" value="0"'; if($ust['token_ga']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Maksymalna wielkość<br>dużej fotki:</td><td valign="top"><input type="text" name="fotd" value="'.$ust['fotd'].'" style="width:50px;">px</td>
-</tr>
-<tr>
-<td valign="top">Wielkosc miniaturki:</td><td valign="top"><input type="text" name="fotm" value="'.$ust['fotm'].'" style="width:50px;">px</td>
-</tr>
-<tr>
-<td valign="top">Jakość dużej<br>fotki:</td><td valign="top"><input type="text" name="fotdj" value="'.$ust['fotdj'].'" style="width:50px;">0-100</td>
-</tr>
-<tr>
-<td valign="top">Jakość miniaturki:</td><td valign="top"><input type="text" name="fotmj" value="'.$ust['fotmj'].'" style="width:50px;">0-100</td>
-</tr>
-<tr>
-<td valign="top">Znak wodny:</td><td valign="top"><input type="radio" name="tekst_on" value="1"'; if($ust['tekst_on']==1){echo' checked';} echo'>Tak <input type="radio" name="tekst_on" value="0"'; if($ust['tekst_on']==0){echo' checked';} echo'>Nie</td>
-</tr>
-<tr>
-<td valign="top">Znak wodny<br>tresc:</td><td valign="top"><input type="text" name="tekst" value="'.$ust['tekst'].'" style="width:150px;"></td>
-</tr>
-<tr>
-<td valign="top">Wielkość napisu</td><td valign="top"><select name="tekst_size">';for($i=1;$i<=120;$i++){echo' <option value="'.$i.'"'; if($ust['tekst_size']==$i){echo' selected="selected"';} echo'>'.$i.'</option>';}echo'</select></td>
-</tr>
-<tr>
-<td>Kolor napisu</td>
-<td><input type="text" name="text_color" style="width:98px"';if($ust['tekst_color'] != ""){echo 'value="'.$ust['tekst_color'].'"';}else{echo'value="#FFFFFF"';} echo'onblur="isThatAColor(document.aform.text_color.value)"/>
-<a href="#" onClick="cp2.select(document.forms[\'aform\'].text_color,\'Pick\');return false;" name="Pick" id="Pick">wybierz</a>
-</td>
-</tr>
-<tr>
-<td></td>
-<td>
-R:<input type="text" name="rt" style="width:30px" value="'.$ust['tekst_r'].'">G:<input type="text" name="gt" value="'.$ust['tekst_g'].'" style="width:30px">B:<input type="text" name="bt" value="'.$ust['tekst_b'].'" style="width:30px">
-<div id="result-wrap" style="width:150px;height:10px;"><div style="width:150px;height:10px;background-color: rgb('.$ust['tekst_r'].', '.$ust['tekst_g'].', '.$ust['tekst_b'].');" id="result"></div></div>
-</td>
-</tr>
-</table>
-<input type="submit" value="Zapisz"></form>';
-?>
-    <script type="text/javascript">
-        var cp2 = new ColorPicker();
-        cp2.writeDiv();
-    </script>
-    <?php
-}
-
+//   **********************ZAKŁADKA KONTAKT ***************************
 
 if($_GET['action']=="kontakt")
 {
@@ -778,7 +738,7 @@ echo'
 
 }
 
-
+// ******************Zakładka REGULAMIN ********************************
 if($_GET['action']=="regulamin")
 {
 echo'<br><form action="ust_up_reg.php" method="POST">

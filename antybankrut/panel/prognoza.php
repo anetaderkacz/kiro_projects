@@ -1,7 +1,19 @@
 <?php
+    include("db_connect.php");
     include("subheader.php");
+    
+
     $smarty->display($ust['templates'].'/subheader.tpl');
     $smarty->display($ust['templates'].'/top.tpl');
+
+if($_SESSION['user_nick']=="")
+{ 
+   $nick=$_POST['nick'];
+}
+else
+{
+  $nick=$_SESSION['user_nick'];
+}
 
 
 
@@ -11,12 +23,29 @@
     $UKOM =($_GET['KW']+$_GET['ZD']-$_GET['AT'])/$_GET['AO'];
     $NKON =($_GET['ZAP']+$_GET['NKT'])/2-($_GET['KW']+$_GET['ZD']-$_GET['AT']);
         //zm pomocnicza srednia
-        $SRA=($_GET['AO-1']+$_GET['AO'])/2;
+        $SRA=($_GET['AO_1']+$_GET['AO'])/2;
         
     $PRMA =($_GET['PN']/$SRA)*100;
     $WFIB =$_GET['WFB']/1000;
-    $SZSP=($_GET['PN']-$_GET['PN-1'])/$_GET['PN-1'];
-    $SZZA=($_GET['ZO']-$_GET['ZO-1'])/$_GET['ZO-1'];    
+    $SZSP=($_GET['PN']-$_GET['PN_1'])/$_GET['PN_1'];
+    $SZZA=($_GET['ZO']-$_GET['ZO_1'])/$_GET['ZO_1']; 
+
+$AO_1 =$_GET['AO_1'];
+$AO =$_GET['AO'];
+$AT =$_GET['AT'];
+$ZAP =$_GET['ZAP'];
+$NKT=$_GET['NKT'];
+$KW=$_GET['KW'];
+$ZD=$_GET['ZD'];
+$PN_1=$_GET['PN_1'];
+$ZO_1=$_GET['ZO_1']; 
+$ZO=$_GET['ZO']; 
+$WFB=$_GET['WFB']; 
+
+$DANE_TEST=$_GET['radios'];
+echo $DANE_TEST;
+
+
         
 $wartosci_zmiennych_uzyszkodnika = array
 										(
@@ -28,8 +57,24 @@ $wartosci_zmiennych_uzyszkodnika = array
 											"SZSP" => $SZSP,
 											"SZZA" => $SZZA,
 										);
+// **************** zapis danych do bazy *****************************
+
+//if($_SESSION['logadm']=="adm")
+//{
+//$up="INSERT INTO `".$pre."dane` `//dane_data`=NOW(),`dane_AO1`='".htmlspecialchars($UZAO)."'";
+
+$up="
+INSERT INTO `ban_dane` (`dane_data`, `dane_user`, `AO_1`, `AO`, `AT`, `ZAP`, `NKT`, `KW`, `ZD`, `PN_1`, `PN`, `ZO_1`, `ZO`, `WFB`, `UZAO`, `UKOM`, `NKON`, `PRMA`, `WFIB`, `SZSP`, `SZZA`, `DANE_TEST`, `DANE_PR`) VALUES (NOW(), '$nick', '$AO_1', '$AO', '$AT', '$ZAP', '$NKT', '$KW', '$ZD', '$PN_1', '$PN', '$ZO_1', '$ZO', '$WFB', '$UZAO', '$UKOM', '$NKON', '$PRMA', '$WFIB', '$SZSP', '$SZZA', '1', '1')";
+
+db_query($up);
+
+//}
 
 
+
+
+
+// ****************   koniec  zapisu danych do bazy *****************************
 
 
 echo '<pre>';

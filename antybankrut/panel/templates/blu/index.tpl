@@ -31,9 +31,9 @@
                     <legend>Wskaźniki Twojego przedsiębiorstwa</legend>
                     <!-- Text input-->
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="AO-1">Aktywa ogółem stan na poczatku roku(tys.zł) </label>
+                        <label class="col-md-4 control-label" for="AO_1">Aktywa ogółem stan na poczatku roku(tys.zł) </label>
                         <div class="col-md-4">
-                            <input id="AO-1" name="AO-1" placeholder="podaj wartość AO-1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
+                            <input id="AO_1" name="AO_1" placeholder="podaj wartość AO_1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                     </div>
                     <br />
                     <!-- Text input-->
@@ -80,9 +80,9 @@
                     <br />
                     <!-- Text input-->
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="PN-1">Przychody netto ze sprzedaży w roku poprzednim (tys.zł)</label>
+                        <label class="col-md-4 control-label" for="PN_1">Przychody netto ze sprzedaży w roku poprzednim (tys.zł)</label>
                         <div class="col-md-4">
-                            <input id="PN-1" name="PN-1" placeholder="Podaj wartość PN-1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
+                            <input id="PN_1" name="PN_1" placeholder="Podaj wartość PN_1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                     </div>
                     <br />
                     <!-- Text input-->
@@ -94,9 +94,9 @@
                     <br />
                     <!-- Text input-->
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="ZO-1">Zatrudnienie-stan na koniec poprzedniego roku (liczba osób)</label>
+                        <label class="col-md-4 control-label" for="ZO_1">Zatrudnienie-stan na koniec poprzedniego roku (liczba osób)</label>
                         <div class="col-md-4">
-                            <input id="ZO-1" name="ZO-1" placeholder="Podaj wartość ZO-1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
+                            <input id="ZO_1" name="ZO_1" placeholder="Podaj wartość ZO_1" class="form-control input-md" required="" type="text"> <span class="help-block"></span> </div>
                     </div>
                     <br />
                     <!-- Text input-->
@@ -124,8 +124,8 @@
                                 <label class="col-md-4 control-label" for="radios">Typ Danych</label>
                                 <div class="col-md-4">
                                     <div class="radio">
-                                        <label for="radios-0">
-                                            <input type="radio" name="radios" id="radios-0" value="1" checked="checked"> Dane testowe </label>
+                                        <label for="radios_0">
+                                            <input type="radio" name="radios" id="radios_0" value="1" checked="checked"> Dane testowe </label>
                                     </div>
                                     <div class="radio">
                                         <label for="radios-1">

@@ -43,10 +43,10 @@ else if($_GET['page']=="strony")
 include("module/strony.php");
 //-----------------------------
 }
-else if($_GET['page']=="menu")
+else if($_GET['page']=="download")
 {
 //-----------------------------
-include("module/menu.php");
+include("module/pobierz.php");
 //-----------------------------
 }
 else if($_GET['page']=="komentarze")

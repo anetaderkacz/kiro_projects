@@ -42,8 +42,7 @@ $ZO_1=$_GET['ZO_1'];
 $ZO=$_GET['ZO']; 
 $WFB=$_GET['WFB']; 
 
-$DANE_TEST=$_GET['radios'];
-echo $DANE_TEST;
+
 
 
         
@@ -64,7 +63,7 @@ $wartosci_zmiennych_uzyszkodnika = array
 //$up="INSERT INTO `".$pre."dane` `//dane_data`=NOW(),`dane_AO1`='".htmlspecialchars($UZAO)."'";
 
 $up="
-INSERT INTO `ban_dane` (`dane_data`, `dane_user`, `AO_1`, `AO`, `AT`, `ZAP`, `NKT`, `KW`, `ZD`, `PN_1`, `PN`, `ZO_1`, `ZO`, `WFB`, `UZAO`, `UKOM`, `NKON`, `PRMA`, `WFIB`, `SZSP`, `SZZA`, `DANE_TEST`, `DANE_PR`) VALUES (NOW(), '$nick', '$AO_1', '$AO', '$AT', '$ZAP', '$NKT', '$KW', '$ZD', '$PN_1', '$PN', '$ZO_1', '$ZO', '$WFB', '$UZAO', '$UKOM', '$NKON', '$PRMA', '$WFIB', '$SZSP', '$SZZA', '1', '1')";
+INSERT INTO `ban_dane` (`dane_data`, `dane_user`, `AO_1`, `AO`, `AT`, `ZAP`, `NKT`, `KW`, `ZD`, `PN_1`, `PN`, `ZO_1`, `ZO`, `WFB`, `UZAO`, `UKOM`, `NKON`, `PRMA`, `WFIB`, `SZSP`, `SZZA`, `DANE_PR`) VALUES (NOW(), '$nick', '$AO_1', '$AO', '$AT', '$ZAP', '$NKT', '$KW', '$ZD', '$PN_1', '$PN', '$ZO_1', '$ZO', '$WFB', '$UZAO', '$UKOM', '$NKON', '$PRMA', '$WFIB', '$SZSP', '$SZZA', '$DANE_PR')";
 
 db_query($up);
 
@@ -78,8 +77,9 @@ db_query($up);
 
 
 echo '<pre>';
-//print_r( $wartosci_zmiennych_uzyszkodnika );
-       
+// ************** wyswietlenie wartosci wskaznikow *************
+    echo '<h1> WYNIKI PROGNOZ:</h1>';  
+echo '<h3> OBLICZONE WSKAŹNIKI:</h3>';
        
         echo 'UZAO='.$UZAO;
          echo("<br>");
@@ -149,26 +149,29 @@ $wynik3 = ob_get_contents();
     
 
 //zwolnienie bufora
+
+
 ob_end_clean();
-   echo("<br>");
-        echo 'Wynik prognozy LIN: '.$wynik.'<br />';
-if ($wynik==1){echo 'BANKRUT';}
-if ($wynik==2){echo 'NIE-BANKRUT';}
+
+//***************** WYSWIETLANIE WYNIKÓW ********
+
+echo '<h3>Wynik prognozy LIN: </h3>';
+if ($wynik==1){echo '<p><strong> <font color="red">BANKRUT</font>  </strong> </p>';}
+if ($wynik==2){echo '<p><strong> <font color="green">NIE-BANKRUT </font>  </strong> </p>';}
     
-       echo("<br>");
-        echo 'Wynik prognozy MLP3: <br />';
-if ($wynik1==1){echo 'BANKRUT';}
-if ($wynik1==2){echo 'NIE-BANKRUT';}
     
-    echo("<br>");
-        echo 'Wynik prognozy MLP4: <br />';
-if ($wynik2==1){echo 'BANKRUT';}
-if ($wynik2==2){echo 'NIE-BANKRUT';}
+        echo '<h3>Wynik prognozy MLP3: <h3/>';
+if ($wynik1==1){echo '<p><strong> <font color="red">BANKRUT</font>  </strong> </p>';}
+if ($wynik1==2){echo '<p><strong> <font color="green">NIE-BANKRUT </font>  </strong> </p>';}
+
+        echo '<h3>Wynik prognozy MLP4: <h3/>';
+if ($wynik2==1){echo '<p><strong> <font color="red">BANKRUT</font>  </strong> </p>';}
+if ($wynik2==2){echo '<p><strong> <font color="green">NIE-BANKRUT </font>  </strong> </p>';}
     
-      echo("<br>");
-        echo 'Wynik prognozy RBF: <br />';
-if ($wynik3==1){echo 'BANKRUT';}
-if ($wynik3==2){echo 'NIE-BANKRUT';}
+ 
+        echo 'Wynik prognozy RBF:';
+if ($wynik3==1){echo '<p><strong> <font color="red">BANKRUT</font>  </strong> </p>';}
+if ($wynik3==2){echo '<p><strong> <font color="green">NIE-BANKRUT </font>  </strong> </p>';}
 
     $smarty->display($ust['templates'].'/footer.tpl');
 ?> </body>

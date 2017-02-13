@@ -2,7 +2,7 @@
 {include file="blu/top.tpl"}
 {include file="blu/left.tpl"}
 		<div class="post">
-			<h1 class="title">Menu</h1>
+			<h1 class="title">Menu23</h1>
 <div class="entry">
 		<p>
 	<center>

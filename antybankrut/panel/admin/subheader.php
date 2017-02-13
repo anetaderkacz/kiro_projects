@@ -171,7 +171,7 @@ echo'
 <td style="border: 1px solid rgb(204, 204, 204);width:80px;" class="td_hover" align="center" valign="top"><a href="../" style="text-decoration:none;font-size:12px;"><img src="style/images/website.png" title="Przejdz do strony glownej"><br>Główna</a></td>
 
 <td style="border: 1px solid rgb(204, 204, 204);width:80px;" class="td_hover" align="center" valign="top"><a href="index.php?page=user" style="text-decoration:none;font-size:12px;"><img src="style/images/user48.png"><br>Użytkownicy</a></td>
-<td style="border: 1px solid rgb(204, 204, 204);width:80px;" class="td_hover" align="center" valign="top"><a href="index.php?page=menu" style="text-decoration:none;font-size:12px;"><img src="style/images/m48.png"><br>Pobierz</a></td>
+<td style="border: 1px solid rgb(204, 204, 204);width:80px;" class="td_hover" align="center" valign="top"><a href="index.php?page=download" style="text-decoration:none;font-size:12px;"><img src="style/images/m48.png"><br>Pobierz</a></td>
 <td style="border: 1px solid rgb(204, 204, 204);width:80px;" class="td_hover" align="center" valign="top"><a href="index.php?page=ustawienia"  style="text-decoration:none;font-size:12px;"><img src="style/images/ust48.png"><br>Ustawienia</a></td>
 <td style="border: 1px solid rgb(204, 204, 204);width:80px;" class="td_hover" align="center" valign="top"><a href="logout.php"  style="text-decoration:none;font-size:12px;"><img src="style/images/lock48.png"><br>Wyloguj</a></td>
 </tr>

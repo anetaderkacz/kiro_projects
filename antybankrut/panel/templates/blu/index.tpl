@@ -120,16 +120,16 @@
                             <!-- Form Name -->
                             <legend>Wybierz dane</legend>
                             <!-- Multiple Radios -->
-                            <div class="form-group">
+                            <div class="radio-group">
                                 <label class="col-md-4 control-label" for="radios">Typ Danych</label>
                                 <div class="col-md-4">
                                     <div class="radio">
-                                        <label for="radios_0">
-                                            <input type="radio" name="radios" id="radios_0" value="1" checked="checked"> Dane testowe </label>
+                                        <label for="radio2">
+                                            <input type="radio" name="radios" id="radio2" value="0"checked="checked"> Dane testowe </label>
                                     </div>
                                     <div class="radio">
-                                        <label for="radios-1">
-                                            <input type="radio" name="radios" id="radios-1" value="2"> Dane prawdziwe <font color="red">*</font></label>
+                                        <label for="radio1">
+                                            <input type="radio" name="radios" id="radio1" value="1"> Dane prawdziwe <font color="red">*</font></label>
                                         <p><strong> <font color="red"> *Upewnij się że wprowadzone dane są prawdziwe służą do ulepszania modelu!  </font>  </strong> </p>
                                     </div>
                                 </div>

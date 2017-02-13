@@ -43,7 +43,7 @@ if($t_conf_menu=="1" or $t_conf_menu=="3")
 {
 echo'
 <td width="50%" style="border: 1px solid rgb(204, 204, 204);">
-<center><b>Menu Lewe</b></center>
+<center><b>Menu Lewe 34</b></center>
 </td>';
 }
 if($t_conf_menu=="2" or $t_conf_menu=="3")

@@ -2,6 +2,8 @@
 session_start();
 include("../db_connect.php");
 if($_SESSION['logadm']=="adm")
+    
+    echo"test0";
 {
 
 //---------------------------------------

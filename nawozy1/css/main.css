@@ -1,10 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+/**sklad chemiczny */
+.sklad{
+	text-align:left;
+	font-size:18px;
+	line-height:200%;
+}
+/**studium przypadku **/
+#studium{
+	background-color:#EFEFEF;
+}
+.studium{
+	width:310px;
+	float:left;
+}
+
 /*
 pliki
 */
 
 .pliki{
-	font-size:18px;
+	font-size:19px;
 }
 /*
 worek
